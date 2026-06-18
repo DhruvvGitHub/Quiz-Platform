@@ -1,0 +1,2390 @@
+[
+{
+"id": 1,
+"topic": "Declarations and Access Control",
+"question": "Which access modifier restricts access to members only within the same class in Java?",
+"options": [
+"public",
+"protected",
+"default (no modifier)",
+"private"
+],
+"correctAnswer": 3
+},
+{
+"id": 2,
+"topic": "Declarations and Access Control",
+"question": "What is the default value of a local variable defined inside a method in Java?",
+"options": [
+"0",
+"null",
+"Garbage value",
+"No default value, it must be initialized before use"
+],
+"correctAnswer": 3
+},
+{
+"id": 3,
+"topic": "Declarations and Access Control",
+"question": "Which keyword is used to prevent a class from being subclassed?",
+"options": [
+"static",
+"final",
+"abstract",
+"private"
+],
+"correctAnswer": 1
+},
+{
+"id": 4,
+"topic": "Object Orientation",
+"question": "Which Object-Oriented Programming concept binds data and methods into a single unit?",
+"options": [
+"Polymorphism",
+"Inheritance",
+"Encapsulation",
+"Abstraction"
+],
+"correctAnswer": 2
+},
+{
+"id": 5,
+"topic": "Object Orientation",
+"question": "What is method overloading in Java?",
+"options": [
+"Defining methods with the same name and same parameters",
+"Defining methods with the same name but different parameters",
+"Defining methods with different names but same parameters",
+"Overriding a method from a parent class"
+],
+"correctAnswer": 1
+},
+{
+"id": 6,
+"topic": "Object Orientation",
+"question": "Which of the following is NOT a pillar of Object-Oriented Programming in Java?",
+"options": [
+"Polymorphism",
+"Encapsulation",
+"Pointers",
+"Inheritance"
+],
+"correctAnswer": 2
+},
+{
+"id": 7,
+"topic": "Object Orientation",
+"question": "What is the primary purpose of the 'super' keyword in Java?",
+"options": [
+"To refer to the current class object",
+"To refer to the immediate parent class object",
+"To declare a static method",
+"To refer to a child class object"
+],
+"correctAnswer": 1
+},
+{
+"id": 8,
+"topic": "Assignments",
+"question": "What is the result of the expression '10 % 3' in Java?",
+"options": [
+"3",
+"1",
+"0",
+"10"
+],
+"correctAnswer": 1
+},
+{
+"id": 9,
+"topic": "Operators",
+"question": "Which operator is used to allocate memory to a new object dynamically?",
+"options": [
+"malloc",
+"alloc",
+"new",
+"create"
+],
+"correctAnswer": 2
+},
+{
+"id": 10,
+"topic": "Operators",
+"question": "What does the '==' operator compare when used with two object references?",
+"options": [
+"The contents of the objects",
+"The memory addresses of the objects",
+"The lengths of the objects",
+"The types of the objects"
+],
+"correctAnswer": 1
+},
+{
+"id": 11,
+"topic": "Operators",
+"question": "Which of the following is the logical AND operator in Java?",
+"options": [
+"&",
+"&&",
+"||",
+"!"
+],
+"correctAnswer": 1
+},
+{
+"id": 12,
+"topic": "Flow Control",
+"question": "Which loop structure is guaranteed to execute its body at least once?",
+"options": [
+"for loop",
+"while loop",
+"do-while loop",
+"foreach loop"
+],
+"correctAnswer": 2
+},
+{
+"id": 13,
+"topic": "Flow Control",
+"question": "Which statement is used to exit a loop immediately?",
+"options": [
+"continue",
+"break",
+"return",
+"exit"
+],
+"correctAnswer": 1
+},
+{
+"id": 14,
+"topic": "Flow Control",
+"question": "Which of the following data types is NOT allowed in a switch statement expression in Java?",
+"options": [
+"int",
+"String",
+"enum",
+"boolean"
+],
+"correctAnswer": 3
+},
+{
+"id": 15,
+"topic": "Exceptions and Assertions",
+"question": "Which block is generally used to execute crucial code such as closing connections, regardless of whether an exception occurs?",
+"options": [
+"try",
+"catch",
+"finally",
+"throw"
+],
+"correctAnswer": 2
+},
+{
+"id": 16,
+"topic": "Exceptions and Assertions",
+"question": "Which keyword is used to explicitly throw an exception in a program?",
+"options": [
+"throws",
+"throw",
+"try",
+"catch"
+],
+"correctAnswer": 1
+},
+{
+"id": 17,
+"topic": "Exceptions and Assertions",
+"question": "What is the ultimate base class for all exceptions and errors in Java?",
+"options": [
+"Exception",
+"Error",
+"Throwable",
+"RuntimeException"
+],
+"correctAnswer": 2
+},
+{
+"id": 18,
+"topic": "Exceptions and Assertions",
+"question": "What happens if a condition in an assert statement evaluates to false (assuming assertions are enabled)?",
+"options": [
+"It throws a RuntimeException",
+"It throws an AssertionError",
+"It returns false and continues",
+"The program crashes silently"
+],
+"correctAnswer": 1
+},
+{
+"id": 19,
+"topic": "Strings",
+"question": "Why are String objects immutable in Java?",
+"options": [
+"For security, synchronization, and caching performance",
+"Because they are easier to type",
+"To prevent memory leaks",
+"To allow them to be changed by multiple threads simultaneously"
+],
+"correctAnswer": 0
+},
+{
+"id": 20,
+"topic": "Strings",
+"question": "Which class provides a mutable sequence of characters and is synchronized (thread-safe)?",
+"options": [
+"String",
+"StringBuilder",
+"StringBuffer",
+"CharArray"
+],
+"correctAnswer": 2
+},
+{
+"id": 21,
+"topic": "I/O",
+"question": "Which stream class is typically used to read character data from a file in Java?",
+"options": [
+"FileInputStream",
+"FileReader",
+"ObjectInputStream",
+"DataInputStream"
+],
+"correctAnswer": 1
+},
+{
+"id": 22,
+"topic": "Formatting and Parsing",
+"question": "What is the expected output of System.out.printf(\"%d\", 10); in Java?",
+"options": [
+"10",
+"d",
+"%d",
+"A compilation error"
+],
+"correctAnswer": 0
+},
+{
+"id": 23,
+"topic": "Generics and Collections",
+"question": "Which of the following interfaces does NOT extend the Collection interface?",
+"options": [
+"List",
+"Set",
+"Queue",
+"Map"
+],
+"correctAnswer": 3
+},
+{
+"id": 24,
+"topic": "Generics and Collections",
+"question": "Which collection implementation stores unique elements and does NOT guarantee any specific iteration order?",
+"options": [
+"ArrayList",
+"LinkedList",
+"HashSet",
+"TreeSet"
+],
+"correctAnswer": 2
+},
+{
+"id": 25,
+"topic": "Generics",
+"question": "What is the primary advantage of using Generics in Java Collections?",
+"options": [
+"It makes program execution faster",
+"It provides compile-time type safety and eliminates the need for type casting",
+"It automatically manages database connections",
+"It reduces memory consumption"
+],
+"correctAnswer": 1
+},
+{
+"id": 26,
+"topic": "Generics and Collections",
+"question": "Which collection allows duplicate elements and maintains the order of insertion?",
+"options": [
+"ArrayList",
+"HashSet",
+"TreeSet",
+"HashMap"
+],
+"correctAnswer": 0
+},
+{
+"id": 27,
+"topic": "Generics",
+"question": "In the context of Java Generics, what does <T> conventionally represent?",
+"options": [
+"Type parameter",
+"Tag parameter",
+"Thread reference",
+"Time format"
+],
+"correctAnswer": 0
+},
+{
+"id": 28,
+"topic": "Inner Classes",
+"question": "What is an inner class defined without a name called in Java?",
+"options": [
+"Static nested class",
+"Local inner class",
+"Anonymous inner class",
+"Member inner class"
+],
+"correctAnswer": 2
+},
+{
+"id": 29,
+"topic": "Threads",
+"question": "How can a thread be created in a Java application?",
+"options": [
+"By extending the Thread class",
+"By implementing the Runnable interface",
+"Both A and B",
+"By implementing the Threadable interface"
+],
+"correctAnswer": 2
+},
+{
+"id": 30,
+"topic": "Threads",
+"question": "Which method is invoked to begin the execution of a new Thread?",
+"options": [
+"run()",
+"start()",
+"init()",
+"execute()"
+],
+"correctAnswer": 1
+},
+{
+"id": 31,
+"topic": "Threads",
+"question": "What state does a thread transition into when it calls the wait() method?",
+"options": [
+"Runnable",
+"Running",
+"Waiting",
+"Terminated"
+],
+"correctAnswer": 2
+},
+{
+"id": 32,
+"topic": "Html5",
+"question": "Which HTML5 semantic tag is used to specify a footer for a document or a section?",
+"options": [
+"",
+"",
+"",
+""
+],
+"correctAnswer": 1
+},
+{
+"id": 33,
+"topic": "CSS",
+"question": "What does CSS stand for in web development?",
+"options": [
+"Cascading Style Sheets",
+"Computer Style Sheets",
+"Creative Style Sheets",
+"Colorful Style Sheets"
+],
+"correctAnswer": 0
+},
+{
+"id": 34,
+"topic": "bootstrap",
+"question": "In Bootstrap, which class is used to provide a responsive fixed-width container?",
+"options": [
+".container",
+".wrap",
+".box",
+".container-fluid"
+],
+"correctAnswer": 0
+},
+{
+"id": 35,
+"topic": "CSS",
+"question": "Which CSS property is used to change the background color of an element?",
+"options": [
+"color",
+"bgcolor",
+"background-color",
+"bg-color"
+],
+"correctAnswer": 2
+},
+{
+"id": 36,
+"topic": "javascript",
+"question": "Which keyword is introduced in ES6 to declare a block-scoped local variable in JavaScript?",
+"options": [
+"var",
+"let",
+"constant",
+"int"
+],
+"correctAnswer": 1
+},
+{
+"id": 38,
+"topic": "javascript",
+"question": "Which built-in JavaScript method is used to parse a JSON string into a JavaScript object?",
+"options": [
+"JSON.parse()",
+"JSON.stringify()",
+"JSON.object()",
+"JSON.read()"
+],
+"correctAnswer": 0
+},
+{
+"id": 39,
+"topic": "jQuery",
+"question": "Which character is typically used as a shorthand for the jQuery object?",
+"options": [
+"&",
+"$",
+"#",
+"@"
+],
+"correctAnswer": 1
+},
+{
+"id": 40,
+"topic": "angular 10+",
+"question": "Which Angular CLI command is used to generate a new component?",
+"options": [
+"ng build",
+"ng serve component",
+"ng generate component",
+"ng new component"
+],
+"correctAnswer": 2
+},
+{
+"id": 41,
+"topic": "angular 10+",
+"question": "What is the primary programming language used to develop applications in Angular?",
+"options": [
+"JavaScript",
+"Java",
+"TypeScript",
+"Python"
+],
+"correctAnswer": 2
+},
+{
+"id": 42,
+"topic": "angular 10+",
+"question": "Which structural directive is used to conditionally include or exclude a template block based on an expression in Angular?",
+"options": [
+"*ngFor",
+"*ngIf",
+"*ngSwitch",
+"*ngCondition"
+],
+"correctAnswer": 1
+},
+{
+"id": 43,
+"topic": "Spring Framework",
+"question": "What is the core feature of the Spring Framework that promotes loose coupling?",
+"options": [
+"Object-Relational Mapping (ORM)",
+"Dependency Injection (DI)",
+"Model View Controller (MVC)",
+"File parsing"
+],
+"correctAnswer": 1
+},
+{
+"id": 44,
+"topic": "Spring Framework",
+"question": "Which annotation is used to mark a Java class as a web controller in Spring MVC?",
+"options": [
+"@Service",
+"@Component",
+"@Controller",
+"@Repository"
+],
+"correctAnswer": 2
+},
+{
+"id": 45,
+"topic": "Spring Boot",
+"question": "What is the primary goal of using Spring Boot?",
+"options": [
+"To write complex XML configurations",
+"To simplify the configuration and setup of Spring applications",
+"To replace the Java Virtual Machine",
+"To design front-end user interfaces"
+],
+"correctAnswer": 1
+},
+{
+"id": 46,
+"topic": "Spring Boot",
+"question": "Which annotation is typically placed on the main class to bootstrap a Spring Boot application?",
+"options": [
+"@SpringBoot",
+"@EnableAutoConfiguration",
+"@SpringBootApplication",
+"@SpringApp"
+],
+"correctAnswer": 2
+},
+{
+"id": 47,
+"topic": "Hibernate, JPA",
+"question": "What does JPA stand for in Java enterprise applications?",
+"options": [
+"Java Performance API",
+"Java Persistence API",
+"Java Parsing API",
+"Java Programming API"
+],
+"correctAnswer": 1
+},
+{
+"id": 48,
+"topic": "Hibernate",
+"question": "Which core Hibernate interface is responsible for establishing a connection with the database and performing CRUD operations?",
+"options": [
+"Connection",
+"Statement",
+"Session",
+"Transaction"
+],
+"correctAnswer": 2
+},
+{
+"id": 49,
+"topic": "PL/SQL",
+"question": "In PL/SQL, which block is dedicated to handling runtime errors and exceptions?",
+"options": [
+"TRY block",
+"CATCH block",
+"EXCEPTION block",
+"ERROR block"
+],
+"correctAnswer": 2
+},
+{
+"id": 50,
+"topic": "MySQL/Oracle Database",
+"question": "Which SQL statement is used to extract data from a database table?",
+"options": [
+"UPDATE",
+"GET",
+"SELECT",
+"FETCH"
+],
+"correctAnswer": 2
+},
+{
+"id": 51,
+"topic": "Declarations and Access Control",
+"question": "Which keyword is used to declare a variable whose value cannot be modified once initialized?",
+"options": [
+"static",
+"const",
+"final",
+"immutable"
+],
+"correctAnswer": 2
+},
+{
+"id": 52,
+"topic": "Declarations and Access Control",
+"question": "Which modifier prevents a variable from being serialized in Java?",
+"options": [
+"volatile",
+"transient",
+"static",
+"private"
+],
+"correctAnswer": 1
+},
+{
+"id": 53,
+"topic": "Declarations and Access Control",
+"question": "What is the primary use of the 'volatile' keyword in Java?",
+"options": [
+"To ensure a variable is stored in cache for faster access",
+"To guarantee visibility of changes to variables across threads",
+"To make a method thread-safe automatically",
+"To prevent a class from being garbage collected"
+],
+"correctAnswer": 1
+},
+{
+"id": 54,
+"topic": "Object Orientation",
+"question": "Can an abstract class in Java have a constructor?",
+"options": [
+"Yes, but it can only be called when a concrete subclass is instantiated",
+"No, abstract classes cannot have constructors",
+"Yes, and it can be used to directly instantiate the abstract class",
+"Only if the constructor is declared as abstract"
+],
+"correctAnswer": 0
+},
+{
+"id": 55,
+"topic": "Object Orientation",
+"question": "What does the 'this' keyword refer to in Java?",
+"options": [
+"The parent class of the current object",
+"The current instance of the class",
+"The static context of the class",
+"The main method of the program"
+],
+"correctAnswer": 1
+},
+{
+"id": 56,
+"topic": "Object Orientation",
+"question": "When overriding a method in Java, which of the following is true regarding the access modifier?",
+"options": [
+"The access level can be more restrictive than the overridden method",
+"The access level must be exactly the same as the overridden method",
+"The access level cannot be more restrictive than the overridden method",
+"The access level must always be public"
+],
+"correctAnswer": 2
+},
+{
+"id": 57,
+"topic": "Object Orientation",
+"question": "What is the return type of a constructor in Java?",
+"options": [
+"void",
+"Object",
+"Constructors do not have a return type",
+"The class itself"
+],
+"correctAnswer": 2
+},
+{
+"id": 58,
+"topic": "Assignments",
+"question": "What is the equivalent of the expression 'x += y' in Java?",
+"options": [
+"x = x + y",
+"y = x + y",
+"x = x++ + y",
+"x = y + y"
+],
+"correctAnswer": 0
+},
+{
+"id": 59,
+"topic": "Operators",
+"question": "Which of the following is the bitwise XOR operator in Java?",
+"options": [
+"&",
+"|",
+"~",
+"^"
+],
+"correctAnswer": 3
+},
+{
+"id": 60,
+"topic": "Operators",
+"question": "What is the syntax for the ternary operator in Java?",
+"options": [
+"condition ? true_value : false_value",
+"condition : true_value ? false_value",
+"condition ? true_value ; false_value",
+"condition => true_value : false_value"
+],
+"correctAnswer": 0
+},
+{
+"id": 61,
+"topic": "Flow Control",
+"question": "Which of the following statements about the 'for-each' loop (enhanced for loop) is true?",
+"options": [
+"It can be used to iterate backward through an array",
+"It requires a counter variable to be declared",
+"It is primarily used to iterate through arrays and collections easily",
+"It can modify the size of the collection while iterating"
+],
+"correctAnswer": 2
+},
+{
+"id": 62,
+"topic": "Flow Control",
+"question": "What happens if you omit the 'break' statement in a switch case?",
+"options": [
+"A compilation error occurs",
+"The program terminates abruptly",
+"Execution falls through to the next case statement",
+"The switch statement acts as a loop"
+],
+"correctAnswer": 2
+},
+{
+"id": 63,
+"topic": "Exceptions",
+"question": "Which of the following describes a 'Checked Exception' in Java?",
+"options": [
+"An exception that occurs at runtime and extends RuntimeException",
+"An exception that must be either caught or declared in the method signature",
+"An error caused by the JVM running out of memory",
+"An exception that is strictly ignored by the compiler"
+],
+"correctAnswer": 1
+},
+{
+"id": 64,
+"topic": "Exceptions",
+"question": "Can a 'try' block be followed by multiple 'catch' blocks in Java?",
+"options": [
+"No, only one catch block is allowed per try block",
+"Yes, but they must catch the exact same exception type",
+"Yes, and the most specific exception types should be caught first",
+"Yes, and the order of catch blocks does not matter"
+],
+"correctAnswer": 2
+},
+{
+"id": 65,
+"topic": "Assertions",
+"question": "How do you enable assertions when running a Java program from the command line?",
+"options": [
+"java -enable assertions MyClass",
+"java -ea MyClass",
+"java -assert MyClass",
+"java -a MyClass"
+],
+"correctAnswer": 1
+},
+{
+"id": 66,
+"topic": "Strings",
+"question": "Where are literal String values stored in Java memory?",
+"options": [
+"Stack memory",
+"Heap memory outside the String Pool",
+"String Constant Pool",
+"Thread Local Storage"
+],
+"correctAnswer": 2
+},
+{
+"id": 67,
+"topic": "Strings",
+"question": "What is the difference between '' and the 'equals()' method when comparing two String objects?",
+"options": [
+"'' compares references, while 'equals()' compares the actual characters",
+"'' compares characters, while 'equals()' compares references",
+"They both perform the exact same operation",
+"'equals()' is used for numbers, '' is used for Strings"
+],
+"correctAnswer": 0
+},
+{
+"id": 68,
+"topic": "I/O",
+"question": "Which interface must a class implement so that its objects can be written to an ObjectOutputStream?",
+"options": [
+"Writable",
+"Serializable",
+"Streamable",
+"Cloneable"
+],
+"correctAnswer": 1
+},
+{
+"id": 69,
+"topic": "Formatting and Parsing",
+"question": "Which method is commonly used to parse a String containing a number into an integer primitive?",
+"options": [
+"Integer.valueOf()",
+"String.toInt()",
+"Integer.parseInt()",
+"Math.toInteger()"
+],
+"correctAnswer": 2
+},
+{
+"id": 70,
+"topic": "Formatting and Parsing",
+"question": "Which class is used to format and parse dates in a locale-sensitive manner in older Java versions (prior to Java 8)?",
+"options": [
+"DateFormatter",
+"SimpleDateFormat",
+"TimeFormat",
+"StringDate"
+],
+"correctAnswer": 1
+},
+{
+"id": 71,
+"topic": "Generics and Collections",
+"question": "Which Collection interface represents a data structure that stores key-value pairs?",
+"options": [
+"List",
+"Set",
+"Map",
+"Queue"
+],
+"correctAnswer": 2
+},
+{
+"id": 72,
+"topic": "Generics and Collections",
+"question": "In a HashMap, what happens if you try to insert a key-value pair with a key that already exists?",
+"options": [
+"A duplicate entry is created",
+"A RuntimeException is thrown",
+"The new value replaces the old value associated with that key",
+"The insertion is silently ignored"
+],
+"correctAnswer": 2
+},
+{
+"id": 73,
+"topic": "Generics",
+"question": "What is 'Type Erasure' in Java Generics?",
+"options": [
+"A process where the compiler removes all generic type information at compile-time",
+"A tool to delete unreferenced generic classes from memory",
+"A feature that allows primitives to be used in generic collections",
+"An error thrown when types do not match"
+],
+"correctAnswer": 0
+},
+{
+"id": 74,
+"topic": "Generics",
+"question": "What does the wildcard <?> represent in Java Generics?",
+"options": [
+"A specific predefined type",
+"An unknown type",
+"A type that must extend Number",
+"A syntax error"
+],
+"correctAnswer": 1
+},
+{
+"id": 75,
+"topic": "Inner Classes",
+"question": "To instantiate a non-static inner class, what must you do first?",
+"options": [
+"Import the inner class explicitly",
+"Instantiate the outer class",
+"Declare the inner class as public",
+"Implement the Serializable interface"
+],
+"correctAnswer": 1
+},
+{
+"id": 76,
+"topic": "Threads",
+"question": "Which interface allows a thread to return a result and throw a checked exception?",
+"options": [
+"Runnable",
+"Callable",
+"Future",
+"ThreadFactory"
+],
+"correctAnswer": 1
+},
+{
+"id": 77,
+"topic": "Threads",
+"question": "Which keyword is used to prevent thread interference and memory consistency errors for a critical section of code?",
+"options": [
+"volatile",
+"synchronized",
+"transient",
+"strictfp"
+],
+"correctAnswer": 1
+},
+{
+"id": 78,
+"topic": "Html5",
+"question": "Which HTML5 feature is used to store data locally within the user's browser with no expiration time?",
+"options": [
+"sessionStorage",
+"Cookies",
+"localStorage",
+"WebSQL"
+],
+"correctAnswer": 2
+},
+{
+"id": 79,
+"topic": "Html5",
+"question": "Which HTML5 tag is used to embed a video on a web page?",
+"options": [
+"",
+"",
+"",
+""
+],
+"correctAnswer": 1
+},
+{
+"id": 80,
+"topic": "CSS",
+"question": "Which CSS property specifies the stack order of an element (which element should be placed in front of, or behind, the others)?",
+"options": [
+"position",
+"stack-order",
+"z-index",
+"overlap"
+],
+"correctAnswer": 2
+},
+{
+"id": 81,
+"topic": "CSS",
+"question": "In CSS Flexbox, which property is used to align items horizontally along the main axis?",
+"options": [
+"align-items",
+"justify-content",
+"flex-direction",
+"align-content"
+],
+"correctAnswer": 1
+},
+{
+"id": 82,
+"topic": "bootstrap",
+"question": "How many columns does the Bootstrap grid system scale up to across the page?",
+"options": [
+"10",
+"12",
+"16",
+"24"
+],
+"correctAnswer": 1
+},
+{
+"id": 83,
+"topic": "javascript",
+"question": "What is the difference between '' and '=' in JavaScript?",
+"options": [
+"They are identical in function",
+"'' checks only value, whereas '=' checks both value and type",
+"'=' checks only value, whereas '' checks both value and type",
+"'' is for strings, and '=' is for numbers"
+],
+"correctAnswer": 1
+},
+{
+"id": 84,
+"topic": "javascript",
+"question": "What is a closure in JavaScript?",
+"options": [
+"A way to close an HTML tag via JS",
+"A function bundled together with its lexical environment",
+"A method to terminate an infinite loop",
+"An object used to handle asynchronous API calls"
+],
+"correctAnswer": 1
+},
+{
+"id": 85,
+"topic": "javascript",
+"question": "Which array method creates a new array populated with the results of calling a provided function on every element?",
+"options": [
+"filter()",
+"reduce()",
+"map()",
+"forEach()"
+],
+"correctAnswer": 2
+},
+{
+"id": 86,
+"topic": "jQuery",
+"question": "What is the purpose of the $(document).ready() function in jQuery?",
+"options": [
+"To load CSS styles before JavaScript",
+"To prevent jQuery code from running before the document is fully loaded",
+"To check if the internet connection is active",
+"To initialize a database connection"
+],
+"correctAnswer": 1
+},
+{
+"id": 87,
+"topic": "angular 10+",
+"question": "Which syntax is used for two-way data binding in Angular?",
+"options": [
+"{{ property }}",
+"[property]",
+"(event)",
+"[(ngModel)]"
+],
+"correctAnswer": 3
+},
+{
+"id": 88,
+"topic": "angular 10+",
+"question": "In Angular, what is used to handle asynchronous operations and streams of data?",
+"options": [
+"Promises",
+"Observables (RxJS)",
+"Callbacks",
+"WebSockets"
+],
+"correctAnswer": 1
+},
+{
+"id": 89,
+"topic": "angular 10+",
+"question": "Which decorator is used to define an Angular module?",
+"options": [
+"@Component",
+"@Injectable",
+"@NgModule",
+"@Directive"
+],
+"correctAnswer": 2
+},
+{
+"id": 90,
+"topic": "Spring Framework",
+"question": "In Spring, what does the @Autowired annotation do?",
+"options": [
+"It automatically runs the main application method",
+"It creates database tables automatically",
+"It injects object dependencies implicitly",
+"It maps HTTP requests to handler methods"
+],
+"correctAnswer": 2
+},
+{
+"id": 91,
+"topic": "Spring Framework",
+"question": "Which interface represents the core container in the Spring framework that manages beans?",
+"options": [
+"ApplicationContext",
+"BeanManager",
+"DependencyInjector",
+"SpringContainer"
+],
+"correctAnswer": 0
+},
+{
+"id": 92,
+"topic": "Spring Boot",
+"question": "Which file is commonly used in a Spring Boot application to define configuration properties like database credentials?",
+"options": [
+"web.xml",
+"spring-config.xml",
+"application.properties",
+"pom.xml"
+],
+"correctAnswer": 2
+},
+{
+"id": 93,
+"topic": "Spring Boot",
+"question": "What is a 'Starter' dependency in Spring Boot?",
+"options": [
+"A script to start the JVM",
+"A convenient dependency descriptor that groups related libraries",
+"The main method of the application",
+"A tool to test APIs"
+],
+"correctAnswer": 1
+},
+{
+"id": 94,
+"topic": "Hibernate, JPA",
+"question": "In JPA, which interface is used to interact with the persistence context and perform database operations?",
+"options": [
+"SessionManager",
+"EntityManager",
+"TransactionManager",
+"QueryBuilder"
+],
+"correctAnswer": 1
+},
+{
+"id": 95,
+"topic": "Hibernate, JPA",
+"question": "Which annotation marks a Java class as a persistent entity to be mapped to a database table?",
+"options": [
+"@Table",
+"@Id",
+"@Entity",
+"@Persistent"
+],
+"correctAnswer": 2
+},
+{
+"id": 96,
+"topic": "Hibernate",
+"question": "What is the difference between Lazy Loading and Eager Loading in Hibernate?",
+"options": [
+"Lazy loading fetches associated data only when needed, Eager loading fetches it immediately",
+"Lazy loading fetches data immediately, Eager loading fetches it when needed",
+"Lazy loading applies to inserts, Eager loading applies to updates",
+"Lazy loading throws an exception if data is large, Eager loading compresses it"
+],
+"correctAnswer": 0
+},
+{
+"id": 97,
+"topic": "PL/SQL",
+"question": "What is a 'Cursor' in PL/SQL used for?",
+"options": [
+"To point the mouse on the database UI",
+"To iterate through the result set of a SQL query row by row",
+"To automatically index a table",
+"To encrypt database passwords"
+],
+"correctAnswer": 1
+},
+{
+"id": 98,
+"topic": "MySQL/Oracle Database",
+"question": "What is the key difference between a Primary Key and a Unique Key?",
+"options": [
+"A Unique Key cannot accept NULL values, while a Primary Key can",
+"A Primary Key cannot accept NULL values, while a Unique Key can accept one NULL value",
+"A table can have multiple Primary Keys but only one Unique Key",
+"They are functionally identical in all relational databases"
+],
+"correctAnswer": 1
+},
+{
+"id": 99,
+"topic": "MySQL/Oracle Database",
+"question": "Which SQL JOIN returns all records from the left table, and the matched records from the right table?",
+"options": [
+"INNER JOIN",
+"RIGHT JOIN",
+"FULL OUTER JOIN",
+"LEFT JOIN"
+],
+"correctAnswer": 3
+},
+{
+"id": 100,
+"topic": "PL/SQL",
+"question": "Which PL/SQL block structure defines a stored procedure?",
+"options": [
+"CREATE OR REPLACE PROCEDURE procedure_name AS BEGIN ... END;",
+"DECLARE PROCEDURE procedure_name BEGIN ... END;",
+"INSERT PROCEDURE procedure_name BEGIN ... END;",
+"MAKE PROCEDURE procedure_name AS BEGIN ... END;"
+],
+"correctAnswer": 0
+},
+{
+"id": 101,
+"topic": "Declarations and Access Control",
+"question": "What happens when a class member is declared without any access modifier in Java?",
+"options": [
+"It can be accessed from any package",
+"It is private and cannot be accessed outside the class",
+"It has package-private access and is accessible only within its own package",
+"It is protected and accessible only by subclasses"
+],
+"correctAnswer": 2
+},
+{
+"id": 102,
+"topic": "Declarations and Access Control",
+"question": "Which statement is true about static variables in Java?",
+"options": [
+"Each object of the class has its own copy of the static variable",
+"Static variables are created at the time of object instantiation",
+"Static variables belong to the class and are shared among all instances",
+"Static variables cannot be modified once initialized"
+],
+"correctAnswer": 2
+},
+{
+"id": 103,
+"topic": "Object Orientation",
+"question": "Which mechanism in Java helps to achieve multiple inheritance of type?",
+"options": [
+"Extending multiple abstract classes",
+"Implementing multiple interfaces",
+"Using static inner classes",
+"Using the 'super' keyword"
+],
+"correctAnswer": 1
+},
+{
+"id": 104,
+"topic": "Object Orientation",
+"question": "What is the primary effect of marking a method as 'final' in a Java class?",
+"options": [
+"The method cannot return a value",
+"The method cannot be called from outside the class",
+"The method cannot be overridden by subclasses",
+"The method executes faster than normal methods"
+],
+"correctAnswer": 2
+},
+{
+"id": 105,
+"topic": "Object Orientation",
+"question": "When using 'super()' to invoke a parent class constructor, which rule must be followed?",
+"options": [
+"It can only be used in static methods",
+"It must be the first statement in the subclass constructor",
+"It must be the last statement in the subclass constructor",
+"It cannot pass parameters to the parent constructor"
+],
+"correctAnswer": 1
+},
+{
+"id": 106,
+"topic": "Assignments",
+"question": "Given int x = 5; int y = ++x;, what are the values of x and y after execution?",
+"options": [
+"x = 5, y = 6",
+"x = 6, y = 5",
+"x = 6, y = 6",
+"x = 5, y = 5"
+],
+"correctAnswer": 2
+},
+{
+"id": 107,
+"topic": "Operators",
+"question": "Which operator is used to test whether an object is an instance of a specific class or interface?",
+"options": [
+"typeof",
+"isA",
+"instanceof",
+"classof"
+],
+"correctAnswer": 2
+},
+{
+"id": 108,
+"topic": "Flow Control",
+"question": "What is the function of the 'continue' statement inside a 'for' loop?",
+"options": [
+"It immediately stops the loop completely",
+"It skips the current iteration and jumps to the next iteration",
+"It restarts the program from the beginning",
+"It pauses the loop execution temporarily"
+],
+"correctAnswer": 1
+},
+{
+"id": 109,
+"topic": "Flow Control",
+"question": "In a 'switch' statement, what is the purpose of the 'default' case?",
+"options": [
+"To provide a starting point for execution",
+"To handle missing break statements",
+"To execute code if no other case values match the expression",
+"To define a default return type for the switch"
+],
+"correctAnswer": 2
+},
+{
+"id": 110,
+"topic": "Exceptions and Assertions",
+"question": "Which category of exceptions does NullPointerException belong to?",
+"options": [
+"Checked Exception",
+"Unchecked Exception (RuntimeException)",
+"Error",
+"Compile-time Exception"
+],
+"correctAnswer": 1
+},
+{
+"id": 111,
+"topic": "Exceptions and Assertions",
+"question": "Introduced in Java 7, what does the multi-catch block syntax look like?",
+"options": [
+"catch (ExceptionA, ExceptionB e)",
+"catch (ExceptionA & ExceptionB e)",
+"catch (ExceptionA || ExceptionB e)",
+"catch (ExceptionA | ExceptionB e)"
+],
+"correctAnswer": 3
+},
+{
+"id": 112,
+"topic": "Strings",
+"question": "If String s = \"Welcome\";, what is the output of s.substring(3)?",
+"options": [
+"Wel",
+"come",
+"lcome",
+"We"
+],
+"correctAnswer": 1
+},
+{
+"id": 113,
+"topic": "I/O",
+"question": "Which Java class is best suited for reading text from a character-input stream, buffering characters for efficient reading?",
+"options": [
+"BufferedInputStream",
+"BufferedReader",
+"FileReader",
+"DataInputStream"
+],
+"correctAnswer": 1
+},
+{
+"id": 114,
+"topic": "Formatting and Parsing",
+"question": "In System.out.printf(), which format specifier is used for floating-point numbers?",
+"options": [
+"%d",
+"%s",
+"%f",
+"%c"
+],
+"correctAnswer": 2
+},
+{
+"id": 115,
+"topic": "Generics and Collections",
+"question": "For frequent insertions and deletions at the beginning of a list, which implementation is generally more efficient?",
+"options": [
+"ArrayList",
+"Vector",
+"LinkedList",
+"Stack"
+],
+"correctAnswer": 2
+},
+{
+"id": 116,
+"topic": "Generics and Collections",
+"question": "Which interface should a class implement to define its natural sorting order?",
+"options": [
+"Comparator",
+"Comparable",
+"Sortable",
+"Ordered"
+],
+"correctAnswer": 1
+},
+{
+"id": 117,
+"topic": "Generics",
+"question": "Which of the following cannot be used as a type parameter in Java Generics?",
+"options": [
+"String",
+"Integer",
+"Custom Objects",
+"int"
+],
+"correctAnswer": 3
+},
+{
+"id": 118,
+"topic": "Inner Classes",
+"question": "Which statement is true about static nested classes in Java?",
+"options": [
+"They can directly access non-static instance variables of the outer class",
+"They require an instance of the outer class to be instantiated",
+"They can be instantiated without an object of the outer class",
+"They cannot contain static methods"
+],
+"correctAnswer": 2
+},
+{
+"id": 119,
+"topic": "Threads",
+"question": "What state does a newly created Thread enter before the start() method is called?",
+"options": [
+"Runnable",
+"New",
+"Blocked",
+"Terminated"
+],
+"correctAnswer": 1
+},
+{
+"id": 120,
+"topic": "Threads",
+"question": "Which exception must be handled or declared when calling Thread.sleep()?",
+"options": [
+"TimeoutException",
+"InterruptedException",
+"ExecutionException",
+"IllegalThreadStateException"
+],
+"correctAnswer": 1
+},
+{
+"id": 121,
+"topic": "Html5",
+"question": "Which HTML5 element is used to draw graphics via JavaScript on the fly?",
+"options": [
+"",
+"",
+"",
+""
+],
+"correctAnswer": 2
+},
+{
+"id": 122,
+"topic": "CSS",
+"question": "In the CSS Box Model, what is the space outside the border of an element called?",
+"options": [
+"Padding",
+"Content",
+"Outline",
+"Margin"
+],
+"correctAnswer": 3
+},
+{
+"id": 123,
+"topic": "bootstrap",
+"question": "Which Bootstrap class is used to create a flexbox container?",
+"options": [
+".flex-container",
+".d-flex",
+".flexbox",
+".container-flex"
+],
+"correctAnswer": 1
+},
+{
+"id": 124,
+"topic": "CSS",
+"question": "What is the difference between display: none; and visibility: hidden; in CSS?",
+"options": [
+"They are identical",
+"display: none; hides the element but keeps its space, visibility: hidden; removes the space",
+"display: none; removes the element from document flow, visibility: hidden; hides it but leaves empty space",
+"Only visibility: hidden; can be animated"
+],
+"correctAnswer": 2
+},
+{
+"id": 125,
+"topic": "javascript",
+"question": "What does the expression typeof null evaluate to in JavaScript?",
+"options": [
+"null",
+"undefined",
+"object",
+"boolean"
+],
+"correctAnswer": 2
+},
+{
+"id": 126,
+"topic": "javascript",
+"question": "Which keyword is used in JavaScript to declare a variable that cannot be reassigned?",
+"options": [
+"var",
+"let",
+"const",
+"static"
+],
+"correctAnswer": 2
+},
+{
+"id": 127,
+"topic": "jQuery",
+"question": "Which jQuery method is used to perform an asynchronous HTTP request?",
+"options": [
+"$.http()",
+"$.request()",
+"$.ajax()",
+"$.async()"
+],
+"correctAnswer": 2
+},
+{
+"id": 128,
+"topic": "jQuery",
+"question": "How do you add a CSS class 'active' to an element with the ID 'menu' using jQuery?",
+"options": [
+"$('#menu').addClass('active');",
+"$('#menu').css('active');",
+"$('#menu').class('active');",
+"$('#menu').insertClass('active');"
+],
+"correctAnswer": 0
+},
+{
+"id": 129,
+"topic": "angular 10+",
+"question": "Which lifecycle hook is called once after the first ngOnChanges() and is used for component initialization?",
+"options": [
+"ngAfterViewInit",
+"ngOnInit",
+"ngOnDestroy",
+"ngDoCheck"
+],
+"correctAnswer": 1
+},
+{
+"id": 130,
+"topic": "angular 10+",
+"question": "Which decorator indicates that a class can be provided and injected as a dependency in Angular?",
+"options": [
+"@Component",
+"@Directive",
+"@Injectable",
+"@Service"
+],
+"correctAnswer": 2
+},
+{
+"id": 131,
+"topic": "angular 10+",
+"question": "What is the purpose of the RouterOutlet directive in Angular?",
+"options": [
+"To send HTTP requests",
+"To define form validations",
+"To act as a placeholder where routed components are rendered",
+"To establish a WebSocket connection"
+],
+"correctAnswer": 2
+},
+{
+"id": 132,
+"topic": "angular 10+",
+"question": "In Angular templates, what feature is used to transform data for display (e.g., formatting dates or currency)?",
+"options": [
+"Services",
+"Directives",
+"Pipes",
+"Modules"
+],
+"correctAnswer": 2
+},
+{
+"id": 133,
+"topic": "Spring Framework",
+"question": "In Spring MVC, what is the combination of @Controller and @ResponseBody called?",
+"options": [
+"@Service",
+"@RestController",
+"@WebController",
+"@ApiController"
+],
+"correctAnswer": 1
+},
+{
+"id": 134,
+"topic": "Spring Boot",
+"question": "Which embedded web server is configured by default in a Spring Boot web application?",
+"options": [
+"Jetty",
+"Undertow",
+"GlassFish",
+"Tomcat"
+],
+"correctAnswer": 3
+},
+{
+"id": 135,
+"topic": "Spring Framework",
+"question": "Which annotation is used to inject values from properties files into Spring beans?",
+"options": [
+"@Inject",
+"@Value",
+"@Property",
+"@Config"
+],
+"correctAnswer": 1
+},
+{
+"id": 136,
+"topic": "Spring Framework",
+"question": "Which of the following is a type of Dependency Injection supported by Spring?",
+"options": [
+"Constructor Injection",
+"Interface Injection",
+"Abstract Injection",
+"Inheritance Injection"
+],
+"correctAnswer": 0
+},
+{
+"id": 137,
+"topic": "Spring Boot",
+"question": "What is the purpose of Spring Boot Actuator?",
+"options": [
+"To generate database schemas",
+"To monitor and manage the application in production (health checks, metrics)",
+"To parse JSON payloads automatically",
+"To design UI templates"
+],
+"correctAnswer": 1
+},
+{
+"id": 138,
+"topic": "Hibernate, JPA",
+"question": "In JPA, which annotation is used to define a one-to-many relationship between entities?",
+"options": [
+"@OneToMany",
+"@ManyToOne",
+"@ManyToMany",
+"@Relation"
+],
+"correctAnswer": 0
+},
+{
+"id": 139,
+"topic": "Hibernate, JPA",
+"question": "Which JPA EntityManager method is used to make a transient instance persistent (inserting it into the database)?",
+"options": [
+"save()",
+"persist()",
+"store()",
+"update()"
+],
+"correctAnswer": 1
+},
+{
+"id": 140,
+"topic": "Hibernate",
+"question": "What is the primary difference between Hibernate Query Language (HQL) and SQL?",
+"options": [
+"HQL is case-sensitive, SQL is not",
+"HQL operates on database tables and columns, SQL operates on Java classes",
+"HQL operates on persistent entity classes and properties, SQL operates on tables and columns",
+"HQL cannot perform UPDATE operations"
+],
+"correctAnswer": 2
+},
+{
+"id": 141,
+"topic": "Hibernate",
+"question": "In Hibernate, what happens if Session.get() cannot find the object in the database?",
+"options": [
+"It throws an ObjectNotFoundException",
+"It creates a new object",
+"It returns null",
+"It crashes the application"
+],
+"correctAnswer": 2
+},
+{
+"id": 142,
+"topic": "PL/SQL",
+"question": "Which PL/SQL component automatically executes in response to certain events on a particular table or view?",
+"options": [
+"Stored Procedure",
+"Package",
+"Trigger",
+"Function"
+],
+"correctAnswer": 2
+},
+{
+"id": 143,
+"topic": "PL/SQL",
+"question": "What is the purpose of the %TYPE attribute in PL/SQL?",
+"options": [
+"To declare a cursor type",
+"To declare a variable with the same data type as a specific database column",
+"To change the type of a table column",
+"To define a custom object type"
+],
+"correctAnswer": 1
+},
+{
+"id": 144,
+"topic": "PL/SQL",
+"question": "When you execute an INSERT, UPDATE, or DELETE statement in PL/SQL, what type of cursor is automatically created?",
+"options": [
+"Explicit Cursor",
+"Dynamic Cursor",
+"Implicit Cursor",
+"Reference Cursor"
+],
+"correctAnswer": 2
+},
+{
+"id": 145,
+"topic": "PL/SQL",
+"question": "Which syntax is used to exit a basic loop in PL/SQL?",
+"options": [
+"BREAK;",
+"EXIT;",
+"QUIT;",
+"STOP;"
+],
+"correctAnswer": 1
+},
+{
+"id": 146,
+"topic": "MySQL/Oracle Database",
+"question": "Which SQL function is used to calculate the average value of a numeric column?",
+"options": [
+"MEAN()",
+"SUM()",
+"AVG()",
+"COUNT()"
+],
+"correctAnswer": 2
+},
+{
+"id": 147,
+"topic": "MySQL/Oracle Database",
+"question": "What is a major difference between the DELETE and TRUNCATE commands?",
+"options": [
+"DELETE is faster than TRUNCATE",
+"DELETE removes all rows without logging individual row deletions, TRUNCATE logs them",
+"DELETE is a DML command and can be rolled back, TRUNCATE is a DDL command and cannot be rolled back",
+"TRUNCATE allows a WHERE clause, DELETE does not"
+],
+"correctAnswer": 2
+},
+{
+"id": 148,
+"topic": "MySQL/Oracle Database",
+"question": "In the context of database transactions, what does the 'I' in ACID stand for?",
+"options": [
+"Integrity",
+"Isolation",
+"Indexing",
+"Insertion"
+],
+"correctAnswer": 1
+},
+{
+"id": 149,
+"topic": "MySQL/Oracle Database",
+"question": "What is the primary purpose of a Foreign Key in a relational database?",
+"options": [
+"To ensure that all values in a column are unique",
+"To automatically generate primary key values",
+"To enforce referential integrity between two tables",
+"To speed up query execution"
+],
+"correctAnswer": 2
+},
+{
+"id": 150,
+"topic": "MySQL/Oracle Database",
+"question": "Which SQL clause is used to filter records after an aggregation (e.g., GROUP BY) has taken place?",
+"options": [
+"WHERE",
+"HAVING",
+"ORDER BY",
+"LIMIT"
+],
+"correctAnswer": 1
+},
+{
+"id": 151,
+"topic": "Declarations and Access Control",
+"question": "Can a top-level Java class be declared with the 'private' access modifier?",
+"options": [
+"Yes, always",
+"No, top-level classes can only be public or package-private (default)",
+"Yes, but only if it does not contain a main method",
+"No, top-level classes must always be public"
+],
+"correctAnswer": 1
+},
+{
+"id": 152,
+"topic": "Object Orientation",
+"question": "What is an Interface in Java?",
+"options": [
+"A class that cannot be instantiated and contains only concrete methods",
+"A blueprint of a class that can contain only constants and abstract methods (prior to Java 8)",
+"A special method used to initialize objects",
+"A data type that stores multiple values"
+],
+"correctAnswer": 1
+},
+{
+"id": 153,
+"topic": "Object Orientation",
+"question": "Can a static method be overloaded in Java?",
+"options": [
+"No, static methods cannot be overloaded",
+"Yes, static methods can be overloaded by changing the method signature",
+"Yes, but only if the return type is changed",
+"No, because they belong to the class and not the object"
+],
+"correctAnswer": 1
+},
+{
+"id": 154,
+"topic": "Assignments",
+"question": "What does the compound assignment operator '=' do in Java?",
+"options": [
+"It adds the right operand to the left operand",
+"It multiplies the left operand by the right operand and assigns the result to the left operand",
+"It divides the left operand by the right operand",
+"It assigns the value of the right operand to the left operand"
+],
+"correctAnswer": 1
+},
+{
+"id": 155,
+"topic": "Operators",
+"question": "What is the difference between the '>>' and '>>>' operators in Java?",
+"options": [
+"There is no difference",
+"'>>' is logical right shift, '>>>' is arithmetic right shift",
+"'>>' is arithmetic right shift (preserves sign), '>>>' is unsigned right shift (fills with zero)",
+"'>>' is unsigned right shift, '>>>' is arithmetic right shift"
+],
+"correctAnswer": 2
+},
+{
+"id": 156,
+"topic": "Flow Control",
+"question": "Which loop guarantees that the condition is evaluated after the loop body is executed?",
+"options": [
+"for loop",
+"while loop",
+"do-while loop",
+"enhanced for loop"
+],
+"correctAnswer": 2
+},
+{
+"id": 157,
+"topic": "Exceptions and Assertions",
+"question": "In Java, what does the 'java.lang.Error' class represent?",
+"options": [
+"Standard runtime exceptions that should be caught",
+"Conditions that a reasonable application should try to catch",
+"Compile-time syntax errors",
+"Severe problems that a reasonable application should not try to catch"
+],
+"correctAnswer": 3
+},
+{
+"id": 158,
+"topic": "Strings",
+"question": "Which method is used to determine the number of characters in a String object?",
+"options": [
+"size()",
+"length()",
+"count()",
+"getSize()"
+],
+"correctAnswer": 1
+},
+{
+"id": 159,
+"topic": "I/O",
+"question": "What is the primary difference between InputStream and Reader classes in Java.io?",
+"options": [
+"InputStream is for reading byte streams, Reader is for reading character streams",
+"Reader is for reading byte streams, InputStream is for reading character streams",
+"InputStream writes data, Reader reads data",
+"There is no difference, they are synonyms"
+],
+"correctAnswer": 0
+},
+{
+"id": 160,
+"topic": "Formatting and Parsing",
+"question": "Which Java utility class provides a simple way to parse primitive types and strings using regular expressions?",
+"options": [
+"StringParser",
+"Scanner",
+"RegexReader",
+"DataTokenizer"
+],
+"correctAnswer": 1
+},
+{
+"id": 161,
+"topic": "Generics and Collections",
+"question": "Which of the following Map implementations is legacy and synchronized?",
+"options": [
+"HashMap",
+"TreeMap",
+"Hashtable",
+"LinkedHashMap"
+],
+"correctAnswer": 2
+},
+{
+"id": 162,
+"topic": "Generics and Collections",
+"question": "Which statement correctly describes a difference between ArrayList and LinkedList?",
+"options": [
+"LinkedList uses a dynamic array, while ArrayList uses a doubly linked list",
+"ArrayList provides faster sequential access, while LinkedList provides faster random access",
+"ArrayList uses a dynamic array, while LinkedList uses a doubly linked list",
+"LinkedList does not implement the List interface"
+],
+"correctAnswer": 2
+},
+{
+"id": 163,
+"topic": "Generics",
+"question": "Can primitive data types (like int, double) be used directly as type arguments in Java Generics?",
+"options": [
+"Yes, they are natively supported",
+"No, only reference types (like Integer, Double) can be used",
+"Yes, but only in arrays",
+"No, Generics only support custom user-defined classes"
+],
+"correctAnswer": 1
+},
+{
+"id": 164,
+"topic": "Inner Classes",
+"question": "Can an anonymous inner class implement an interface?",
+"options": [
+"Yes, an anonymous class can implement an interface by defining its methods upon instantiation",
+"No, anonymous classes can only extend other classes",
+"Yes, but it must implement all interfaces available in the package",
+"No, anonymous classes cannot contain methods"
+],
+"correctAnswer": 0
+},
+{
+"id": 165,
+"topic": "Threads",
+"question": "What is the purpose of the Thread.join() method?",
+"options": [
+"To combine two threads into a single thread",
+"To force a thread to stop immediately",
+"To wait for a thread to die (finish execution)",
+"To pause a thread for a specific number of milliseconds"
+],
+"correctAnswer": 2
+},
+{
+"id": 166,
+"topic": "Html5",
+"question": "Which HTML5 input type automatically validates that the entered text matches the format of an email address?",
+"options": [
+"<input type="text">",
+"<input type="email">",
+"<input type="url">",
+"<input type="validate">"
+],
+"correctAnswer": 1
+},
+{
+"id": 167,
+"topic": "Html5",
+"question": "Which HTML5 attribute specifies a short hint that describes the expected value of an input field?",
+"options": [
+"hint",
+"value",
+"placeholder",
+"tooltip"
+],
+"correctAnswer": 2
+},
+{
+"id": 168,
+"topic": "CSS",
+"question": "Which CSS property is used to make text bold?",
+"options": [
+"text-style: bold;",
+"font-weight: bold;",
+"text-weight: bold;",
+"font-style: bold;"
+],
+"correctAnswer": 1
+},
+{
+"id": 169,
+"topic": "CSS",
+"question": "In CSS, what does the unit 'vh' stand for?",
+"options": [
+"Vertical Height",
+"Viewport Height",
+"Visual Height",
+"Vector Height"
+],
+"correctAnswer": 1
+},
+{
+"id": 170,
+"topic": "bootstrap",
+"question": "Which Bootstrap 4/5 class is used to make an image responsive (scale with its parent element)?",
+"options": [
+".img-responsive",
+".responsive-img",
+".img-fluid",
+".image-scale"
+],
+"correctAnswer": 2
+},
+{
+"id": 171,
+"topic": "bootstrap",
+"question": "Which Bootstrap component is used to provide contextual feedback messages for typical user actions (e.g., success, warning)?",
+"options": [
+"Badges",
+"Alerts",
+"Jumbotron",
+"Cards"
+],
+"correctAnswer": 1
+},
+{
+"id": 172,
+"topic": "javascript",
+"question": "How do you write a single-line comment in JavaScript?",
+"options": [
+"",
+"/ comment */",
+"// comment",
+"# comment"
+],
+"correctAnswer": 2
+},
+{
+"id": 173,
+"topic": "javascript",
+"question": "What does 'NaN' stand for in JavaScript?",
+"options": [
+"Not a Name",
+"New array Network",
+"Null and Null",
+"Not-a-Number"
+],
+"correctAnswer": 3
+},
+{
+"id": 174,
+"topic": "javascript",
+"question": "Which JavaScript array method is used to add one or more elements to the end of an array?",
+"options": [
+"pop()",
+"push()",
+"shift()",
+"unshift()"
+],
+"correctAnswer": 1
+},
+{
+"id": 175,
+"topic": "jQuery",
+"question": "Which jQuery method is used to hide selected elements?",
+"options": [
+"visible(false)",
+"hidden()",
+"hide()",
+"display(none)"
+],
+"correctAnswer": 2
+},
+{
+"id": 176,
+"topic": "jQuery",
+"question": "Which syntax ensures that jQuery code executes only after the DOM is fully loaded?",
+"options": [
+"$(window).load(function() { ... });",
+"$(document).ready(function() { ... });",
+"jQuery.start(function() { ... });",
+"$(dom).loaded(function() { ... });"
+],
+"correctAnswer": 1
+},
+{
+"id": 177,
+"topic": "angular 10+",
+"question": "What is the primary role of a Service in Angular?",
+"options": [
+"To design HTML templates",
+"To handle CSS animations",
+"To share data and logic across multiple components",
+"To manage routing paths exclusively"
+],
+"correctAnswer": 2
+},
+{
+"id": 178,
+"topic": "angular 10+",
+"question": "Which Angular CLI command is used to build and serve the application locally for development?",
+"options": [
+"ng run",
+"ng serve",
+"ng start",
+"ng build --local"
+],
+"correctAnswer": 1
+},
+{
+"id": 179,
+"topic": "angular 10+",
+"question": "What is the RxJS library primarily used for in Angular applications?",
+"options": [
+"Writing unit tests",
+"Compiling TypeScript to JavaScript",
+"Handling reactive programming, streams, and asynchronous operations",
+"Creating CSS grids"
+],
+"correctAnswer": 2
+},
+{
+"id": 180,
+"topic": "angular 10+",
+"question": "In Angular, what is the basic building block of a user interface?",
+"options": [
+"Service",
+"Pipe",
+"Component",
+"Module"
+],
+"correctAnswer": 2
+},
+{
+"id": 181,
+"topic": "Spring Framework",
+"question": "Which Spring bean scope creates a single instance of the bean per Spring IoC container?",
+"options": [
+"Prototype",
+"Singleton",
+"Request",
+"Session"
+],
+"correctAnswer": 1
+},
+{
+"id": 182,
+"topic": "Spring Framework",
+"question": "What does AOP stand for in the context of the Spring Framework?",
+"options": [
+"Application Object Protocol",
+"Aspect-Oriented Programming",
+"Automated Object Parsing",
+"Advanced Output Processing"
+],
+"correctAnswer": 1
+},
+{
+"id": 183,
+"topic": "Spring Boot",
+"question": "What is the default port number for the embedded Tomcat server in a Spring Boot application?",
+"options": [
+"80",
+"8080",
+"443",
+"3000"
+],
+"correctAnswer": 1
+},
+{
+"id": 184,
+"topic": "Spring Boot",
+"question": "How can you change the default server port in a Spring Boot application?",
+"options": [
+"By changing the port attribute in web.xml",
+"By setting the 'server.port' property in application.properties",
+"By modifying the JVM arguments only",
+"It cannot be changed, Tomcat always runs on 8080"
+],
+"correctAnswer": 1
+},
+{
+"id": 185,
+"topic": "Spring Boot",
+"question": "Which Spring annotation acts as a shortcut for @RequestMapping(method = RequestMethod.GET)?",
+"options": [
+"@GetResource",
+"@Get",
+"@GetMapping",
+"@FetchMapping"
+],
+"correctAnswer": 2
+},
+{
+"id": 186,
+"topic": "Hibernate",
+"question": "What is an Entity in Hibernate?",
+"options": [
+"A database trigger",
+"A lightweight persistent domain object representing a table row",
+"A connection pool manager",
+"An SQL query wrapper"
+],
+"correctAnswer": 1
+},
+{
+"id": 187,
+"topic": "Hibernate",
+"question": "Which Session method is typically used to update a detached entity in Hibernate?",
+"options": [
+"commit()",
+"flush()",
+"update() or saveOrUpdate()",
+"refresh()"
+],
+"correctAnswer": 2
+},
+{
+"id": 188,
+"topic": "JPA",
+"question": "Which JPA annotation is used to specify the primary key generation strategy?",
+"options": [
+"@PrimaryKey",
+"@Sequence",
+"@GeneratedValue",
+"@AutoIncrement"
+],
+"correctAnswer": 2
+},
+{
+"id": 189,
+"topic": "JPA",
+"question": "What does JPQL stand for?",
+"options": [
+"Java Persistence Query Language",
+"Java Processing Query Language",
+"Java Programmable Query Library",
+"JSON Parsing Query Language"
+],
+"correctAnswer": 0
+},
+{
+"id": 190,
+"topic": "JPA",
+"question": "Which JPA annotation indicates that a specific entity field should NOT be persisted to the database?",
+"options": [
+"@Ignore",
+"@Transient",
+"@NoSave",
+"@Skip"
+],
+"correctAnswer": 1
+},
+{
+"id": 191,
+"topic": "MySQL/Oracle Database",
+"question": "Which SQL clause is used to sort the result set of a SELECT statement?",
+"options": [
+"SORT BY",
+"GROUP BY",
+"ORDER BY",
+"ARRANGE BY"
+],
+"correctAnswer": 2
+},
+{
+"id": 192,
+"topic": "MySQL/Oracle Database",
+"question": "Which DDL command is used to modify the structure of an existing database table (e.g., add a column)?",
+"options": [
+"MODIFY TABLE",
+"CHANGE TABLE",
+"UPDATE TABLE",
+"ALTER TABLE"
+],
+"correctAnswer": 3
+},
+{
+"id": 193,
+"topic": "MySQL/Oracle Database",
+"question": "What does SQL stand for?",
+"options": [
+"Structured Query Language",
+"Simple Question Language",
+"Standard Query Logic",
+"System Query Language"
+],
+"correctAnswer": 0
+},
+{
+"id": 194,
+"topic": "MySQL/Oracle Database",
+"question": "Which standard function returns the current system date and time in Oracle?",
+"options": [
+"NOW()",
+"GETDATE()",
+"SYSDATE",
+"TODAY()"
+],
+"correctAnswer": 2
+},
+{
+"id": 195,
+"topic": "PL/SQL",
+"question": "What is a PL/SQL Package?",
+"options": [
+"A zipped backup of the database",
+"A schema object that groups logically related types, variables, and subprograms",
+"A tool to import data from Excel",
+"A specific type of database trigger"
+],
+"correctAnswer": 1
+},
+{
+"id": 196,
+"topic": "PL/SQL",
+"question": "Which keyword is used to handle runtime errors in a PL/SQL block?",
+"options": [
+"CATCH",
+"ERROR",
+"EXCEPTION",
+"HANDLER"
+],
+"correctAnswer": 2
+},
+{
+"id": 197,
+"topic": "PL/SQL",
+"question": "In a PL/SQL procedure, what is the default parameter mode if neither IN, OUT, nor IN OUT is specified?",
+"options": [
+"OUT",
+"IN OUT",
+"IN",
+"It causes a compilation error"
+],
+"correctAnswer": 2
+},
+{
+"id": 198,
+"topic": "PL/SQL",
+"question": "Which type of parameter mode is used to return a value from a PL/SQL procedure to the calling environment?",
+"options": [
+"IN",
+"OUT",
+"RETURN",
+"EXPORT"
+],
+"correctAnswer": 1
+},
+{
+"id": 199,
+"topic": "MySQL/Oracle Database",
+"question": "Which SQL command is used to undo uncommitted changes in the current transaction?",
+"options": [
+"UNDO",
+"REVERT",
+"ROLLBACK",
+"COMMIT"
+],
+"correctAnswer": 2
+},
+{
+"id": 200,
+"topic": "MySQL/Oracle Database",
+"question": "Which SQL constraint ensures that a column cannot accept a NULL value?",
+"options": [
+"UNIQUE",
+"PRIMARY KEY",
+"NOT NULL",
+"NO NULL"
+],
+"correctAnswer": 2
+}
+]
