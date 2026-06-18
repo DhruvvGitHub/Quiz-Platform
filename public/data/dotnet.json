@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "topic": "Framework",
+    "question": "What is the core component of the .NET framework?",
+    "options": [
+      "Common Language Runtime (CLR)",
+      "C++ compiler",
+      "Windows API",
+      "Java Virtual Machine (JVM)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Common Language Runtime (CLR) is the execution engine that handles running applications in .NET."
+  },
+  {
+    "id": 2,
+    "topic": "C# Basics",
+    "question": "Which keyword is used to prevent a class from being inherited in C#?",
+    "options": [
+      "static",
+      "sealed",
+      "readonly",
+      "constant"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'sealed' keyword is used to prevent a class from being inherited by other classes."
+  }
+]
