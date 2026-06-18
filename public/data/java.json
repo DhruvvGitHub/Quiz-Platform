@@ -1968,18 +1968,6 @@
 "correctAnswer": 2
 },
 {
-"id": 166,
-"topic": "Html5",
-"question": "Which HTML5 input type automatically validates that the entered text matches the format of an email address?",
-"options": [
-"<input type="text">",
-"<input type="email">",
-"<input type="url">",
-"<input type="validate">"
-],
-"correctAnswer": 1
-},
-{
 "id": 167,
 "topic": "Html5",
 "question": "Which HTML5 attribute specifies a short hint that describes the expected value of an input field?",
