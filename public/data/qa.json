@@ -1,0 +1,2402 @@
+[
+{
+"id": 1,
+"topic": "Software Testing levels",
+"question": "Which of the following represents the correct standard order of software testing levels?",
+"options": [
+"Unit Testing -> System Testing -> Integration Testing -> Acceptance Testing",
+"Unit Testing -> Integration Testing -> System Testing -> Acceptance Testing",
+"Integration Testing -> Unit Testing -> System Testing -> Acceptance Testing",
+"System Testing -> Unit Testing -> Integration Testing -> Acceptance Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 2,
+"topic": "Software Testing levels",
+"question": "Which testing level is generally performed by the software developers themselves?",
+"options": [
+"System Testing",
+"Acceptance Testing",
+"Unit Testing",
+"Beta Testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 3,
+"topic": "Software Testing levels",
+"question": "Integration testing primarily focuses on evaluating:",
+"options": [
+"Individual lines of code",
+"The interface and communication between software modules",
+"End-to-end business flow",
+"User satisfaction"
+],
+"correctAnswer": 1
+},
+{
+"id": 4,
+"topic": "Software Testing levels",
+"question": "Which testing level evaluates a completely integrated software against its specified requirements?",
+"options": [
+"System Testing",
+"Unit Testing",
+"Integration Testing",
+"Component Testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 5,
+"topic": "Software Testing levels",
+"question": "Acceptance testing is primarily performed by whom?",
+"options": [
+"Developers",
+"QA Automation Engineers",
+"Database Administrators",
+"End-users or Clients"
+],
+"correctAnswer": 3
+},
+{
+"id": 6,
+"topic": "Software Testing levels",
+"question": "Alpha and Beta testing are specific types of which testing level?",
+"options": [
+"Unit Testing",
+"Integration Testing",
+"System Testing",
+"Acceptance Testing"
+],
+"correctAnswer": 3
+},
+{
+"id": 7,
+"topic": "Software Testing levels",
+"question": "Which integration testing strategy tests all modules together simultaneously?",
+"options": [
+"Top-down approach",
+"Bottom-up approach",
+"Big Bang approach",
+"Sandwich approach"
+],
+"correctAnswer": 2
+},
+{
+"id": 8,
+"topic": "Software Testing levels",
+"question": "What are 'Stubs' and 'Drivers' used for in software testing?",
+"options": [
+"To replace missing modules during Integration Testing",
+"To load test a server",
+"To document bug reports",
+"To deploy code to production"
+],
+"correctAnswer": 0
+},
+{
+"id": 9,
+"topic": "Software Testing levels",
+"question": "Beta testing is typically performed at which location?",
+"options": [
+"The development organization's site",
+"The end-user's actual location/environment",
+"An isolated QA lab",
+"A third-party testing vendor site"
+],
+"correctAnswer": 1
+},
+{
+"id": 10,
+"topic": "Software Testing levels",
+"question": "UAT is a critical final step before software release. What does UAT stand for?",
+"options": [
+"Unified Application Testing",
+"Universal Automation Testing",
+"User Acceptance Testing",
+"User Accessibility Testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 11,
+"topic": "Software Testing levels",
+"question": "Testing individual components or functions of an application in isolation is known as:",
+"options": [
+"Unit Testing",
+"Regression Testing",
+"System Testing",
+"End-to-End Testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 12,
+"topic": "Software Testing levels",
+"question": "Which testing level specifically validates if the software meets business requirements and is ready for delivery?",
+"options": [
+"System Testing",
+"Acceptance Testing",
+"Unit Testing",
+"Integration Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 13,
+"topic": "Software Testing approaches",
+"question": "Which testing approach requires the tester to have knowledge of the internal code and structure?",
+"options": [
+"Black-box testing",
+"White-box testing",
+"Grey-box testing",
+"Exploratory testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 14,
+"topic": "Software Testing approaches",
+"question": "Black-box testing is also commonly referred to as:",
+"options": [
+"Structural testing",
+"Glass-box testing",
+"Behavioral testing",
+"Clear-box testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 15,
+"topic": "Software Testing approaches",
+"question": "In which testing approach does the tester evaluate the software's functionality without looking at the internal source code?",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Glass-box testing",
+"Code review"
+],
+"correctAnswer": 1
+},
+{
+"id": 16,
+"topic": "Software Testing approaches",
+"question": "Grey-box testing is best described as:",
+"options": [
+"Testing only the UI colors and themes",
+"A combination of White-box and Black-box testing",
+"Testing legacy systems only",
+"Testing by external users who do not know the system at all"
+],
+"correctAnswer": 1
+},
+{
+"id": 17,
+"topic": "Software Testing approaches",
+"question": "Boundary Value Analysis and Equivalence Partitioning are techniques primarily associated with which approach?",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Integration testing",
+"Code coverage analysis"
+],
+"correctAnswer": 1
+},
+{
+"id": 18,
+"topic": "Software Testing approaches",
+"question": "Statement coverage, branch coverage, and path coverage are metrics used in:",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Performance testing",
+"Usability testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 19,
+"topic": "Software Testing approaches",
+"question": "Top-down and Bottom-up are approaches primarily used in which phase of testing?",
+"options": [
+"Unit testing",
+"Integration testing",
+"Acceptance testing",
+"Usability testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 20,
+"topic": "Software Testing approaches",
+"question": "A tester with partial knowledge of the internal data structures and algorithms is applying which approach?",
+"options": [
+"Black-box testing",
+"White-box testing",
+"Grey-box testing",
+"Red-box testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 21,
+"topic": "Software Testing approaches",
+"question": "Which testing approach focuses strictly on the inputs provided to the application and the outputs generated?",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Structural testing",
+"Logic testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 22,
+"topic": "Software Testing approaches",
+"question": "Which of the following techniques involves testing loops and conditional statements in the code?",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Acceptance testing",
+"Beta testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 23,
+"topic": "Software Testing approaches",
+"question": "An error guessing technique relies heavily on what?",
+"options": [
+"The internal code logic",
+"The tester's experience and intuition",
+"Automated testing tools",
+"Strict mathematical algorithms"
+],
+"correctAnswer": 1
+},
+{
+"id": 24,
+"topic": "Software Testing approaches",
+"question": "Which of the following is NOT a white-box testing technique?",
+"options": [
+"Statement Coverage",
+"Decision Coverage",
+"State Transition Testing",
+"Condition Coverage"
+],
+"correctAnswer": 2
+},
+{
+"id": 25,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Quality Assurance (QA) is primarily focused on:",
+"options": [
+"The end product",
+"The software process",
+"Fixing bugs",
+"Customer support"
+],
+"correctAnswer": 1
+},
+{
+"id": 26,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Quality Control (QC) is primarily focused on:",
+"options": [
+"The software process",
+"Preventing defects from entering the system",
+"The actual product being built",
+"Training development teams"
+],
+"correctAnswer": 2
+},
+{
+"id": 27,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of the following describes the fundamental nature of Quality Assurance?",
+"options": [
+"It is a reactive process",
+"It is a proactive process",
+"It only happens after the product is complete",
+"It is strictly an automated process"
+],
+"correctAnswer": 1
+},
+{
+"id": 28,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of the following describes the fundamental nature of Quality Control?",
+"options": [
+"It is a reactive process aimed at finding defects",
+"It is a proactive process aimed at preventing defects",
+"It defines the methodologies and standards",
+"It only involves management"
+],
+"correctAnswer": 0
+},
+{
+"id": 29,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "The primary goal of Quality Assurance is to:",
+"options": [
+"Identify and fix defects in the source code",
+"Prevent defects by ensuring right processes are followed",
+"Test the final application manually",
+"Deploy the software to production"
+],
+"correctAnswer": 1
+},
+{
+"id": 30,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Software testing itself is generally considered a subset of:",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Project Management",
+"Requirements Gathering"
+],
+"correctAnswer": 1
+},
+{
+"id": 31,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Process audits, checklists, and methodology definitions are examples of activities in:",
+"options": [
+"Quality Control",
+"Quality Assurance",
+"System Testing",
+"User Acceptance Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 32,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Executing a software application to find bugs is a direct example of:",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Process Management",
+"Risk Mitigation"
+],
+"correctAnswer": 1
+},
+{
+"id": 33,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which concept is most closely associated with 'Verification' (Are we building the product right)?",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Beta Testing",
+"Debugging"
+],
+"correctAnswer": 0
+},
+{
+"id": 34,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which concept is most closely associated with 'Validation' (Are we building the right product)?",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Process Audits",
+"Standardization"
+],
+"correctAnswer": 1
+},
+{
+"id": 35,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "QA is performed ________ the software development lifecycle, whereas QC is mostly performed ________ development.",
+"options": [
+"after / before",
+"throughout / after",
+"only at the end of / throughout",
+"never during / always during"
+],
+"correctAnswer": 1
+},
+{
+"id": 36,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which activity ensures that the standards defined by QA are being adhered to in the final product?",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Configuration Management",
+"Deployment"
+],
+"correctAnswer": 1
+},
+{
+"id": 37,
+"topic": "Types of Testing",
+"question": "Testing software after changes have been made to ensure that no existing functionality has been broken is called:",
+"options": [
+"Smoke testing",
+"Sanity testing",
+"Regression testing",
+"Usability testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 38,
+"topic": "Types of Testing",
+"question": "Which type of testing is an initial check to verify that the most critical functions of the software are working, determining if the build is stable enough for deeper testing?",
+"options": [
+"Performance testing",
+"Regression testing",
+"Smoke testing",
+"Security testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 39,
+"topic": "Types of Testing",
+"question": "Testing an application to determine how it performs under various workloads and stress is known as:",
+"options": [
+"Usability testing",
+"Performance testing",
+"Compatibility testing",
+"Functional testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 40,
+"topic": "Types of Testing",
+"question": "Which type of testing verifies how visually appealing and user-friendly an application is?",
+"options": [
+"Security testing",
+"Performance testing",
+"Usability testing",
+"Regression testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 41,
+"topic": "Types of Testing",
+"question": "Testing performed without a formal test plan, documentation, or test cases is known as:",
+"options": [
+"Regression testing",
+"Ad-hoc testing",
+"System testing",
+"Integration testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 42,
+"topic": "Types of Testing",
+"question": "Sanity testing is typically performed when:",
+"options": [
+"The software is completely finished",
+"The server crashes",
+"A minor bug fix or a new feature is added to a stable build",
+"The requirements are initially gathered"
+],
+"correctAnswer": 2
+},
+{
+"id": 43,
+"topic": "Types of Testing",
+"question": "Retesting a specific software component after a developer reports that a bug has been fixed is formally called:",
+"options": [
+"Confirmation testing (or Retesting)",
+"Smoke testing",
+"Load testing",
+"Alpha testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 44,
+"topic": "Types of Testing",
+"question": "Ensuring the software runs flawlessly on different web browsers, operating systems, and network environments is the focus of:",
+"options": [
+"Performance testing",
+"Compatibility testing",
+"Recovery testing",
+"Security testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 45,
+"topic": "Types of Testing",
+"question": "Which type of testing verifies the application's ability to bounce back from hardware failures or crashes?",
+"options": [
+"Usability testing",
+"Recovery testing",
+"Compatibility testing",
+"Stress testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 46,
+"topic": "Types of Testing",
+"question": "Which of the following is considered a 'Non-functional' type of testing?",
+"options": [
+"Unit testing",
+"API testing",
+"Performance testing",
+"Integration testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 47,
+"topic": "Types of Testing",
+"question": "Testing focused on identifying vulnerabilities, threats, and risks in a software application is called:",
+"options": [
+"Security testing",
+"Safety testing",
+"Sanity testing",
+"Smoke testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 48,
+"topic": "Types of Testing",
+"question": "Exploratory testing is highly dependent on:",
+"options": [
+"Detailed, step-by-step test cases",
+"Automated testing scripts",
+"The skill, intuition, and experience of the tester",
+"The exact lines of code written"
+],
+"correctAnswer": 2
+},
+{
+"id": 49,
+"topic": "Types of Testing",
+"question": "Load testing and Stress testing are subcategories of which major testing type?",
+"options": [
+"Functional testing",
+"Performance testing",
+"Usability testing",
+"Security testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 50,
+"topic": "Types of Testing",
+"question": "Which testing type evaluates whether the application software can be successfully installed and uninstalled?",
+"options": [
+"Compatibility testing",
+"Deployment testing",
+"Installation testing",
+"System testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 51,
+"topic": "Software Testing levels",
+"question": "Which testing level specifically validates if the software application meets the business requirements and is ready for real-world use?",
+"options": [
+"Unit Testing",
+"System Testing",
+"Integration Testing",
+"Acceptance Testing"
+],
+"correctAnswer": 3
+},
+{
+"id": 52,
+"topic": "Software Testing levels",
+"question": "What is the primary objective of Unit Testing?",
+"options": [
+"To test the system as a whole",
+"To isolate each part of the program and show that individual parts are correct",
+"To test the communication between two modules",
+"To show the software to the client"
+],
+"correctAnswer": 1
+},
+{
+"id": 53,
+"topic": "Software Testing levels",
+"question": "The 'Big Bang' integration testing approach is most suitable for:",
+"options": [
+"Large and complex enterprise systems",
+"Small systems with few modules",
+"Systems with highly coupled components",
+"Continuous Integration environments"
+],
+"correctAnswer": 1
+},
+{
+"id": 54,
+"topic": "Software Testing levels",
+"question": "In a bottom-up integration testing strategy, what is used to simulate the calling module?",
+"options": [
+"Stub",
+"Driver",
+"Mock",
+"Simulator"
+],
+"correctAnswer": 1
+},
+{
+"id": 55,
+"topic": "Software Testing levels",
+"question": "Which of the following testing levels is typically the first to be fully automated in a modern software development lifecycle?",
+"options": [
+"Unit Testing",
+"System Testing",
+"Acceptance Testing",
+"Beta Testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 56,
+"topic": "Software Testing levels",
+"question": "System testing generally falls under which category of testing approaches?",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Glass-box testing",
+"Code-level testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 57,
+"topic": "Software Testing levels",
+"question": "Who is primarily responsible for writing and executing Unit Tests?",
+"options": [
+"Quality Assurance Engineers",
+"System Administrators",
+"Software Developers",
+"Business Analysts"
+],
+"correctAnswer": 2
+},
+{
+"id": 58,
+"topic": "Software Testing levels",
+"question": "In which level of testing is the software deployed to a staging environment that mimics the production environment as closely as possible?",
+"options": [
+"Unit Testing",
+"System Testing",
+"Component Testing",
+"Integration Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 59,
+"topic": "Software Testing levels",
+"question": "Which of the following attributes is evaluated during System Testing?",
+"options": [
+"Only Functional requirements",
+"Only Non-functional requirements (like performance)",
+"Both Functional and Non-functional requirements",
+"Only the source code syntax"
+],
+"correctAnswer": 2
+},
+{
+"id": 60,
+"topic": "Software Testing levels",
+"question": "Operational Acceptance Testing (OAT) is a sub-type of Acceptance Testing that focuses on:",
+"options": [
+"End-user GUI experience",
+"System administration tasks like backup, restore, and maintenance",
+"Code quality metrics",
+"Marketing appeal"
+],
+"correctAnswer": 1
+},
+{
+"id": 61,
+"topic": "Software Testing levels",
+"question": "What is the key difference between Alpha testing and Beta testing?",
+"options": [
+"Alpha is done by developers; Beta is done by QA",
+"Alpha is done at the developer's site; Beta is done at the client's site",
+"Alpha requires automation; Beta is strictly manual",
+"Alpha tests performance; Beta tests security"
+],
+"correctAnswer": 1
+},
+{
+"id": 62,
+"topic": "Software Testing levels",
+"question": "Which integration testing approach requires testing from the main control module downwards?",
+"options": [
+"Bottom-up approach",
+"Sandwich approach",
+"Top-down approach",
+"Big Bang approach"
+],
+"correctAnswer": 2
+},
+{
+"id": 63,
+"topic": "Software Testing approaches",
+"question": "White-box testing is also known by which of the following terms?",
+"options": [
+"Opaque-box testing",
+"Clear-box testing",
+"Closed-box testing",
+"Functional testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 64,
+"topic": "Software Testing approaches",
+"question": "Equivalence partitioning is a test design technique associated with:",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Performance testing",
+"Database testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 65,
+"topic": "Software Testing approaches",
+"question": "Which testing approach checks the internal logic, algorithms, and code structure?",
+"options": [
+"Black-box testing",
+"White-box testing",
+"System testing",
+"User Acceptance testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 66,
+"topic": "Software Testing approaches",
+"question": "In Black-box testing, test cases are primarily designed based on:",
+"options": [
+"Source code structure",
+"System architecture diagrams",
+"Requirements and specifications",
+"Database schemas"
+],
+"correctAnswer": 2
+},
+{
+"id": 67,
+"topic": "Software Testing approaches",
+"question": "State Transition testing, where a system is tested for different states and transitions, is an example of:",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Performance testing",
+"Security testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 68,
+"topic": "Software Testing approaches",
+"question": "Which of the following is a classic White-box testing technique?",
+"options": [
+"Boundary Value Analysis",
+"Use Case Testing",
+"Path Coverage",
+"Decision Table Testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 69,
+"topic": "Software Testing approaches",
+"question": "Grey-box testing is commonly and effectively used for which level of testing?",
+"options": [
+"UI Testing",
+"Integration testing and API testing",
+"User Acceptance Testing",
+"Alpha Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 70,
+"topic": "Software Testing approaches",
+"question": "Boundary Value Analysis focuses on testing:",
+"options": [
+"The values exactly at the center of an equivalence partition",
+"The internal loop execution logic",
+"The values at the edges or limits of input ranges",
+"The speed of the network boundary"
+],
+"correctAnswer": 2
+},
+{
+"id": 71,
+"topic": "Software Testing approaches",
+"question": "Does manual Black-box testing fundamentally require programming knowledge from the tester?",
+"options": [
+"Yes, extensive programming knowledge is required",
+"No, it requires domain knowledge and requirement understanding",
+"Yes, specifically knowledge of C++ or Java",
+"Yes, to review the backend code"
+],
+"correctAnswer": 1
+},
+{
+"id": 72,
+"topic": "Software Testing approaches",
+"question": "Static testing involves reviewing documents and code without executing the program. Dynamic testing involves executing the code. Both are types of:",
+"options": [
+"Software Testing approaches",
+"Quality Control defects",
+"Maintenance phases",
+"Deployment strategies"
+],
+"correctAnswer": 0
+},
+{
+"id": 73,
+"topic": "Software Testing approaches",
+"question": "Which approach is most effective for identifying hidden logic errors, memory leaks, or unoptimized loops in the code base?",
+"options": [
+"Black-box testing",
+"White-box testing",
+"Acceptance testing",
+"UI testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 74,
+"topic": "Software Testing approaches",
+"question": "Error guessing is a test design technique based heavily on:",
+"options": [
+"Mathematical algorithms",
+"Code complexity metrics",
+"The tester's prior experience and intuition about where defects cluster",
+"Automated random number generators"
+],
+"correctAnswer": 2
+},
+{
+"id": 75,
+"topic": "Software Testing approaches",
+"question": "Cyclomatic complexity is a software metric used to indicate the complexity of a program. It is primarily used to determine the number of test cases needed for:",
+"options": [
+"Black-box testing",
+"White-box testing",
+"Usability testing",
+"Beta testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 76,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "While Quality Assurance focuses on preventing defects, Quality Control focuses on:",
+"options": [
+"Writing source code",
+"Identifying and correcting defects",
+"Customer marketing",
+"Gathering initial requirements"
+],
+"correctAnswer": 1
+},
+{
+"id": 77,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of the following is considered a typical Quality Assurance (QA) activity?",
+"options": [
+"Executing a test script",
+"Logging a bug in JIRA",
+"Defining the software development process and standards",
+"Retesting a fixed defect"
+],
+"correctAnswer": 2
+},
+{
+"id": 78,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of the following is considered a typical Quality Control (QC) activity?",
+"options": [
+"Creating process checklists",
+"Software testing and inspection",
+"Quality audits",
+"Training team members on methodology"
+],
+"correctAnswer": 1
+},
+{
+"id": 79,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "In the context of software engineering, Quality Assurance is generally described as being:",
+"options": [
+"Process oriented",
+"Product oriented",
+"Reactive",
+"Code-level only"
+],
+"correctAnswer": 0
+},
+{
+"id": 80,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "In the context of software engineering, Quality Control is generally described as being:",
+"options": [
+"Process oriented",
+"Product oriented",
+"Management oriented",
+"Theoretical"
+],
+"correctAnswer": 1
+},
+{
+"id": 81,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Establishing a standard test plan template for the entire organization is associated with:",
+"options": [
+"Quality Control",
+"Quality Assurance",
+"Debugging",
+"System Maintenance"
+],
+"correctAnswer": 1
+},
+{
+"id": 82,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Executing the test cases defined in the test plan against a new software build is associated with:",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Process Auditing",
+"Requirement Engineering"
+],
+"correctAnswer": 1
+},
+{
+"id": 83,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of these statements accurately describes the relationship between QA and QC?",
+"options": [
+"QA ensures the product is bug-free; QC defines the rules.",
+"QA ensures the right process is followed; QC ensures the resulting product meets quality standards.",
+"QA and QC are exactly the same thing.",
+"QC is performed before QA begins."
+],
+"correctAnswer": 1
+},
+{
+"id": 84,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Performing a periodic review to ensure the development team is adhering to coding standards is an example of:",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Unit Testing",
+"Black-box testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 85,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "The concept of 'Verification' (checking documents, design, code without executing) aligns most closely with:",
+"options": [
+"Quality Control",
+"Quality Assurance",
+"Dynamic Testing",
+"Acceptance Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 86,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "The concept of 'Validation' (testing the actual built product against user needs) aligns most closely with:",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Process Management",
+"Risk Mitigation"
+],
+"correctAnswer": 1
+},
+{
+"id": 87,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Who is primarily responsible for the overall Quality Assurance of a project?",
+"options": [
+"Only the designated Software Testers",
+"Only the Project Manager",
+"The entire project team",
+"Only the end-user"
+],
+"correctAnswer": 2
+},
+{
+"id": 88,
+"topic": "Types of Testing",
+"question": "Testing software to determine its behavior under a massive volume of concurrent users or data is called:",
+"options": [
+"Functional testing",
+"Load testing",
+"Security testing",
+"Sanity testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 89,
+"topic": "Types of Testing",
+"question": "Which type of testing ensures that the software application is usable by individuals with visual, auditory, or motor disabilities?",
+"options": [
+"Usability testing",
+"Localization testing",
+"Accessibility testing",
+"Portability testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 90,
+"topic": "Types of Testing",
+"question": "Testing an application to uncover vulnerabilities, potential exploits, and protect against malicious attacks is known as:",
+"options": [
+"Security testing",
+"Stress testing",
+"Recovery testing",
+"Compliance testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 91,
+"topic": "Types of Testing",
+"question": "What is the primary purpose of Regression testing?",
+"options": [
+"To test only the newly added features",
+"To ensure new code changes or bug fixes have not broken existing, working functionality",
+"To check the UI colors",
+"To test the server hardware"
+],
+"correctAnswer": 1
+},
+{
+"id": 92,
+"topic": "Types of Testing",
+"question": "Smoke testing, which checks the basic stability of a new build, is frequently referred to as:",
+"options": [
+"Build Verification Testing (BVT)",
+"End-to-End Testing (E2E)",
+"User Acceptance Testing (UAT)",
+"Static Analysis"
+],
+"correctAnswer": 0
+},
+{
+"id": 93,
+"topic": "Types of Testing",
+"question": "Testing if a software application appropriately handles multiple languages, currencies, and regional settings is called:",
+"options": [
+"Compatibility testing",
+"Localization/Internationalization testing",
+"Portability testing",
+"Accessibility testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 94,
+"topic": "Types of Testing",
+"question": "Alpha testing is an example of which broader category of testing?",
+"options": [
+"Unit testing",
+"Integration testing",
+"Acceptance testing",
+"Component testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 95,
+"topic": "Types of Testing",
+"question": "Which type of non-functional testing determines if an application can successfully restart and restore data after a sudden hardware or network crash?",
+"options": [
+"Stress testing",
+"Recovery testing",
+"Volume testing",
+"Usability testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 96,
+"topic": "Types of Testing",
+"question": "Validating the software's graphical user interface against design mockups and ensuring a smooth user experience is part of:",
+"options": [
+"Backend testing",
+"API testing",
+"Usability/UI testing",
+"Load testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 97,
+"topic": "Types of Testing",
+"question": "Which type of testing validates the data flow and communication logic between two different systems, services, or microservices?",
+"options": [
+"Unit testing",
+"API/Integration testing",
+"Acceptance testing",
+"Installation testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 98,
+"topic": "Types of Testing",
+"question": "What is the defining characteristic of Exploratory Testing?",
+"options": [
+"It requires automated scripts written in Python",
+"It follows a strictly documented 100-page test plan",
+"The tester simultaneously learns the system, designs test cases, and executes them",
+"It only tests the installation process"
+],
+"correctAnswer": 2
+},
+{
+"id": 99,
+"topic": "Types of Testing",
+"question": "Checking how easily a software application can be moved from one environment (e.g., Windows 10) to another (e.g., macOS) is called:",
+"options": [
+"Portability testing",
+"Recovery testing",
+"Security testing",
+"Sanity testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 100,
+"topic": "Types of Testing",
+"question": "When a developer marks a bug as 'Fixed', the QA team tests it again to verify the specific issue is resolved. This is called:",
+"options": [
+"Smoke testing",
+"Confirmation testing (or Retesting)",
+"Performance testing",
+"Alpha testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 101,
+"topic": "Software Testing levels",
+"question": "Which of the following testing levels is also commonly referred to as 'Module Testing' or 'Component Testing'?",
+"options": [
+"System Testing",
+"Integration Testing",
+"Unit Testing",
+"Acceptance Testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 102,
+"topic": "Software Testing levels",
+"question": "In an incremental integration testing approach, modules are added and tested:",
+"options": [
+"All at once",
+"Step-by-step, one by one",
+"Only after the entire system is complete",
+"By the end-users"
+],
+"correctAnswer": 1
+},
+{
+"id": 103,
+"topic": "Software Testing levels",
+"question": "Which level of testing is primarily designed to validate the overall end-to-end functionality of the complete product?",
+"options": [
+"System Testing",
+"Unit Testing",
+"Component Testing",
+"Integration Testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 104,
+"topic": "Software Testing levels",
+"question": "Factory Acceptance Testing (FAT) is typically conducted by:",
+"options": [
+"The client at their own site",
+"The vendor at the vendor's site before delivery",
+"The database administrators",
+"An automated tool overnight"
+],
+"correctAnswer": 1
+},
+{
+"id": 105,
+"topic": "Software Testing levels",
+"question": "Site Acceptance Testing (SAT) is typically conducted at:",
+"options": [
+"The development organization's location",
+"An offshore testing lab",
+"The customer's actual operational location",
+"A virtual machine simulated environment"
+],
+"correctAnswer": 2
+},
+{
+"id": 106,
+"topic": "Software Testing levels",
+"question": "When testing a high-level module, 'Stubs' are used to simulate the behavior of:",
+"options": [
+"The end-user",
+"Missing lower-level modules",
+"The operating system",
+"The network connection"
+],
+"correctAnswer": 1
+},
+{
+"id": 107,
+"topic": "Software Testing levels",
+"question": "When testing a lower-level module, 'Drivers' are used to simulate the behavior of:",
+"options": [
+"Missing higher-level calling modules",
+"Missing database tables",
+"End-user interactions",
+"Third-party APIs"
+],
+"correctAnswer": 0
+},
+{
+"id": 108,
+"topic": "Software Testing levels",
+"question": "Which level of software testing is most directly aligned with the Business Requirements Specification (BRS)?",
+"options": [
+"Unit Testing",
+"Integration Testing",
+"System Testing",
+"Acceptance Testing"
+],
+"correctAnswer": 3
+},
+{
+"id": 109,
+"topic": "Software Testing levels",
+"question": "System testing is typically executed by:",
+"options": [
+"The original developers of the code",
+"An independent testing team",
+"The product manager",
+"External clients only"
+],
+"correctAnswer": 1
+},
+{
+"id": 110,
+"topic": "Software Testing levels",
+"question": "Integration testing is most closely mapped to which phase of the traditional V-model?",
+"options": [
+"High-level Architectural Design",
+"Detailed Module Design",
+"Requirements Gathering",
+"Maintenance"
+],
+"correctAnswer": 0
+},
+{
+"id": 111,
+"topic": "Software Testing levels",
+"question": "Which testing level is considered the most granular?",
+"options": [
+"System Testing",
+"Integration Testing",
+"Acceptance Testing",
+"Unit Testing"
+],
+"correctAnswer": 3
+},
+{
+"id": 112,
+"topic": "Software Testing levels",
+"question": "Which level evaluates both functional and non-functional requirements of the fully assembled application?",
+"options": [
+"Unit Testing",
+"Acceptance Testing",
+"System Testing",
+"Integration Testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 113,
+"topic": "Software Testing approaches",
+"question": "Which testing approach heavily utilizes control flow graphs to design test cases?",
+"options": [
+"Black-box testing",
+"White-box testing",
+"Agile testing",
+"Exploratory testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 114,
+"topic": "Software Testing approaches",
+"question": "Boundary Value Analysis ensures that testing focuses on the edges of an input domain. If a text field accepts 5 to 15 characters, which of the following is a valid set of boundary values?",
+"options": [
+"5, 10, 15",
+"4, 5, 15, 16",
+"1, 5, 15, 20",
+"4, 6, 14, 16"
+],
+"correctAnswer": 1
+},
+{
+"id": 115,
+"topic": "Software Testing approaches",
+"question": "Decision table testing is most appropriate to use when:",
+"options": [
+"Testing a single input field's length",
+"The system's behavior depends on complex combinations of multiple logical conditions",
+"Testing the speed of a database query",
+"Reviewing the source code for memory leaks"
+],
+"correctAnswer": 1
+},
+{
+"id": 116,
+"topic": "Software Testing approaches",
+"question": "Statement coverage is a metric that calculates:",
+"options": [
+"The percentage of user requirements tested",
+"The percentage of code statements executed during testing",
+"The percentage of bugs fixed by developers",
+"The percentage of test cases automated"
+],
+"correctAnswer": 1
+},
+{
+"id": 117,
+"topic": "Software Testing approaches",
+"question": "Grey-box testing is highly effective and frequently used for:",
+"options": [
+"Graphic design layout testing",
+"API and database integration testing",
+"Hardware stress testing",
+"End-user training"
+],
+"correctAnswer": 1
+},
+{
+"id": 118,
+"topic": "Software Testing approaches",
+"question": "Which of the following is NOT a recognized Black-box testing design technique?",
+"options": [
+"Equivalence Partitioning",
+"State Transition Testing",
+"Branch Coverage Analysis",
+"Decision Table Testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 119,
+"topic": "Software Testing approaches",
+"question": "Static testing techniques evaluate the software without executing the code. Which of the following is a static approach?",
+"options": [
+"Unit Testing",
+"Code Reviews and Walkthroughs",
+"Integration Testing",
+"Performance Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 120,
+"topic": "Software Testing approaches",
+"question": "Which Black-box testing technique divides input domains into classes where the software behavior is expected to be the same?",
+"options": [
+"Boundary Value Analysis",
+"Equivalence Partitioning",
+"Error Guessing",
+"Orthogonal Array Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 121,
+"topic": "Software Testing approaches",
+"question": "Orthogonal Array Testing is a systematic, statistical way of testing primarily used in which approach?",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Performance testing",
+"Security testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 122,
+"topic": "Software Testing approaches",
+"question": "Which testing approach specifically aims to uncover structural, logical, and coding errors?",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Acceptance testing",
+"Usability testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 123,
+"topic": "Software Testing approaches",
+"question": "Data Flow Testing, which tracks the lifecycle of variables in the code, belongs to which approach?",
+"options": [
+"Black-box testing",
+"Grey-box testing",
+"White-box testing",
+"Exploratory testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 124,
+"topic": "Software Testing approaches",
+"question": "Use Case testing is a technique that falls under:",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Static analysis",
+"Code coverage"
+],
+"correctAnswer": 1
+},
+{
+"id": 125,
+"topic": "Software Testing approaches",
+"question": "Path coverage, which ensures every possible route through a given part of code is executed, is an example of:",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Grey-box testing",
+"User Acceptance testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 126,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of the following is a direct example of a Quality Control (QC) activity?",
+"options": [
+"Creating a quality management plan",
+"Executing test cases to find a bug",
+"Defining organizational coding guidelines",
+"Training employees on new processes"
+],
+"correctAnswer": 1
+},
+{
+"id": 127,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of the following is a direct example of a Quality Assurance (QA) activity?",
+"options": [
+"Logging a defect in Jira",
+"Running an automated test script",
+"Performing a process audit to ensure standards are met",
+"Retesting a failed module"
+],
+"correctAnswer": 2
+},
+{
+"id": 128,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "In the classic distinction, Quality Assurance focuses on 'defect ________', while Quality Control focuses on 'defect ________'.",
+"options": [
+"detection, prevention",
+"prevention, detection",
+"correction, ignoring",
+"creation, deletion"
+],
+"correctAnswer": 1
+},
+{
+"id": 129,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which activity ensures that 'we are building the product right' by checking processes and standards?",
+"options": [
+"Validation",
+"Quality Control",
+"Verification (QA)",
+"Debugging"
+],
+"correctAnswer": 2
+},
+{
+"id": 130,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Statistical Process Control (SPC) is a technique mostly used in:",
+"options": [
+"Unit testing",
+"Quality Control",
+"Quality Assurance",
+"System testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 131,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "The primary outcome of Quality Control activities is:",
+"options": [
+"A new organizational standard",
+"A process map",
+"Identification of defects in the actual product",
+"A training manual"
+],
+"correctAnswer": 2
+},
+{
+"id": 132,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Quality Assurance is generally the responsibility of:",
+"options": [
+"The end-user only",
+"The entire team and organization",
+"Only the software testers",
+"Only the database administrators"
+],
+"correctAnswer": 1
+},
+{
+"id": 133,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Quality Assurance is considered a ________ function, while Quality Control is considered a ________ function.",
+"options": [
+"managerial, operational",
+"reactive, proactive",
+"technical, administrative",
+"product-based, process-based"
+],
+"correctAnswer": 0
+},
+{
+"id": 134,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Formal reviews, walkthroughs, and inspections of requirement documents are examples of:",
+"options": [
+"Dynamic testing",
+"Quality Assurance / Verification",
+"Quality Control / Validation",
+"Black-box testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 135,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Conducting a root cause analysis to figure out why a particular type of bug keeps occurring and changing the development process to stop it is an act of:",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Unit Testing",
+"Smoke Testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 136,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Software testing is a core subset of which discipline?",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Process Engineering",
+"Requirements Management"
+],
+"correctAnswer": 1
+},
+{
+"id": 137,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "If a team is reviewing an application's user interface against the design prototypes to ensure it looks correct, this is:",
+"options": [
+"Quality Assurance",
+"Quality Control",
+"Process Auditing",
+"Configuration Management"
+],
+"correctAnswer": 1
+},
+{
+"id": 138,
+"topic": "Types of Testing",
+"question": "Testing done exclusively to ensure that a specific defect reported earlier has been successfully fixed by the developer is called:",
+"options": [
+"Regression testing",
+"Retesting (Confirmation testing)",
+"Smoke testing",
+"Load testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 139,
+"topic": "Types of Testing",
+"question": "If a developer adds a new payment feature, the QA team tests the existing login and cart features to ensure they still work. This is an example of:",
+"options": [
+"Regression testing",
+"Retesting",
+"Sanity testing",
+"Alpha testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 140,
+"topic": "Types of Testing",
+"question": "Evaluating whether a web application functions correctly on Chrome, Firefox, Safari, and Edge is an example of:",
+"options": [
+"Performance Testing",
+"Security Testing",
+"Compatibility Testing",
+"Recovery Testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 141,
+"topic": "Types of Testing",
+"question": "Testing software by flooding the database with a massive amount of records to see how it handles large datasets is called:",
+"options": [
+"Volume Testing",
+"Usability Testing",
+"Sanity Testing",
+"Integration Testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 142,
+"topic": "Types of Testing",
+"question": "Testing an application by providing random, unpredictable inputs to see if it crashes is commonly referred to as:",
+"options": [
+"Monkey testing",
+"Regression testing",
+"White-box testing",
+"Unit testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 143,
+"topic": "Types of Testing",
+"question": "Which type of testing bypasses the Graphical User Interface (GUI) to validate the business logic and data responses directly?",
+"options": [
+"Usability testing",
+"API testing",
+"Accessibility testing",
+"Installation testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 144,
+"topic": "Types of Testing",
+"question": "A/B testing is a technique primarily used in production to evaluate:",
+"options": [
+"Database security",
+"User preference, behavior, and UI effectiveness",
+"Backend server load capacity",
+"Code compilation speed"
+],
+"correctAnswer": 1
+},
+{
+"id": 145,
+"topic": "Types of Testing",
+"question": "Testing a system continuously over an extended period to identify issues like memory leaks is known as:",
+"options": [
+"Spike testing",
+"Endurance (Soak) testing",
+"Smoke testing",
+"Sanity testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 146,
+"topic": "Types of Testing",
+"question": "Which type of testing verifies that the software meets local cultural, linguistic, and regulatory requirements?",
+"options": [
+"Localization testing",
+"Security testing",
+"Stress testing",
+"Volume testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 147,
+"topic": "Types of Testing",
+"question": "Penetration testing is a sub-category of which major testing type?",
+"options": [
+"Performance testing",
+"Security testing",
+"Usability testing",
+"Functional testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 148,
+"topic": "Types of Testing",
+"question": "End-to-End (E2E) testing ensures that:",
+"options": [
+"Individual code functions compile correctly",
+"The entire application flow, from start to finish, behaves as expected",
+"The application looks good on mobile devices only",
+"The developers followed coding standards"
+],
+"correctAnswer": 1
+},
+{
+"id": 149,
+"topic": "Types of Testing",
+"question": "Beta testing is often conducted by real users in their real environments. Because of this, it is sometimes referred to as:",
+"options": [
+"Lab testing",
+"Field testing",
+"White-box testing",
+"Static testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 150,
+"topic": "Types of Testing",
+"question": "What kind of testing determines the absolute maximum capacity a system can handle before it crashes or fails entirely?",
+"options": [
+"Sanity testing",
+"Smoke testing",
+"Stress testing",
+"Usability testing"
+],
+"correctAnswer": 2
+},
+{
+    "id": 151,
+"topic": "Software Testing levels",
+"question": "Which environment is typically used for System Testing to ensure it accurately reflects real-world usage?",
+"options": [
+"The developer's local machine",
+"A staging or pre-production environment",
+"The live production environment",
+"An offline local area network only"
+],
+"correctAnswer": 1
+},
+{
+"id": 152,
+"topic": "Software Testing levels",
+"question": "In Unit Testing, what are 'Mock objects' used for?",
+"options": [
+"To test the graphical user interface",
+"To simulate complex, real objects that the unit under test relies on",
+"To mimic the end-user's behavior",
+"To load test the database"
+],
+"correctAnswer": 1
+},
+{
+"id": 153,
+"topic": "Software Testing levels",
+"question": "Regulatory Acceptance Testing ensures that the software complies with:",
+"options": [
+"The developer's coding standards",
+"Government, legal, and safety regulations",
+"The internal marketing team's requirements",
+"Hardware manufacturer guidelines"
+],
+"correctAnswer": 1
+},
+{
+"id": 154,
+"topic": "Software Testing levels",
+"question": "Which of the following is a major prerequisite before starting Integration Testing?",
+"options": [
+"User Acceptance Testing must be signed off",
+"The system must be deployed to production",
+"All individual modules must have passed Unit Testing",
+"The marketing plan must be finalized"
+],
+"correctAnswer": 2
+},
+{
+"id": 155,
+"topic": "Software Testing levels",
+"question": "The 'Sandwich' integration testing approach is a combination of:",
+"options": [
+"Alpha and Beta testing",
+"Black-box and White-box testing",
+"Top-down and Bottom-up integration testing",
+"System and Acceptance testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 156,
+"topic": "Software Testing levels",
+"question": "What is the biggest disadvantage of the 'Big Bang' integration approach?",
+"options": [
+"It requires too many stubs and drivers",
+"It is very easy to trace the root cause of a defect",
+"Defect localization is extremely difficult if a failure occurs",
+"It can only be done by end-users"
+],
+"correctAnswer": 2
+},
+{
+"id": 157,
+"topic": "Software Testing levels",
+"question": "Who has the final authority to sign off on User Acceptance Testing (UAT)?",
+"options": [
+"The Lead Developer",
+"The QA Manager",
+"The Business Owner or Client",
+"The System Administrator"
+],
+"correctAnswer": 2
+},
+{
+"id": 158,
+"topic": "Software Testing levels",
+"question": "System testing is typically executed using which testing approach?",
+"options": [
+"Strictly White-box testing",
+"Black-box testing",
+"Code coverage analysis",
+"Statement testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 159,
+"topic": "Software Testing levels",
+"question": "Contract Acceptance Testing is performed to verify that the system:",
+"options": [
+"Compiles without any syntax errors",
+"Meets the terms agreed upon in the custom development contract",
+"Can handle a large volume of concurrent users",
+"Is compatible with older browsers"
+],
+"correctAnswer": 1
+},
+{
+"id": 160,
+"topic": "Software Testing levels",
+"question": "Which testing level is considered the 'highest' level of testing before the software goes live?",
+"options": [
+"Integration Testing",
+"System Testing",
+"Unit Testing",
+"Acceptance Testing"
+],
+"correctAnswer": 3
+},
+{
+"id": 161,
+"topic": "Software Testing levels",
+"question": "Tools like JUnit, NUnit, and TestNG are most commonly associated with which level of testing?",
+"options": [
+"System Testing",
+"Unit Testing",
+"User Acceptance Testing",
+"Performance Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 162,
+"topic": "Software Testing levels",
+"question": "Testing the data flow across an API connecting a payment gateway to an e-commerce cart is an example of:",
+"options": [
+"Unit Testing",
+"Integration Testing",
+"Usability Testing",
+"Beta Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 163,
+"topic": "Software Testing approaches",
+"question": "In Equivalence Partitioning, if a system accepts ages from 18 to 60, which of the following represents an INVALID equivalence class?",
+"options": [
+"Age 30",
+"Age 18",
+"Age 60",
+"Age 17"
+],
+"correctAnswer": 3
+},
+{
+"id": 164,
+"topic": "Software Testing approaches",
+"question": "Which White-box testing technique ensures that every logical condition (true/false) in the code has been evaluated at least once?",
+"options": [
+"Condition Coverage",
+"Statement Coverage",
+"Boundary Value Analysis",
+"Error Guessing"
+],
+"correctAnswer": 0
+},
+{
+"id": 165,
+"topic": "Software Testing approaches",
+"question": "State Transition Testing is highly dependent on identifying:",
+"options": [
+"The number of lines of code",
+"Events that trigger a system to change from one state to another",
+"The color scheme of the user interface",
+"The programming language used"
+],
+"correctAnswer": 1
+},
+{
+"id": 166,
+"topic": "Software Testing approaches",
+"question": "A major disadvantage of pure Black-box testing is that:",
+"options": [
+"It requires deep programming knowledge",
+"It cannot test non-functional requirements",
+"A large portion of internal code paths may go completely untested",
+"It is too focused on the source code structure"
+],
+"correctAnswer": 2
+},
+{
+"id": 167,
+"topic": "Software Testing approaches",
+"question": "Which of the following is a strict requirement for Dynamic testing?",
+"options": [
+"The code must be formally reviewed before testing",
+"The software code must actually be compiled and executed",
+"The tester must not see the UI",
+"Only the design documents are evaluated"
+],
+"correctAnswer": 1
+},
+{
+"id": 168,
+"topic": "Software Testing approaches",
+"question": "Use Case Testing focuses on verifying the system by evaluating:",
+"options": [
+"Interactions between 'Actors' (users) and the system to achieve a specific goal",
+"The memory usage of the application",
+"The backend database schema",
+"The server's physical security"
+],
+"correctAnswer": 0
+},
+{
+"id": 169,
+"topic": "Software Testing approaches",
+"question": "Code walkthroughs, peer reviews, and technical inspections are all forms of:",
+"options": [
+"Dynamic testing",
+"Static testing",
+"Performance testing",
+"Black-box testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 170,
+"topic": "Software Testing approaches",
+"question": "The underlying philosophy of Boundary Value Analysis is that:",
+"options": [
+"Errors cluster around the center of input ranges",
+"Errors are completely random",
+"A higher rate of errors occurs at the extreme edges of input ranges",
+"Input data does not matter"
+],
+"correctAnswer": 2
+},
+{
+"id": 171,
+"topic": "Software Testing approaches",
+"question": "Cyclomatic complexity measures the amount of ________ in the source code.",
+"options": [
+"Independent paths or decision logic",
+"Comments and documentation",
+"Syntax errors",
+"Database connections"
+],
+"correctAnswer": 0
+},
+{
+"id": 172,
+"topic": "Software Testing approaches",
+"question": "Which approach is best suited to identify dead code (code that is never executed)?",
+"options": [
+"Black-box testing",
+"White-box testing",
+"User Acceptance testing",
+"Beta testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 173,
+"topic": "Software Testing approaches",
+"question": "Decision tables are also frequently referred to as:",
+"options": [
+"State-transition diagrams",
+"Cause-effect tables",
+"Control flow graphs",
+"Use case diagrams"
+],
+"correctAnswer": 1
+},
+{
+"id": 174,
+"topic": "Software Testing approaches",
+"question": "Which test design technique is least structured and relies mostly on the tester's intuition?",
+"options": [
+"Equivalence Partitioning",
+"Decision Table Testing",
+"Error Guessing",
+"Boundary Value Analysis"
+],
+"correctAnswer": 2
+},
+{
+"id": 175,
+"topic": "Software Testing approaches",
+"question": "Testing an application's UI while simultaneously executing basic SQL queries to ensure the database updates correctly is a classic example of:",
+"options": [
+"White-box testing",
+"Black-box testing",
+"Grey-box testing",
+"Unit testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 176,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "The PDCA cycle, highly relevant to Quality Assurance, stands for:",
+"options": [
+"Plan, Design, Code, Assess",
+"Plan, Do, Check, Act",
+"Prevent, Detect, Correct, Analyze",
+"Process, Document, Control, Audit"
+],
+"correctAnswer": 1
+},
+{
+"id": 177,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "A key metric often monitored during Quality Control is:",
+"options": [
+"Employee training hours",
+"Defect density (number of defects per module)",
+"The cost of standardizing a process",
+"Requirement documentation length"
+],
+"correctAnswer": 1
+},
+{
+"id": 178,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of the following is considered the primary deliverable of Verification activities?",
+"options": [
+"A working software executable",
+"Reviewed and approved documents, designs, and code",
+"A compiled binary file",
+"A server hardware setup"
+],
+"correctAnswer": 1
+},
+{
+"id": 179,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Which of the following is considered the primary deliverable of Validation activities?",
+"options": [
+"A test plan document",
+"A project schedule",
+"The actual tested, working software product",
+"A list of coding standards"
+],
+"correctAnswer": 2
+},
+{
+"id": 180,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Quality Assurance activities typically span across:",
+"options": [
+"Only the testing phase",
+"Only the deployment phase",
+"The entire Software Development Life Cycle (SDLC)",
+"Only the requirements gathering phase"
+],
+"correctAnswer": 2
+},
+{
+"id": 181,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Quality Control activities are most heavily concentrated during which phase?",
+"options": [
+"Initial Project Planning",
+"Software Testing Phase",
+"Requirement Analysis",
+"Post-retirement Phase"
+],
+"correctAnswer": 1
+},
+{
+"id": 182,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "What is the primary purpose of a Quality Audit?",
+"options": [
+"To test the software for bugs",
+"To verify that the team is following defined processes and standards",
+"To write new source code",
+"To gather initial requirements from the client"
+],
+"correctAnswer": 1
+},
+{
+"id": 183,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Root Cause Analysis (RCA) is conducted primarily to:",
+"options": [
+"Assign blame to a specific developer",
+"Identify the fundamental reason a defect occurred to prevent it in the future",
+"Calculate the budget of the project",
+"Create marketing materials"
+],
+"correctAnswer": 1
+},
+{
+"id": 184,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Using static analysis tools to check code for standards compliance before it is even compiled is an act of:",
+"options": [
+"Defect Detection (QC)",
+"Defect Prevention (QA)",
+"Dynamic Testing",
+"Beta Testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 185,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "Defect leakage is a metric that indicates:",
+"options": [
+"How many defects were found by the QA team",
+"How many defects escaped the testing phase and were found by end-users",
+"How many defects were fixed by developers",
+"The number of test cases written"
+],
+"correctAnswer": 1
+},
+{
+"id": 186,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "In the 'Cost of Quality' model, spending money on training developers to write secure code is an example of:",
+"options": [
+"Internal Failure Cost",
+"External Failure Cost",
+"Prevention Cost",
+"Appraisal Cost"
+],
+"correctAnswer": 2
+},
+{
+"id": 187,
+"topic": "Quality Assurance Vs. Quality control",
+"question": "A commonly accepted definition of 'Quality' in software engineering is:",
+"options": [
+"Software that is extremely expensive",
+"Software that is completely free of any minor bugs",
+"Fitness for purpose and meeting customer requirements",
+"Software built using the newest technology"
+],
+"correctAnswer": 2
+},
+{
+"id": 188,
+"topic": "Types of Testing",
+"question": "Which of the following best describes the difference between Smoke testing and Sanity testing?",
+"options": [
+"Smoke is deep and exhaustive; Sanity is shallow",
+"Smoke checks basic build stability (broad); Sanity checks a specific fixed module deeply (narrow)",
+"Smoke is non-functional; Sanity is functional",
+"They are exactly the same thing"
+],
+"correctAnswer": 1
+},
+{
+"id": 189,
+"topic": "Types of Testing",
+"question": "Which testing type evaluates how easy the application is to learn, navigate, and understand for the end-user?",
+"options": [
+"Reliability testing",
+"Usability testing",
+"Security testing",
+"Load testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 190,
+"topic": "Types of Testing",
+"question": "Testing an application under a typical expected load for a continuous, extended period (e.g., 48 hours) is known as:",
+"options": [
+"Spike testing",
+"Soak (Endurance) testing",
+"Stress testing",
+"Volume testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 191,
+"topic": "Types of Testing",
+"question": "If an e-commerce website is tested to handle the sudden, massive traffic spike that occurs the moment a 'Black Friday' sale begins, this is called:",
+"options": [
+"Soak testing",
+"Spike testing",
+"Endurance testing",
+"Recovery testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 192,
+"topic": "Types of Testing",
+"question": "Testing performed on an already deployed live software system when it undergoes modifications, migrations, or patches is known as:",
+"options": [
+"Alpha testing",
+"Maintenance testing",
+"Installation testing",
+"Prototyping"
+],
+"correctAnswer": 1
+},
+{
+"id": 193,
+"topic": "Types of Testing",
+"question": "While Ad-hoc testing is completely unscripted and unplanned, Exploratory testing is:",
+"options": [
+"Also completely unplanned and undocumented",
+"A structured approach where learning, test design, and execution occur simultaneously",
+"Only done using automated tools",
+"Only done by clients"
+],
+"correctAnswer": 1
+},
+{
+"id": 194,
+"topic": "Types of Testing",
+"question": "Vulnerability scanning and SQL injection tests are activities performed during:",
+"options": [
+"Security testing",
+"Compatibility testing",
+"Performance testing",
+"Usability testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 195,
+"topic": "Types of Testing",
+"question": "Deploying two slightly different versions of a webpage to see which one generates more user clicks or sales is an example of:",
+"options": [
+"A/B Testing",
+"Alpha Testing",
+"Stress Testing",
+"Unit Testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 196,
+"topic": "Types of Testing",
+"question": "Testing to ensure that multiple users can access the same database record simultaneously without causing data corruption or deadlocks is called:",
+"options": [
+"Concurrency testing",
+"Usability testing",
+"Compatibility testing",
+"Localization testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 197,
+"topic": "Types of Testing",
+"question": "Alpha and Beta testing are both critical components of which broader testing phase?",
+"options": [
+"Integration Testing",
+"Unit Testing",
+"User Acceptance Testing (UAT)",
+"Component Testing"
+],
+"correctAnswer": 2
+},
+{
+"id": 198,
+"topic": "Types of Testing",
+"question": "Installation testing is sometimes also referred to as:",
+"options": [
+"Implementation testing",
+"Smoke testing",
+"Security testing",
+"Regression testing"
+],
+"correctAnswer": 0
+},
+{
+"id": 199,
+"topic": "Types of Testing",
+"question": "Checking if a new software version can successfully open and read files created by an older version of the same software is a form of:",
+"options": [
+"Forward compatibility testing",
+"Backward compatibility testing",
+"Network testing",
+"Stress testing"
+],
+"correctAnswer": 1
+},
+{
+"id": 200,
+"topic": "Types of Testing",
+"question": "Repeatedly and heavily testing a specific module with various random inputs to ensure it does not break is known as:",
+"options": [
+"Gorilla testing",
+"Sanity testing",
+"Integration testing",
+"Acceptance testing"
+],
+"correctAnswer": 0
+}
+]
