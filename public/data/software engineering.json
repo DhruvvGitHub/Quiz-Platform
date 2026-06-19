@@ -1,0 +1,303 @@
+[
+{"id":1,"topic":"Software Engineering Models","question":"Which software process model is also known as the classic life cycle model?","options":["Waterfall Model","Spiral Model","Agile Model","Prototyping Model"],"correctAnswer":0},
+{"id":2,"topic":"Software Engineering Models","question":"In the Waterfall model, which phase comes immediately after Requirement Analysis?","options":["Coding","System Design","Testing","Maintenance"],"correctAnswer":1},
+{"id":3,"topic":"Software Engineering Models","question":"Which model is best suited for projects with high risk and large budgets?","options":["Waterfall Model","Spiral Model","V-Model","Big Bang Model"],"correctAnswer":1},
+{"id":4,"topic":"Software Engineering Models","question":"The Spiral model was proposed by whom?","options":["Barry Boehm","Winston Royce","Ian Sommerville","Roger Pressman"],"correctAnswer":0},
+{"id":5,"topic":"Software Engineering Models","question":"Which model emphasizes risk analysis as a major activity in every cycle?","options":["Waterfall Model","Spiral Model","Incremental Model","RAD Model"],"correctAnswer":1},
+{"id":6,"topic":"Software Engineering Models","question":"RAD stands for?","options":["Rapid Application Development","Random Access Development","Rapid Algorithm Design","Real-time Application Design"],"correctAnswer":0},
+{"id":7,"topic":"Software Engineering Models","question":"Which model is most suitable when requirements are not clearly understood by the customer?","options":["Waterfall Model","Prototyping Model","V-Model","Big Bang Model"],"correctAnswer":1},
+{"id":8,"topic":"Software Engineering Models","question":"In the V-model, what does the 'V' primarily represent?","options":["Verification and Validation","Velocity of delivery","Variable design choices","Version control"],"correctAnswer":0},
+{"id":9,"topic":"Software Engineering Models","question":"Which model develops software in small, executable increments delivered over time?","options":["Incremental Model","Waterfall Model","V-Model","Big Bang Model"],"correctAnswer":0},
+{"id":10,"topic":"Software Engineering Models","question":"Which model has minimal planning and works best for very small projects with unclear requirements?","options":["Big Bang Model","Spiral Model","V-Model","RAD Model"],"correctAnswer":0},
+{"id":11,"topic":"Software Engineering Models","question":"Agile methodology is primarily based on which value?","options":["Iterative and incremental development","Strict sequential phases","No customer involvement","Heavy upfront documentation"],"correctAnswer":0},
+{"id":12,"topic":"Software Engineering Models","question":"Which of the following is NOT a phase typically found in the Waterfall model?","options":["Requirement Analysis","Design","Sprint Planning","Testing"],"correctAnswer":2},
+{"id":13,"topic":"Software Engineering Models","question":"A major drawback of the Waterfall model is that?","options":["There is no feedback path until the end of a phase","It is too flexible for any project","It cannot be documented","It requires no planning"],"correctAnswer":0},
+{"id":14,"topic":"Software Engineering Models","question":"Which model follows a 'build a little, test a little' approach?","options":["Incremental Model","Waterfall Model","Big Bang Model","V-Model"],"correctAnswer":0},
+{"id":15,"topic":"Software Engineering Models","question":"In Agile methodology, work is divided into small time-boxed iterations called?","options":["Sprints","Phases","Modules","Spirals"],"correctAnswer":0},
+{"id":16,"topic":"Software Engineering Models","question":"Which model is generally preferred for projects where requirements change frequently?","options":["Agile Model","Waterfall Model","V-Model","Big Bang Model"],"correctAnswer":0},
+{"id":17,"topic":"Software Engineering Models","question":"The Spiral model combines elements of which two approaches?","options":["Waterfall and Prototyping","Agile and RAD","V-Model and Big Bang","Incremental and RAD"],"correctAnswer":0},
+{"id":18,"topic":"Software Development Life Cycle","question":"SDLC stands for?","options":["Software Development Life Cycle","System Design Life Cycle","Software Design Logic Chart","System Development Logic Cycle"],"correctAnswer":0},
+{"id":19,"topic":"Software Development Life Cycle","question":"Which is generally the first phase of SDLC?","options":["Requirement Gathering and Analysis","Coding","Testing","Deployment"],"correctAnswer":0},
+{"id":20,"topic":"Software Development Life Cycle","question":"Which SDLC phase involves converting the design into executable code?","options":["Implementation/Coding","Planning","Testing","Maintenance"],"correctAnswer":0},
+{"id":21,"topic":"Software Development Life Cycle","question":"Which SDLC phase focuses on finding and fixing defects in the software?","options":["Testing","Planning","Design","Deployment"],"correctAnswer":0},
+{"id":22,"topic":"Software Development Life Cycle","question":"The final phase of SDLC, involving bug fixes and updates after release, is called?","options":["Maintenance","Testing","Coding","Analysis"],"correctAnswer":0},
+{"id":23,"topic":"Software Development Life Cycle","question":"Which document is typically produced at the end of the requirement analysis phase?","options":["Software Requirement Specification (SRS)","Test Plan","Source Code","Design Document"],"correctAnswer":0},
+{"id":24,"topic":"Software Development Life Cycle","question":"Which SDLC activity ensures the final software meets the customer's actual needs?","options":["Validation","Verification","Coding","Planning"],"correctAnswer":0},
+{"id":25,"topic":"Software Development Life Cycle","question":"The question 'Are we building the product right?' relates to which SDLC activity?","options":["Verification","Validation","Maintenance","Design"],"correctAnswer":0},
+{"id":26,"topic":"Software Development Life Cycle","question":"The question 'Are we building the right product?' relates to which SDLC activity?","options":["Validation","Verification","Coding","Testing"],"correctAnswer":0},
+{"id":27,"topic":"Software Development Life Cycle","question":"Unit testing is typically performed by whom?","options":["Developers","End users","Clients","Project managers"],"correctAnswer":0},
+{"id":28,"topic":"Software Development Life Cycle","question":"Which type of maintenance is performed to fix bugs discovered after release?","options":["Corrective Maintenance","Adaptive Maintenance","Perfective Maintenance","Preventive Maintenance"],"correctAnswer":0},
+{"id":29,"topic":"Software Development Life Cycle","question":"Maintenance performed to adapt software to a new operating environment is called?","options":["Adaptive Maintenance","Corrective Maintenance","Perfective Maintenance","Preventive Maintenance"],"correctAnswer":0},
+{"id":30,"topic":"Software Development Life Cycle","question":"Maintenance carried out to improve performance or add new features is called?","options":["Perfective Maintenance","Corrective Maintenance","Adaptive Maintenance","Preventive Maintenance"],"correctAnswer":0},
+{"id":31,"topic":"Software Development Life Cycle","question":"Which testing checks whether different modules work together correctly?","options":["Integration Testing","Unit Testing","Acceptance Testing","Regression Testing"],"correctAnswer":0},
+{"id":32,"topic":"Software Development Life Cycle","question":"Testing performed by the client to accept or reject the delivered system is called?","options":["Acceptance Testing","Unit Testing","Integration Testing","Stress Testing"],"correctAnswer":0},
+{"id":33,"topic":"Software Development Life Cycle","question":"Which SDLC activity is used to decide the feasibility of undertaking a project?","options":["Feasibility Study","Coding","Testing","Maintenance"],"correctAnswer":0},
+{"id":34,"topic":"Software Development Life Cycle","question":"Re-testing a system after changes to ensure existing functionality is not broken is called?","options":["Regression Testing","Unit Testing","Smoke Testing","Acceptance Testing"],"correctAnswer":0},
+{"id":35,"topic":"Requirement Engineering","question":"Requirements that define what specific actions the system must perform are called?","options":["Functional Requirements","Non-Functional Requirements","Domain Requirements","User Requirements"],"correctAnswer":0},
+{"id":36,"topic":"Requirement Engineering","question":"Requirements specifying performance, security, and reliability constraints are called?","options":["Non-Functional Requirements","Functional Requirements","Business Requirements","Domain Requirements"],"correctAnswer":0},
+{"id":37,"topic":"Requirement Engineering","question":"Which is generally the first step in the requirement engineering process?","options":["Requirement Elicitation","Requirement Validation","Requirement Documentation","Requirement Management"],"correctAnswer":0},
+{"id":38,"topic":"Requirement Engineering","question":"SRS stands for?","options":["Software Requirement Specification","System Requirement Sheet","Software Resource Specification","System Requirement Specification"],"correctAnswer":0},
+{"id":39,"topic":"Requirement Engineering","question":"Which technique involves direct interaction with stakeholders to gather requirements?","options":["Interview","Code Review","Unit Testing","Debugging"],"correctAnswer":0},
+{"id":40,"topic":"Requirement Engineering","question":"A requirement that can be objectively tested and confirmed is considered?","options":["Verifiable","Vague","Optional","Implicit"],"correctAnswer":0},
+{"id":41,"topic":"Requirement Engineering","question":"Which document acts as a contract between developers and the customer regarding what will be built?","options":["SRS","Test Plan","Use Case Diagram","Source Code"],"correctAnswer":0},
+{"id":42,"topic":"Requirement Engineering","question":"Checking whether the SRS correctly reflects what the customer actually needs is called?","options":["Requirement Validation","Requirement Elicitation","Requirement Analysis","Requirement Management"],"correctAnswer":0},
+{"id":43,"topic":"Requirement Engineering","question":"Which of these is a common requirement elicitation technique?","options":["Brainstorming","Compilation","Debugging","Code Optimization"],"correctAnswer":0},
+{"id":44,"topic":"Requirement Engineering","question":"A feasibility study mainly checks a project for which kind of viability?","options":["Technical, Economic, and Operational Viability","Source code quality","Database normalization level","UI color scheme"],"correctAnswer":0},
+{"id":45,"topic":"Requirement Engineering","question":"A requirement stating 'the system shall respond within 2 seconds' is an example of?","options":["Non-Functional Requirement","Functional Requirement","Domain Requirement","User Interface Requirement"],"correctAnswer":0},
+{"id":46,"topic":"Requirement Engineering","question":"Which diagram is used to visually represent system requirements through actors and use cases?","options":["Use Case Diagram","ER Diagram","Flowchart","Class Diagram"],"correctAnswer":0},
+{"id":47,"topic":"Requirement Engineering","question":"Ambiguity in requirements primarily harms which quality attribute of the SRS?","options":["Unambiguity","Portability","Maintainability","Reusability"],"correctAnswer":0},
+{"id":48,"topic":"Requirement Engineering","question":"Ranking requirements by importance and risk during requirement engineering is called?","options":["Requirement Prioritization","Requirement Elicitation","Coding","Testing"],"correctAnswer":0},
+{"id":49,"topic":"Requirement Engineering","question":"Which of the following is NOT considered a characteristic of a good SRS?","options":["Complete","Consistent","Ambiguous","Verifiable"],"correctAnswer":2},
+{"id":50,"topic":"Requirement Engineering","question":"Requirements that arise from the specific operating environment of the system are called?","options":["Domain Requirements","Functional Requirements","User Requirements","Non-Functional Requirements"],"correctAnswer":0},
+{"id":51,"topic":"Software Design tools","question":"DFD stands for?","options":["Data Flow Diagram","Design Flow Diagram","Data Format Diagram","Data Function Diagram"],"correctAnswer":0},
+{"id":52,"topic":"Software Design tools","question":"A DFD that shows the entire system as a single process interacting with external entities is called?","options":["Context Level (Level 0) DFD","Level 2 DFD","Detailed DFD","Class Diagram"],"correctAnswer":0},
+{"id":53,"topic":"Software Design tools","question":"Which symbol in a DFD typically represents a process?","options":["Circle/Oval","Rectangle","Arrow","Diamond"],"correctAnswer":0},
+{"id":54,"topic":"Software Design tools","question":"An ER diagram is primarily used to model what?","options":["Data and relationships between entities","Control flow of a program","Sequential process steps","User interface layout"],"correctAnswer":0},
+{"id":55,"topic":"Software Design tools","question":"In an ER diagram, a rectangle represents?","options":["Entity","Attribute","Relationship","Process"],"correctAnswer":0},
+{"id":56,"topic":"Software Design tools","question":"In an ER diagram, an oval/ellipse represents?","options":["Attribute","Entity","Relationship","Process"],"correctAnswer":0},
+{"id":57,"topic":"Software Design tools","question":"A diamond shape in an ER diagram represents?","options":["Relationship","Entity","Attribute","Process"],"correctAnswer":0},
+{"id":58,"topic":"Software Design tools","question":"Which tool represents the sequence of steps in an algorithm using standard symbols and arrows?","options":["Flowchart","ER Diagram","DFD","Class Diagram"],"correctAnswer":0},
+{"id":59,"topic":"Software Design tools","question":"Which diagram shows the modular structure of a program along with the calling relationship between modules?","options":["Structure Chart","ER Diagram","DFD","Use Case Diagram"],"correctAnswer":0},
+{"id":60,"topic":"Software Design tools","question":"UML stands for?","options":["Unified Modeling Language","Universal Modeling Language","Unified Module Language","United Modeling Logic"],"correctAnswer":0},
+{"id":61,"topic":"Software Design tools","question":"Which UML diagram represents the static structure of classes and their relationships?","options":["Class Diagram","Sequence Diagram","Activity Diagram","Use Case Diagram"],"correctAnswer":0},
+{"id":62,"topic":"Software Design tools","question":"Which UML diagram shows the interaction between objects arranged in time order?","options":["Sequence Diagram","Class Diagram","Deployment Diagram","Component Diagram"],"correctAnswer":0},
+{"id":63,"topic":"Software Design tools","question":"A decision table is mainly used to represent?","options":["Complex conditional logic","Data flow between processes","Class hierarchy","Network topology"],"correctAnswer":0},
+{"id":64,"topic":"Software Design tools","question":"Pseudocode is best described as?","options":["An informal, high-level description of an algorithm","A type of compiler","A formal programming language","A database query language"],"correctAnswer":0},
+{"id":65,"topic":"Software Design tools","question":"Which tool visualizes the movement of data through a system without showing control flow or decisions?","options":["DFD","Flowchart","Decision Table","Sequence Diagram"],"correctAnswer":0},
+{"id":66,"topic":"Software Design tools","question":"Which UML diagram is used to model the workflow of a business process?","options":["Activity Diagram","Class Diagram","Component Diagram","Deployment Diagram"],"correctAnswer":0},
+{"id":67,"topic":"Software Design Strategies","question":"In top-down design, the system is decomposed in which direction?","options":["From general to specific","From specific to general","In random order","From database to UI"],"correctAnswer":0},
+{"id":68,"topic":"Software Design Strategies","question":"In bottom-up design, development typically starts from?","options":["Basic/low-level modules, integrating upward","The main module, expanding downward","The database schema only","The final testing phase"],"correctAnswer":0},
+{"id":69,"topic":"Software Design Strategies","question":"Structured design primarily focuses on?","options":["Decomposing a system into modules","Object inheritance hierarchies","Encapsulation alone","Database normalization"],"correctAnswer":0},
+{"id":70,"topic":"Software Design Strategies","question":"Which design approach groups data together with the functions that operate on it?","options":["Object-Oriented Design","Function-Oriented Design","Structured Design","Top-Down Design"],"correctAnswer":0},
+{"id":71,"topic":"Software Design Strategies","question":"Function-oriented design primarily emphasizes which building block?","options":["Functions and procedures","Objects and classes","Data encapsulation","Inheritance hierarchies"],"correctAnswer":0},
+{"id":72,"topic":"Software Design Strategies","question":"A measure of how strongly the elements within a single module are related is called?","options":["Cohesion","Coupling","Modularity","Abstraction"],"correctAnswer":0},
+{"id":73,"topic":"Software Design Strategies","question":"A measure of the degree of interdependence between two modules is called?","options":["Coupling","Cohesion","Abstraction","Encapsulation"],"correctAnswer":0},
+{"id":74,"topic":"Software Design Strategies","question":"For a good software design, modules should generally have?","options":["High cohesion and low coupling","Low cohesion and high coupling","High cohesion and high coupling","Low cohesion and low coupling"],"correctAnswer":0},
+{"id":75,"topic":"Software Design Strategies","question":"Breaking a large software system into smaller, manageable, independent units is called?","options":["Modularity","Coupling","Inheritance","Polymorphism"],"correctAnswer":0},
+{"id":76,"topic":"Software Design Strategies","question":"Hiding internal implementation details while showing only essential functionality is called?","options":["Abstraction","Coupling","Cohesion","Modularity"],"correctAnswer":0},
+{"id":77,"topic":"Software Design Strategies","question":"Encapsulation in software design refers to?","options":["Bundling data and the methods that operate on it","Splitting modules randomly","Inheriting properties from a parent class","Hiding the design document from testers"],"correctAnswer":0},
+{"id":78,"topic":"Software Design Strategies","question":"Which type of coupling is generally considered the most desirable (loosest)?","options":["Data Coupling","Content Coupling","Common Coupling","Control Coupling"],"correctAnswer":0},
+{"id":79,"topic":"Software Design Strategies","question":"Which coupling type, where one module directly modifies another module's internal data, is considered the worst?","options":["Content Coupling","Data Coupling","Stamp Coupling","Control Coupling"],"correctAnswer":0},
+{"id":80,"topic":"Software Design Strategies","question":"Which cohesion type, grouping elements simply because they execute around the same time, is considered weak?","options":["Temporal Cohesion","Functional Cohesion","Sequential Cohesion","Logical Cohesion"],"correctAnswer":0},
+{"id":81,"topic":"Software Design Strategies","question":"The strongest and most desirable type of cohesion is?","options":["Functional Cohesion","Temporal Cohesion","Logical Cohesion","Coincidental Cohesion"],"correctAnswer":0},
+{"id":82,"topic":"Software Design Strategies","question":"Object-Oriented Design is primarily based on which key concepts?","options":["Objects, classes, inheritance, and polymorphism","Functions and procedures only","Flowcharts and decision tables","Data flow diagrams only"],"correctAnswer":0},
+{"id":83,"topic":"Software Design Strategies","question":"Which design strategy is generally more suitable for building large, reusable, and maintainable systems?","options":["Object-Oriented Design","Function-Oriented Design","Big Bang Design","Ad-hoc Design"],"correctAnswer":0},
+{"id":84,"topic":"Software Design levels","question":"The highest level of software design, defining the overall system structure, is called?","options":["Architectural Design","Detailed Design","Interface Design","Procedural Design"],"correctAnswer":0},
+{"id":85,"topic":"Software Design levels","question":"The design level that focuses on the internal logic of individual modules is called?","options":["Detailed (Low-Level) Design","Architectural Design","High-Level Design","Interface Design"],"correctAnswer":0},
+{"id":86,"topic":"Software Design levels","question":"Which design level deals with how different modules interact with each other and with the outside world?","options":["Interface Design","Procedural Design","Data Design","Architectural Design"],"correctAnswer":0},
+{"id":87,"topic":"Software Design levels","question":"The design level that focuses on the data structures used by the system is called?","options":["Data Design","Procedural Design","Interface Design","Architectural Design"],"correctAnswer":0},
+{"id":88,"topic":"Software Design levels","question":"High-Level Design (HLD) primarily describes?","options":["The overall system architecture and module relationships","Detailed pseudocode for each module","Variable naming conventions","User acceptance test scripts"],"correctAnswer":0},
+{"id":89,"topic":"Software Design levels","question":"Low-Level Design (LLD) is also commonly known as?","options":["Detailed Design","Architectural Design","Interface Design","Conceptual Design"],"correctAnswer":0},
+{"id":90,"topic":"Software Design levels","question":"Which design level specifies the step-by-step algorithmic detail of each module?","options":["Procedural Design","Architectural Design","Data Design","Interface Design"],"correctAnswer":0},
+{"id":91,"topic":"Software Design levels","question":"In the SDLC, the design phase typically comes immediately after which phase?","options":["Requirement Analysis","Coding","Testing","Maintenance"],"correctAnswer":0},
+{"id":92,"topic":"Software Design levels","question":"Which level of design defines the relationships between the major structural components of a program?","options":["Architectural Design","Detailed Design","Procedural Design","Data Design"],"correctAnswer":0},
+{"id":93,"topic":"Software Design levels","question":"User interface design is generally considered part of which broader design category?","options":["Interface Design","Data Design","Procedural Design","Architectural Design"],"correctAnswer":0},
+{"id":94,"topic":"Software Design levels","question":"A good architectural design should primarily support which qualities?","options":["Scalability and maintainability","Fast coding speed alone","Random module placement","Database queries alone"],"correctAnswer":0},
+{"id":95,"topic":"Software Design levels","question":"Which design level transforms the conceptual model into module-level specifications ready for coding?","options":["Detailed Design","Architectural Design","Requirement Analysis","Testing"],"correctAnswer":0},
+{"id":96,"topic":"Software Design levels","question":"The client-server architecture is an example of?","options":["An architectural design pattern","A procedural design technique","A data design technique","An interface design pattern"],"correctAnswer":0},
+{"id":97,"topic":"Software Design levels","question":"Which of the following is an example of a common architectural style?","options":["Layered Architecture","Bubble Sort","Linked List","Binary Search"],"correctAnswer":0},
+{"id":98,"topic":"Software Design levels","question":"The design level concerned with translating data flow diagrams into structure charts is primarily?","options":["Architectural Design","Procedural Design","Testing","Maintenance"],"correctAnswer":0},
+{"id":99,"topic":"Software Design levels","question":"Which design level is closest to and most directly translates into the actual source code?","options":["Detailed (Procedural) Design","Architectural Design","Conceptual Design","Requirement Design"],"correctAnswer":0},
+{"id":100,"topic":"Software Design levels","question":"The main overall goal of the software design phase is to?","options":["Transform requirements into a blueprint for construction","Write the final test cases only","Deploy the software to production","Gather customer requirements"],"correctAnswer":0},
+[
+
+{"id":101,"topic":"Software Engineering Models","question":"A prototype that is built only to clarify requirements and then discarded is called?","options":["Throwaway Prototype","Evolutionary Prototype","Final Product","Spiral Prototype"],"correctAnswer":0},
+
+{"id":102,"topic":"Software Engineering Models","question":"In Extreme Programming (XP), two developers writing code together at one workstation is called?","options":["Pair Programming","Solo Coding","Code Review","Sprint Planning"],"correctAnswer":0},
+
+{"id":103,"topic":"Software Engineering Models","question":"Which Agile framework uses roles such as Scrum Master, Product Owner, and Development Team?","options":["Scrum","Kanban","Waterfall","V-Model"],"correctAnswer":0},
+
+{"id":104,"topic":"Software Engineering Models","question":"In Scrum, the prioritized list of features and requirements to be developed is called the?","options":["Product Backlog","Sprint Plan","Test Plan","Use Case List"],"correctAnswer":0},
+
+{"id":105,"topic":"Software Engineering Models","question":"The short daily meeting in Scrum where team members discuss progress and blockers is called?","options":["Daily Stand-up (Daily Scrum)","Sprint Review","Sprint Retrospective","Backlog Grooming"],"correctAnswer":0},
+
+{"id":106,"topic":"Software Engineering Models","question":"Which Agile method uses a visual board with columns like 'To Do, In Progress, Done'?","options":["Kanban","Scrum","XP","Waterfall"],"correctAnswer":0},
+
+{"id":107,"topic":"Software Engineering Models","question":"In the V-Model, Unit Testing is typically validated against which corresponding design phase?","options":["Module/Detailed Design","System Design","Requirement Analysis","Acceptance Testing"],"correctAnswer":0},
+
+{"id":108,"topic":"Software Engineering Models","question":"Which model is a risk-driven approach that combines iterative development with systematic risk management?","options":["Spiral Model","Waterfall Model","Big Bang Model","V-Model"],"correctAnswer":0},
+
+{"id":109,"topic":"Software Engineering Models","question":"How does evolutionary prototyping differ from throwaway prototyping?","options":["It evolves and becomes part of the final system","It is always discarded after requirement gathering","It skips requirement analysis completely","It does not involve user feedback"],"correctAnswer":0},
+
+{"id":110,"topic":"Software Engineering Models","question":"Which model is most appropriate for component-based, reusable software development with tight schedules?","options":["RAD Model","Big Bang Model","Waterfall Model","V-Model"],"correctAnswer":0},
+
+{"id":111,"topic":"Software Engineering Models","question":"COCOMO is primarily used for what purpose in software engineering?","options":["Cost and effort estimation","Source code compilation","Database design","User interface testing"],"correctAnswer":0},
+
+{"id":112,"topic":"Software Engineering Models","question":"COCOMO stands for?","options":["Constructive Cost Model","Computerized Cost Model","Configurable Component Model","Combined Coding Model"],"correctAnswer":0},
+
+{"id":113,"topic":"Software Engineering Models","question":"According to the Agile Manifesto, customer collaboration is preferred over?","options":["Contract negotiation","Working software","Individuals and interactions","Responding to change"],"correctAnswer":0},
+
+{"id":114,"topic":"Software Engineering Models","question":"Compared to the Waterfall model, Agile typically delivers working software?","options":["Incrementally and frequently","Only once at the very end","Only after full documentation","Never until final testing"],"correctAnswer":0},
+
+{"id":115,"topic":"Software Engineering Models","question":"A key limitation of the RAD model is that it requires?","options":["Highly skilled developers and a modular system","No customer involvement at all","Very low budgets only","A completely sequential process"],"correctAnswer":0},
+
+{"id":116,"topic":"Software Engineering Models","question":"In which model is testing planned and performed at every stage corresponding to a development phase?","options":["V-Model","Big Bang Model","Waterfall Model","Prototyping Model"],"correctAnswer":0},
+
+{"id":117,"topic":"Software Engineering Models","question":"The Agile Manifesto values individuals and interactions over?","options":["Processes and tools","Working software","Customer collaboration","Responding to change"],"correctAnswer":0},
+
+{"id":118,"topic":"Software Development Life Cycle","question":"Which SDLC phase is responsible for converting the SRS into a detailed design document?","options":["Design Phase","Requirement Phase","Testing Phase","Maintenance Phase"],"correctAnswer":0},
+
+{"id":119,"topic":"Software Development Life Cycle","question":"Smoke testing is also commonly known as?","options":["Build Verification Testing","Stress Testing","Regression Testing","Acceptance Testing"],"correctAnswer":0},
+
+{"id":120,"topic":"Software Development Life Cycle","question":"White-box testing examines software based on?","options":["Internal code structure and logic","External functionality only","User documentation only","Marketing requirements"],"correctAnswer":0},
+
+{"id":121,"topic":"Software Development Life Cycle","question":"Black-box testing examines software based on?","options":["External functionality, without knowledge of internal code","Internal source code structure","Compiler optimization","Database schema only"],"correctAnswer":0},
+
+{"id":122,"topic":"Software Development Life Cycle","question":"Alpha testing is typically performed at?","options":["The developer's site by internal staff/select users","The customer's site after release","A third-party certification lab only","The hardware vendor's facility"],"correctAnswer":0},
+
+{"id":123,"topic":"Software Development Life Cycle","question":"Beta testing is typically performed at?","options":["The customer's/end-user's site","The developer's internal lab only","The compiler vendor's site","The hardware factory"],"correctAnswer":0},
+
+{"id":124,"topic":"Software Development Life Cycle","question":"Which testing checks how the system behaves under extreme or peak load conditions?","options":["Stress Testing","Unit Testing","Smoke Testing","Acceptance Testing"],"correctAnswer":0},
+
+{"id":125,"topic":"Software Development Life Cycle","question":"Which testing verifies non-functional aspects such as speed and load handling capacity?","options":["Performance Testing","Unit Testing","Black-box Testing","Smoke Testing"],"correctAnswer":0},
+
+{"id":126,"topic":"Software Development Life Cycle","question":"CMM stands for?","options":["Capability Maturity Model","Code Management Model","Customer Maturity Metric","Component Maturity Mapping"],"correctAnswer":0},
+
+{"id":127,"topic":"Software Development Life Cycle","question":"The highest level of the Capability Maturity Model (CMM) is?","options":["Level 5 - Optimizing","Level 1 - Initial","Level 2 - Repeatable","Level 3 - Defined"],"correctAnswer":0},
+
+{"id":128,"topic":"Software Development Life Cycle","question":"Which SDLC phase produces the actual deployable software product?","options":["Implementation/Coding","Planning","Requirement Analysis","Maintenance"],"correctAnswer":0},
+
+{"id":129,"topic":"Software Development Life Cycle","question":"Software walkthroughs and inspections are mainly part of which SDLC activity?","options":["Verification and Quality Review","Coding","Deployment","Requirement Elicitation"],"correctAnswer":0},
+
+{"id":130,"topic":"Software Development Life Cycle","question":"Which level of testing is generally performed first in the testing hierarchy?","options":["Unit Testing","Integration Testing","System Testing","Acceptance Testing"],"correctAnswer":0},
+
+{"id":131,"topic":"Software Development Life Cycle","question":"The process of identifying and removing errors from software is called?","options":["Debugging","Compiling","Refactoring","Deploying"],"correctAnswer":0},
+
+{"id":132,"topic":"Software Development Life Cycle","question":"Which document outlines the scope, approach, resources, and schedule for testing activities?","options":["Test Plan","SRS","Design Document","Use Case Document"],"correctAnswer":0},
+
+{"id":133,"topic":"Software Development Life Cycle","question":"Software deployment in the SDLC refers to?","options":["Installing and releasing the software for actual use","Writing the initial source code","Gathering customer requirements","Designing the database schema"],"correctAnswer":0},
+
+{"id":134,"topic":"Software Development Life Cycle","question":"ISO 9001 certification primarily relates to which aspect of software development?","options":["Quality management and assurance standards","Programming language syntax","Hardware compatibility","Marketing strategy"],"correctAnswer":0},
+
+{"id":135,"topic":"Requirement Engineering","question":"Which technique uses a moderated group discussion among stakeholders to quickly extract requirements?","options":["Joint Application Development (JAD)","Code Review","Regression Testing","Unit Testing"],"correctAnswer":0},
+
+{"id":136,"topic":"Requirement Engineering","question":"JAD stands for?","options":["Joint Application Development","Java Application Design","Joint Algorithm Development","Just Application Documentation"],"correctAnswer":0},
+
+{"id":137,"topic":"Requirement Engineering","question":"Which technique uses a written set of questions to gather requirements from a large group of stakeholders?","options":["Survey/Questionnaire","Pair Programming","Code Walkthrough","Smoke Testing"],"correctAnswer":0},
+
+{"id":138,"topic":"Requirement Engineering","question":"Which requirement engineering activity involves resolving conflicts among different stakeholder requirements?","options":["Requirement Negotiation","Requirement Elicitation","Coding","Regression Testing"],"correctAnswer":0},
+
+{"id":139,"topic":"Requirement Engineering","question":"'Requirement creep' (scope creep) refers to?","options":["Uncontrolled growth or addition of requirements during the project","A formally approved requirement change process","A type of functional requirement","A testing technique"],"correctAnswer":0},
+
+{"id":140,"topic":"Requirement Engineering","question":"A use case primarily describes?","options":["An interaction between an actor and the system to achieve a goal","The internal database schema","The source code structure","The hardware deployment layout"],"correctAnswer":0},
+
+{"id":141,"topic":"Requirement Engineering","question":"In requirement analysis, a 'constraint' refers to?","options":["A restriction or limitation on the design or implementation","An optional feature request","A type of test case","A coding standard only"],"correctAnswer":0},
+
+{"id":142,"topic":"Requirement Engineering","question":"Which requirement type specifies legal, regulatory, or compliance needs the system must satisfy?","options":["Domain/Regulatory Requirement","Functional Requirement","User Interface Requirement","Performance Requirement"],"correctAnswer":0},
+
+{"id":143,"topic":"Requirement Engineering","question":"A Requirement Traceability Matrix is primarily used to?","options":["Map and track requirements throughout the project lifecycle","Estimate project cost","Design the user interface","Schedule daily stand-up meetings"],"correctAnswer":0},
+
+{"id":144,"topic":"Requirement Engineering","question":"Using prototyping as a requirement elicitation technique mainly helps to?","options":["Clarify ambiguous or unclear requirements","Finalize the source code","Skip the testing phase","Replace the SRS document entirely"],"correctAnswer":0},
+
+{"id":145,"topic":"Requirement Engineering","question":"The technique of watching users perform their tasks to understand requirements is called?","options":["Observation","Brainstorming","Prototyping","Interviewing"],"correctAnswer":0},
+
+{"id":146,"topic":"Requirement Engineering","question":"Which characteristic of a good SRS ensures the requirements do not contradict one another?","options":["Consistency","Ambiguity","Volatility","Redundancy"],"correctAnswer":0},
+
+{"id":147,"topic":"Requirement Engineering","question":"A requirement that the system absolutely must support is best termed?","options":["Mandatory Requirement","Optional Requirement","Implicit Requirement","Deferred Requirement"],"correctAnswer":0},
+
+{"id":148,"topic":"Requirement Engineering","question":"Requirement engineering activities primarily occur during which SDLC phase?","options":["Requirement/Analysis Phase","Coding Phase","Testing Phase","Maintenance Phase"],"correctAnswer":0},
+
+{"id":149,"topic":"Requirement Engineering","question":"Which option best describes 'requirement analysis'?","options":["Refining and structuring elicited requirements into a clear, organized model","Writing the final source code","Deploying the software to production","Designing the user interface colors"],"correctAnswer":0},
+
+{"id":150,"topic":"Requirement Engineering","question":"A poorly written, ambiguous requirement most likely leads to?","options":["Misinterpretation and costly rework","Faster development with no issues","Automatic test case generation","Improved system performance"],"correctAnswer":0},
+
+{"id":151,"topic":"Software Design tools","question":"In a DFD, an open-ended rectangle or pair of parallel lines typically represents?","options":["Data Store","Process","External Entity","Data Flow"],"correctAnswer":0},
+
+{"id":152,"topic":"Software Design tools","question":"An arrow in a DFD primarily represents?","options":["Data Flow","Control Flow","A decision point","A loop"],"correctAnswer":0},
+
+{"id":153,"topic":"Software Design tools","question":"Which DFD level breaks the single system process from the Context level into sub-processes with more detail?","options":["Level 1 DFD","Context Level DFD","Class Diagram","Use Case Diagram"],"correctAnswer":0},
+
+{"id":154,"topic":"Software Design tools","question":"Which UML diagram shows the physical deployment of software artifacts on hardware nodes?","options":["Deployment Diagram","Class Diagram","Activity Diagram","Use Case Diagram"],"correctAnswer":0},
+
+{"id":155,"topic":"Software Design tools","question":"Which UML diagram represents the components of a system and their dependencies?","options":["Component Diagram","Sequence Diagram","State Diagram","Use Case Diagram"],"correctAnswer":0},
+
+{"id":156,"topic":"Software Design tools","question":"A state transition diagram primarily models?","options":["The different states of an object/system and transitions between them","The static structure of a database","The hierarchy of modules in a program","The deployment of hardware nodes"],"correctAnswer":0},
+
+{"id":157,"topic":"Software Design tools","question":"Which design tool is best suited to compactly represent repetitive conditional logic with multiple conditions and actions?","options":["Decision Table","Class Diagram","Deployment Diagram","ER Diagram"],"correctAnswer":0},
+
+{"id":158,"topic":"Software Design tools","question":"A data dictionary is primarily used to?","options":["Define and describe all data elements used in a system","Show the flow of control in a program","Represent hardware deployment","Track project schedules"],"correctAnswer":0},
+
+{"id":159,"topic":"Software Design tools","question":"In structured design, a structure chart primarily shows?","options":["Hierarchical relationship and data passed between modules","Database table relationships","Class inheritance hierarchies","Network topology of servers"],"correctAnswer":0},
+
+{"id":160,"topic":"Software Design tools","question":"Which symbol in a flowchart represents a decision point?","options":["Diamond","Oval","Rectangle","Parallelogram"],"correctAnswer":0},
+
+{"id":161,"topic":"Software Design tools","question":"Which symbol in a flowchart represents the start or end of a program?","options":["Oval/Terminal Symbol","Diamond","Rectangle","Arrow"],"correctAnswer":0},
+
+{"id":162,"topic":"Software Design tools","question":"In a UML class diagram, an association between two classes is generally represented by?","options":["A straight line connecting them","A dotted arrow","A diamond shape","A filled circle"],"correctAnswer":0},
+
+{"id":163,"topic":"Software Design tools","question":"Which UML diagram is best suited to model an object's states, events, and transitions over its lifetime?","options":["State Machine Diagram","Component Diagram","Deployment Diagram","Use Case Diagram"],"correctAnswer":0},
+
+{"id":164,"topic":"Software Design tools","question":"A UML class diagram typically shows which three sections for a class?","options":["Name, attributes, and operations","Name, database schema, and test cases","Name, deployment node, and packages","Name, actors, and use cases"],"correctAnswer":0},
+
+{"id":165,"topic":"Software Design tools","question":"A fundamental rule in DFD construction is that?","options":["Two data stores cannot be directly connected by a data flow","Every process must have exactly one input","Data flows must always be bidirectional","External entities cannot appear in a Context DFD"],"correctAnswer":0},
+
+{"id":166,"topic":"Software Design tools","question":"The main advantage of using design tools like DFDs and ER diagrams is to?","options":["Provide a clear, visual, and unambiguous representation of system design","Replace the need for an SRS document","Eliminate the need for testing","Automatically generate source code"],"correctAnswer":0},
+
+{"id":167,"topic":"Software Design Strategies","question":"Which strategy breaks an overall problem into smaller sub-problems that are solved and then combined?","options":["Divide and Conquer (Stepwise Refinement)","Big Bang Approach","Black-box Testing","Pair Programming"],"correctAnswer":0},
+
+{"id":168,"topic":"Software Design Strategies","question":"Stepwise refinement is most closely associated with which design approach?","options":["Top-Down Design","Bottom-Up Design","Object-Oriented Design","Big Bang Design"],"correctAnswer":0},
+
+{"id":169,"topic":"Software Design Strategies","question":"Which type of coupling occurs when modules share global data?","options":["Common Coupling","Data Coupling","Stamp Coupling","Content Coupling"],"correctAnswer":0},
+
+{"id":170,"topic":"Software Design Strategies","question":"Which type of coupling involves passing an entire data structure when only part of it is actually used by the receiving module?","options":["Stamp Coupling","Data Coupling","Control Coupling","Content Coupling"],"correctAnswer":0},
+
+{"id":171,"topic":"Software Design Strategies","question":"Logical cohesion occurs when module elements are grouped because they?","options":["Perform similar/related categories of tasks selected by a flag","Have absolutely no relationship at all","Pass output directly as input to each other","Operate on the same single data item"],"correctAnswer":0},
+
+{"id":172,"topic":"Software Design Strategies","question":"Coincidental cohesion is considered the weakest type of cohesion because the elements are grouped?","options":["With no meaningful relationship at all","Based on strong functional similarity","Based on shared input data","Based on execution sequence"],"correctAnswer":0},
+
+{"id":173,"topic":"Software Design Strategies","question":"Sequential cohesion exists when the output of one element in a module serves as?","options":["Input to the next element within the same module","Input to an unrelated external module","A global variable for the entire system","A database query parameter"],"correctAnswer":0},
+
+{"id":174,"topic":"Software Design Strategies","question":"Communicational cohesion occurs when elements within a module?","options":["Operate on the same input or output data","Are executed at the same time of day","Share no relationship at all","Belong to different unrelated functions"],"correctAnswer":0},
+
+{"id":175,"topic":"Software Design Strategies","question":"In object-oriented design, a child class acquiring properties and behaviors of a parent class is called?","options":["Inheritance","Polymorphism","Encapsulation","Abstraction"],"correctAnswer":0},
+
+{"id":176,"topic":"Software Design Strategies","question":"The ability of different objects to respond differently to the same method call is called?","options":["Polymorphism","Inheritance","Encapsulation","Coupling"],"correctAnswer":0},
+
+{"id":177,"topic":"Software Design Strategies","question":"Which design principle states that modules should depend on abstractions rather than concrete implementations?","options":["Dependency Inversion Principle","Single Responsibility Principle","Open-Closed Principle","Liskov Substitution Principle"],"correctAnswer":0},
+
+{"id":178,"topic":"Software Design Strategies","question":"Code reusability is best achieved through which design strategy?","options":["Object-Oriented Design with inheritance and modularity","Big Bang Design","Ad-hoc procedural coding","Coincidental module grouping"],"correctAnswer":0},
+
+{"id":179,"topic":"Software Design Strategies","question":"Information hiding in software design primarily aims to?","options":["Restrict access to a module's internal implementation details","Expose all variables globally","Increase coupling between modules","Remove the need for interfaces"],"correctAnswer":0},
+
+{"id":180,"topic":"Software Design Strategies","question":"Which design strategy allows the design to evolve gradually through repeated cycles of refinement?","options":["Iterative Design","Big Bang Design","Strict Waterfall Design","One-shot Design"],"correctAnswer":0},
+
+{"id":181,"topic":"Software Design Strategies","question":"A design strategy where the system is designed strictly around functions/transformations applied to data is called?","options":["Function-Oriented (Transform-Oriented) Design","Object-Oriented Design","Event-Driven Design","Component-Based Design"],"correctAnswer":0},
+
+{"id":182,"topic":"Software Design Strategies","question":"The Single Responsibility Principle states that a module or class should?","options":["Have only one reason to change","Handle as many responsibilities as possible","Always inherit from multiple parents","Avoid all forms of encapsulation"],"correctAnswer":0},
+
+{"id":183,"topic":"Software Design Strategies","question":"High coupling between modules generally leads to?","options":["Reduced maintainability and higher complexity","Improved independence between modules","Easier unit testing","Lower system complexity"],"correctAnswer":0},
+
+{"id":184,"topic":"Software Design levels","question":"Which design level is concerned with selecting an overall architectural style such as client-server or layered architecture?","options":["Architectural Design","Procedural Design","Interface Design","Data Design"],"correctAnswer":0},
+
+{"id":185,"topic":"Software Design levels","question":"Conceptual design primarily focuses on?","options":["Defining the overall idea/concept of the solution before detailed design","Writing detailed pseudocode","Choosing variable names","Performing final acceptance testing"],"correctAnswer":0},
+
+{"id":186,"topic":"Software Design levels","question":"Which level of design specifies the exact input/output formats and protocols between two modules?","options":["Interface Design","Architectural Design","Conceptual Design","Data Design"],"correctAnswer":0},
+
+{"id":187,"topic":"Software Design levels","question":"In the software design hierarchy, which level is generally addressed first?","options":["Architectural Design","Detailed Design","Procedural Design","Interface Design"],"correctAnswer":0},
+
+{"id":188,"topic":"Software Design levels","question":"The level of design responsible for choosing appropriate data structures like arrays, trees, or files is called?","options":["Data Design","Procedural Design","Interface Design","Architectural Design"],"correctAnswer":0},
+
+{"id":189,"topic":"Software Design levels","question":"Which design level is most concerned with usability and overall user experience?","options":["Interface Design","Data Design","Architectural Design","Procedural Design"],"correctAnswer":0},
+
+{"id":190,"topic":"Software Design levels","question":"A module specification document created during detailed design typically includes?","options":["The module's algorithm, inputs, outputs, and logic","The marketing plan for the product","The hardware procurement list","The final user acceptance sign-off"],"correctAnswer":0},
+
+{"id":191,"topic":"Software Design levels","question":"Which design level ensures that different subsystems can communicate correctly with each other?","options":["Interface Design","Data Design","Procedural Design","Conceptual Design"],"correctAnswer":0},
+
+{"id":192,"topic":"Software Design levels","question":"The output of the architectural design phase is generally represented using?","options":["Architecture diagrams/structure charts","Source code listings","Test case scripts","User manuals"],"correctAnswer":0},
+
+{"id":193,"topic":"Software Design levels","question":"Detailed design is also sometimes referred to as?","options":["Component-Level Design","System-Level Design","Conceptual Design","Requirement Design"],"correctAnswer":0},
+
+{"id":194,"topic":"Software Design levels","question":"Which level of design directly precedes the coding/implementation phase?","options":["Detailed (Low-Level) Design","Architectural Design","Requirement Analysis","Conceptual Design"],"correctAnswer":0},
+
+{"id":195,"topic":"Software Design levels","question":"A 'layered architecture' design organizes the system into?","options":["Hierarchical layers, each with specific responsibilities","A single monolithic module","Randomly distributed components","Only client-side modules"],"correctAnswer":0},
+
+{"id":196,"topic":"Software Design levels","question":"Which design level would define the detailed database schema for the system?","options":["Data Design","Interface Design","Procedural Design","Architectural Design"],"correctAnswer":0},
+
+{"id":197,"topic":"Software Design levels","question":"Procedural design is concerned with translating which artifact into algorithmic detail?","options":["Module specification","Use case diagram","ER diagram","Deployment diagram"],"correctAnswer":0},
+
+{"id":198,"topic":"Software Design levels","question":"The 'pipe and filter' style is an example of which level of design?","options":["Architectural Design","Procedural Design","Interface Design","Data Design"],"correctAnswer":0},
+
+{"id":199,"topic":"Software Design levels","question":"Which design level is most closely associated with reducing coupling between major subsystems?","options":["Architectural Design","Procedural Design","Data Design","Interface Design"],"correctAnswer":0},
+
+{"id":200,"topic":"Software Design levels","question":"Overall, software design levels progress from architectural to detailed in order to?","options":["Gradually add implementation detail while preserving overall structure","Skip requirement analysis entirely","Replace the need for testing","Finalize the project budget"],"correctAnswer":0}
+]
