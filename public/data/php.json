@@ -1,1952 +1,1202 @@
 [
-{
-"id": 1,
-"topic": "Object-Oriented PHP",
-"question": "Which keyword is used to instantiate an object in PHP?",
-"options": [
-"create",
-"make",
-"new",
-"object"
-],
-"correctAnswer": 2,
-"explanation": "The 'new' keyword is used to create an instance of a class in PHP."
-},
-{
-"id": 2,
-"topic": "Object-Oriented PHP",
-"question": "What is the correct syntax to declare a constructor method in a PHP class?",
-"options": [
-"function __construct()",
-"function class_name()",
-"function construct()",
-"function init()"
-],
-"correctAnswer": 0,
-"explanation": "In PHP 5 and later, constructors are declared using the magic method __construct()."
-},
-{
-"id": 3,
-"topic": "Object-Oriented PHP",
-"question": "Which visibility modifier restricts access to the class itself and its inherited classes?",
-"options": [
-"public",
-"private",
-"protected",
-"static"
-],
-"correctAnswer": 2,
-"explanation": "The 'protected' modifier allows access within the class itself and any child classes that inherit from it."
-},
-{
-"id": 4,
-"topic": "Object-Oriented PHP",
-"question": "Which keyword is used to inherit a class in PHP?",
-"options": [
-"implements",
-"extends",
-"inherits",
-"includes"
-],
-"correctAnswer": 1,
-"explanation": "The 'extends' keyword is used to inherit properties and methods from a parent class."
-},
-{
-"id": 5,
-"topic": "Object-Oriented PHP",
-"question": "What does the 'self' keyword refer to in PHP?",
-"options": [
-"The current object instance",
-"The parent class",
-"The current class itself",
-"The global namespace"
-],
-"correctAnswer": 2,
-"explanation": "'self' is used to access static properties and methods of the current class, not the object instance."
-},
-{
-"id": 6,
-"topic": "Object-Oriented PHP",
-"question": "Which operator is used to access static methods and properties in PHP?",
-"options": [
-"->",
-"=>",
-"::",
-"."
-],
-"correctAnswer": 2,
-"explanation": "The scope resolution operator (::) is used to access static, constant, and overridden properties or methods of a class."
-},
-{
-"id": 7,
-"topic": "Object-Oriented PHP",
-"question": "Can a class implement multiple interfaces in PHP?",
-"options": [
-"Yes, by separating them with commas",
-"Yes, using the 'extends' keyword",
-"No, PHP does not support multiple interfaces",
-"No, but it can inherit multiple classes"
-],
-"correctAnswer": 0,
-"explanation": "A PHP class can implement multiple interfaces by using a comma-separated list after the 'implements' keyword."
-},
-{
-"id": 8,
-"topic": "Object-Oriented PHP",
-"question": "Which feature in PHP allows code reuse without using traditional class inheritance?",
-"options": [
-"Interfaces",
-"Traits",
-"Namespaces",
-"Abstract classes"
-],
-"correctAnswer": 1,
-"explanation": "Traits are a mechanism for code reuse in single inheritance languages such as PHP, allowing developers to reuse sets of methods freely."
-},
-{
-"id": 9,
-"topic": "MVC Designs",
-"question": "What does MVC stand for?",
-"options": [
-"Model View Controller",
-"Module View Component",
-"Main View Controller",
-"Model Visual Controller"
-],
-"correctAnswer": 0,
-"explanation": "MVC stands for Model View Controller, a software design pattern for developing web applications."
-},
-{
-"id": 10,
-"topic": "MVC Designs",
-"question": "In the MVC pattern, which component is directly responsible for handling business logic and database interactions?",
-"options": [
-"View",
-"Model",
-"Controller",
-"Router"
-],
-"correctAnswer": 1,
-"explanation": "The Model component corresponds to all the data-related logic that the user works with, representing data and business rules."
-},
-{
-"id": 11,
-"topic": "MVC Designs",
-"question": "What is the primary role of the Controller in an MVC architecture?",
-"options": [
-"To store data in the database",
-"To render HTML to the browser",
-"To accept user input and coordinate between Model and View",
-"To handle CSS styling"
-],
-"correctAnswer": 2,
-"explanation": "The Controller acts as an interface between Model and View components to process all the business logic and incoming requests."
-},
-{
-"id": 12,
-"topic": "MVC Designs",
-"question": "Which component in MVC is responsible for displaying the user interface?",
-"options": [
-"Model",
-"Controller",
-"View",
-"Service"
-],
-"correctAnswer": 2,
-"explanation": "The View is used for all the UI logic of the application, representing the data fetched from the model."
-},
-{
-"id": 13,
-"topic": "MVC Designs",
-"question": "What is a major advantage of using the MVC design pattern?",
-"options": [
-"It merges all code into a single file for faster execution",
-"It eliminates the need for a database",
-"It enforces separation of concerns",
-"It makes CSS obsolete"
-],
-"correctAnswer": 2,
-"explanation": "MVC separates an application into three main components, enforcing a separation of concerns which makes the application easier to manage, scale, and test."
-},
-{
-"id": 14,
-"topic": "MySQL Database",
-"question": "Which SQL statement is used to extract data from a database?",
-"options": [
-"GET",
-"EXTRACT",
-"SELECT",
-"PULL"
-],
-"correctAnswer": 2,
-"explanation": "The SELECT statement is the standard SQL command used to query and retrieve data from a database."
-},
-{
-"id": 15,
-"topic": "MySQL Database",
-"question": "What is the purpose of a Primary Key in a MySQL table?",
-"options": [
-"To uniquely identify each record in a table",
-"To link two tables together",
-"To store passwords securely",
-"To sort the table automatically"
-],
-"correctAnswer": 0,
-"explanation": "A Primary Key is a specific choice of a minimal set of attributes that uniquely specify a tuple in a relation."
-},
-{
-"id": 16,
-"topic": "MySQL Database",
-"question": "Which PHP extension provides a data-access abstraction layer, allowing you to use the same functions to issue queries and fetch data regardless of the database you are using?",
-"options": [
-"mysqli",
-"mysql",
-"PDO",
-"ODBC"
-],
-"correctAnswer": 2,
-"explanation": "PDO (PHP Data Objects) provides a data-access abstraction layer, which means regardless of the database type, you use the same functions to execute queries."
-},
-{
-"id": 17,
-"topic": "MySQL Database",
-"question": "What is the best way to prevent SQL Injection attacks when using PHP with MySQL?",
-"options": [
-"Using double quotes for strings",
-"Using Prepared Statements",
-"Encoding the URL",
-"Disabling JavaScript"
-],
-"correctAnswer": 1,
-"explanation": "Prepared statements ensure that the parameters are treated strictly as data, not as executable code, effectively preventing SQL injection."
-},
-{
-"id": 18,
-"topic": "MySQL Database",
-"question": "Which SQL clause is used to filter records?",
-"options": [
-"ORDER BY",
-"GROUP BY",
-"WHERE",
-"FILTER"
-],
-"correctAnswer": 2,
-"explanation": "The WHERE clause is used to extract only those records that fulfill a specified condition."
-},
-{
-"id": 19,
-"topic": "MySQL Database",
-"question": "What does a LEFT JOIN do in MySQL?",
-"options": [
-"Returns all records from the right table, and matched records from the left",
-"Returns all records from the left table, and matched records from the right",
-"Returns only records that have matching values in both tables",
-"Combines all records from both tables"
-],
-"correctAnswer": 1,
-"explanation": "A LEFT JOIN returns all rows from the left table, even if there are no matches in the right table."
-},
-{
-"id": 20,
-"topic": "MySQL Database",
-"question": "Which command is used to remove a table entirely from a MySQL database?",
-"options": [
-"DELETE TABLE",
-"REMOVE TABLE",
-"TRUNCATE TABLE",
-"DROP TABLE"
-],
-"correctAnswer": 3,
-"explanation": "The DROP TABLE command deletes a table in the database, including all of its data and structure."
-},
-{
-"id": 21,
-"topic": "PHP Web Frameworks",
-"question": "What is the name of the built-in ORM (Object-Relational Mapper) used in Laravel?",
-"options": [
-"Doctrine",
-"Eloquent",
-"Propel",
-"ActiveRecord"
-],
-"correctAnswer": 1,
-"explanation": "Eloquent is the default ORM included with the Laravel framework, providing a beautiful, simple ActiveRecord implementation."
-},
-{
-"id": 22,
-"topic": "PHP Web Frameworks",
-"question": "What is the name of the templating engine included with Laravel?",
-"options": [
-"Twig",
-"Smarty",
-"Blade",
-"Volt"
-],
-"correctAnswer": 2,
-"explanation": "Blade is the simple, yet powerful templating engine provided with Laravel."
-},
-{
-"id": 23,
-"topic": "PHP Web Frameworks",
-"question": "Which command-line interface is included with Laravel to perform various tasks like database migrations and controller creation?",
-"options": [
-"Spark",
-"Artisan",
-"Tinker",
-"Composer"
-],
-"correctAnswer": 1,
-"explanation": "Artisan is the name of the command-line interface included with Laravel."
-},
-{
-"id": 24,
-"topic": "PHP Web Frameworks",
-"question": "In CodeIgniter, where does a request typically go first?",
-"options": [
-"The Model",
-"The View",
-"The Front Controller (index.php)",
-"The Database"
-],
-"correctAnswer": 2,
-"explanation": "In CodeIgniter, index.php serves as the front controller, initializing the base resources needed to run the application."
-},
-{
-"id": 25,
-"topic": "PHP Web Frameworks",
-"question": "What file is primarily used to define web routes in a standard Laravel 8+ application?",
-"options": [
-"routes/api.php",
-"config/routes.php",
-"routes/web.php",
-"app/Http/routes.php"
-],
-"correctAnswer": 2,
-"explanation": "The routes/web.php file is used to define routes for your web interface in Laravel."
-},
-{
-"id": 26,
-"topic": "PHP Web Frameworks",
-"question": "Which feature in Laravel acts as a bridge between a request and a response, often used for authenticating users?",
-"options": [
-"Middleware",
-"Migrations",
-"Service Providers",
-"Facades"
-],
-"correctAnswer": 0,
-"explanation": "Middleware provide a convenient mechanism for inspecting and filtering HTTP requests entering your application."
-},
-{
-"id": 27,
-"topic": "PHP Web Frameworks",
-"question": "How are database schemas managed over time in both Laravel and CodeIgniter?",
-"options": [
-"Through raw SQL dumps",
-"Through Database Migrations",
-"Through direct phpMyAdmin edits",
-"Through FTP uploads"
-],
-"correctAnswer": 1,
-"explanation": "Migrations are like version control for your database, allowing your team to define and share the application's database schema definition."
-},
-{
-"id": 28,
-"topic": "PHP Web Frameworks",
-"question": "What is Composer in the context of PHP frameworks like Laravel?",
-"options": [
-"A database server",
-"A dependency manager for PHP",
-"An IDE for writing PHP",
-"A front-end compilation tool"
-],
-"correctAnswer": 1,
-"explanation": "Composer is a tool for dependency management in PHP, allowing you to declare the libraries your project depends on and managing them."
-},
-{
-"id": 29,
-"topic": "PHP Web Frameworks",
-"question": "In CodeIgniter, how do you load a view file named 'header.php' inside a controller?",
-"options": [
-"include('header.php');",
-"return view('header');",
-"$this->load->view('header');",
-"View::make('header');"
-],
-"correctAnswer": 2,
-"explanation": "In CodeIgniter 3, views are loaded using the syntax: $this->load->view('file_name');"
-},
-{
-"id": 30,
-"topic": "PHP Web Frameworks",
-"question": "What security vulnerability does CSRF protection in frameworks like Laravel prevent?",
-"options": [
-"Cross-Site Scripting",
-"SQL Injection",
-"Cross-Site Request Forgery",
-"Denial of Service"
-],
-"correctAnswer": 2,
-"explanation": "CSRF tokens protect against Cross-Site Request Forgery, where malicious web applications execute actions on behalf of an authenticated user."
-},
-{
-"id": 31,
-"topic": "Front-End Technologies",
-"question": "Which of the following is a semantic element introduced in HTML5?",
-"options": [
-"",
-"",
-"",
-""
-],
-"correctAnswer": 2,
-"explanation": " is a semantic HTML5 element that clearly describes its meaning to both the browser and the developer."
-},
-{
-"id": 32,
-"topic": "Front-End Technologies",
-"question": "What is the correct document type declaration for HTML5?",
-"options": [
-"",
-"",
-"",
-""
-],
-"correctAnswer": 0,
-"explanation": " is the standard, simple doctype declaration used for HTML5."
-},
-{
-"id": 33,
-"topic": "Front-End Technologies",
-"question": "In CSS3, which symbol is used to target an element by its ID?",
-"options": [
-".",
-"#",
-"@",
-"&"
-],
-"correctAnswer": 1,
-"explanation": "The hash (#) symbol is used in CSS to define an ID selector."
-},
-{
-"id": 34,
-"topic": "Front-End Technologies",
-"question": "Which CSS3 property is used to create responsive grid layouts efficiently?",
-"options": [
-"display: flex;",
-"display: grid;",
-"float: left;",
-"position: relative;"
-],
-"correctAnswer": 1,
-"explanation": "The CSS Grid Layout Module (display: grid;) offers a grid-based layout system with rows and columns, designed for 2D layouts."
-},
-{
-"id": 35,
-"topic": "Front-End Technologies",
-"question": "In modern JavaScript (ES6+), which keyword is used to declare a variable that cannot be reassigned?",
-"options": [
-"var",
-"let",
-"const",
-"static"
-],
-"correctAnswer": 2,
-"explanation": "The 'const' keyword is used to declare variables whose values are never intended to change (block-scoped constants)."
-},
-{
-"id": 36,
-"topic": "Front-End Technologies",
-"question": "Which JavaScript method is used to select an HTML element by its class name?",
-"options": [
-"getElementById()",
-"querySelector()",
-"getElementsByClassName()",
-"All of the above"
-],
-"correctAnswer": 2,
-"explanation": "getElementsByClassName() returns a collection of all elements in the document with the specified class name. querySelector can also be used but is general purpose."
-},
-{
-"id": 37,
-"topic": "Front-End Technologies",
-"question": "What is the purpose of HTML5 Local Storage?",
-"options": [
-"To store data securely on the server",
-"To store large amounts of data locally in the user's browser without expiration",
-"To store session data that deletes when the browser closes",
-"To compile JavaScript code faster"
-],
-"correctAnswer": 1,
-"explanation": "Local Storage allows web applications to store data locally within the user's browser with no expiration date."
-},
-{
-"id": 38,
-"topic": "Front-End Technologies",
-"question": "What is the correct syntax for an ES6 Arrow Function?",
-"options": [
-"function() => {}",
-"() => {}",
-"=> function() {}",
-"function => {}"
-],
-"correctAnswer": 1,
-"explanation": "The () => {} syntax is the standard way to define an arrow function in ES6."
-},
-{
-"id": 39,
-"topic": "Front-End Technologies",
-"question": "Which CSS property is used to change the text color of an element?",
-"options": [
-"font-color",
-"text-color",
-"color",
-"fgcolor"
-],
-"correctAnswer": 2,
-"explanation": "The 'color' property is used in CSS to set the foreground color of text."
-},
-{
-"id": 40,
-"topic": "Front-End Technologies",
-"question": "Which JavaScript method is used to convert a JSON string into a JavaScript object?",
-"options": [
-"JSON.stringify()",
-"JSON.parse()",
-"JSON.object()",
-"JSON.convert()"
-],
-"correctAnswer": 1,
-"explanation": "JSON.parse() takes a JSON string and transforms it into a JavaScript object."
-},
-{
-"id": 41,
-"topic": "JavaScript Frameworks",
-"question": "In React, what are isolated, reusable pieces of UI called?",
-"options": [
-"Modules",
-"Templates",
-"Components",
-"Directives"
-],
-"correctAnswer": 2,
-"explanation": "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation."
-},
-{
-"id": 42,
-"topic": "JavaScript Frameworks",
-"question": "Which React Hook is used to manage state within a functional component?",
-"options": [
-"useEffect",
-"useContext",
-"useState",
-"useReducer"
-],
-"correctAnswer": 2,
-"explanation": "useState is a Hook that allows you to add React state to functional components."
-},
-{
-"id": 43,
-"topic": "JavaScript Frameworks",
-"question": "What concept does React use to improve rendering performance by minimizing direct DOM manipulation?",
-"options": [
-"Real DOM",
-"Shadow DOM",
-"Virtual DOM",
-"Document Object Model"
-],
-"correctAnswer": 2,
-"explanation": "React uses a Virtual DOM, which is a lightweight copy of the actual DOM, to calculate the minimum number of changes needed before updating the real DOM."
-},
-{
-"id": 44,
-"topic": "JavaScript Frameworks",
-"question": "Angular is primarily written in which superset of JavaScript?",
-"options": [
-"CoffeeScript",
-"TypeScript",
-"Dart",
-"Babel"
-],
-"correctAnswer": 1,
-"explanation": "Angular is built entirely in TypeScript, a strongly typed superset of JavaScript developed by Microsoft."
-},
-{
-"id": 45,
-"topic": "JavaScript Frameworks",
-"question": "In Angular, what type of directive is *ngIf?",
-"options": [
-"Attribute Directive",
-"Component Directive",
-"Structural Directive",
-"Event Directive"
-],
-"correctAnswer": 2,
-"explanation": "*ngIf is a structural directive that changes the structure of the DOM by adding or removing elements."
-},
-{
-"id": 46,
-"topic": "JavaScript Frameworks",
-"question": "Which syntax represents two-way data binding in Angular?",
-"options": [
-"{{ value }}",
-"[value]=data",
-"(click)=action()",
-"[(ngModel)]=data"
-],
-"correctAnswer": 3,
-"explanation": "The 'banana in a box' syntax [(ngModel)] is used in Angular for two-way data binding, combining property binding and event binding."
-},
-{
-"id": 47,
-"topic": "JavaScript Frameworks",
-"question": "What is Node.js built upon?",
-"options": [
-"SpiderMonkey Engine",
-"Chrome's V8 JavaScript Engine",
-"Mozilla Rhino",
-"Java Virtual Machine"
-],
-"correctAnswer": 1,
-"explanation": "Node.js is a JavaScript runtime built on Chrome's high-performance V8 JavaScript engine."
-},
-{
-"id": 48,
-"topic": "JavaScript Frameworks",
-"question": "What does 'npm' stand for in the Node.js ecosystem?",
-"options": [
-"Node Package Manager",
-"Node Project Module",
-"New Program Manager",
-"Network Protocol Manager"
-],
-"correctAnswer": 0,
-"explanation": "NPM stands for Node Package Manager, which is the default package manager for the Node.js JavaScript runtime environment."
-},
-{
-"id": 49,
-"topic": "JavaScript Frameworks",
-"question": "What is Express.js?",
-"options": [
-"A database system for Node",
-"A front-end framework like React",
-"A fast, unopinionated, minimalist web framework for Node.js",
-"A package manager for JavaScript"
-],
-"correctAnswer": 2,
-"explanation": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
-},
-{
-"id": 50,
-"topic": "JavaScript Frameworks",
-"question": "Node.js handles concurrent connections effectively due to its:",
-"options": [
-"Multi-threaded blocking architecture",
-"Single-threaded non-blocking event loop",
-"Synchronous execution model",
-"Dependence on Apache server"
-],
-"correctAnswer": 1,
-"explanation": "Node.js uses an event-driven, non-blocking I/O model (single-threaded event loop) that makes it lightweight and efficient for handling concurrent connections."
-},
-{
-"id": 51,
-"topic": "Object-Oriented PHP",
-"question": "Which magic method is triggered when invoking inaccessible methods in an object context?",
-"options": [
-"__invoke()",
-"__call()",
-"__get()",
-"__set()"
-],
-"correctAnswer": 1,
-"explanation": "The __call() magic method is used to handle calls to undefined or inaccessible methods in an object."
-},
-{
-"id": 52,
-"topic": "Object-Oriented PHP",
-"question": "How do you enforce that a child class must implement specific methods from a parent class?",
-"options": [
-"By using final classes",
-"By using traits",
-"By using abstract classes or interfaces",
-"By using static methods"
-],
-"correctAnswer": 2,
-"explanation": "Abstract classes and interfaces force child classes to implement specifically defined abstract methods."
-},
-{
-"id": 53,
-"topic": "Object-Oriented PHP",
-"question": "What is the purpose of the 'final' keyword in PHP?",
-"options": [
-"To prevent a class from being inherited or a method from being overridden",
-"To declare a constant variable",
-"To mark the end of a class file",
-"To optimize database connections"
-],
-"correctAnswer": 0,
-"explanation": "The 'final' keyword prevents child classes from overriding a method or inheriting a class entirely."
-},
-{
-"id": 54,
-"topic": "Object-Oriented PHP",
-"question": "Which of the following represents Late Static Binding in PHP?",
-"options": [
-"self::",
-"parent::",
-"static::",
-"this->"
-],
-"correctAnswer": 2,
-"explanation": "The 'static::' keyword is used for late static binding, referencing the class that was initially called at runtime."
-},
-{
-"id": 55,
-"topic": "Object-Oriented PHP",
-"question": "How do you check if an object is an instance of a specific class in PHP?",
-"options": [
-"is_object()",
-"typeof",
-"instanceof",
-"class_exists()"
-],
-"correctAnswer": 2,
-"explanation": "The 'instanceof' operator is used to determine whether a PHP variable is an instantiated object of a certain class."
-},
-{
-"id": 56,
-"topic": "Object-Oriented PHP",
-"question": "What is a characteristic of PHP interfaces?",
-"options": [
-"They can contain method bodies.",
-"They can declare properties.",
-"All methods declared in an interface must be public.",
-"A class can only implement one interface."
-],
-"correctAnswer": 2,
-"explanation": "Interfaces can only contain method signatures, and all methods declared in an interface must be public."
-},
-{
-"id": 57,
-"topic": "Object-Oriented PHP",
-"question": "Which method is called automatically when an object is destroyed in PHP?",
-"options": [
-"__construct()",
-"__destruct()",
-"__delete()",
-"__sleep()"
-],
-"correctAnswer": 1,
-"explanation": "The __destruct() magic method is called when there are no other references to a certain object, or during shutdown."
-},
-{
-"id": 58,
-"topic": "Object-Oriented PHP",
-"question": "What is namespace in PHP used for?",
-"options": [
-"To format HTML output",
-"To encapsulate items and prevent name collisions",
-"To handle HTTP requests",
-"To encrypt passwords"
-],
-"correctAnswer": 1,
-"explanation": "Namespaces are designed to solve the problem of name collisions between code you create and internal PHP classes/functions/constants."
-},
-{
-"id": 59,
-"topic": "Object-Oriented PHP",
-"question": "What does the '__toString()' method do?",
-"options": [
-"Converts an array to a string",
-"Decides how the object will react when treated like a string",
-"Serializes the object for database storage",
-"Parses a string into an object"
-],
-"correctAnswer": 1,
-"explanation": "The __toString() method allows a class to decide how it will react when it is treated like a string, such as using 'echo $object;'."
-},
-{
-"id": 60,
-"topic": "Object-Oriented PHP",
-"question": "Which feature allows declaring the expected data types for function arguments?",
-"options": [
-"Data formatting",
-"Type casting",
-"Type hinting / Type declarations",
-"Strict mode"
-],
-"correctAnswer": 2,
-"explanation": "Type declarations (formerly type hinting) allow you to specify the expected data type of an argument in a function declaration."
-},
-{
-"id": 61,
-"topic": "Object-Oriented PHP",
-"question": "How are traits included inside a PHP class?",
-"options": [
-"implements TraitName;",
-"extends TraitName;",
-"use TraitName;",
-"require TraitName;"
-],
-"correctAnswer": 2,
-"explanation": "Traits are included within a class using the 'use' keyword."
-},
-{
-"id": 62,
-"topic": "Object-Oriented PHP",
-"question": "Can an abstract class be instantiated directly?",
-"options": [
-"Yes, using the new keyword.",
-"Yes, but only if it has no abstract methods.",
-"No, abstract classes cannot be instantiated.",
-"No, unless it implements an interface."
-],
-"correctAnswer": 2,
-"explanation": "Abstract classes are designed to be base classes and cannot be instantiated directly."
-},
-{
-"id": 63,
-"topic": "Object-Oriented PHP",
-"question": "What is method overriding in PHP?",
-"options": [
-"Creating multiple methods with the same name but different parameters.",
-"Redefining a parent class's method in a child class.",
-"Hiding a method using the private keyword.",
-"Executing a method outside its class scope."
-],
-"correctAnswer": 1,
-"explanation": "Method overriding occurs when a child class provides a specific implementation for a method already defined in its parent class."
-},
-{
-"id": 64,
-"topic": "Object-Oriented PHP",
-"question": "What is the purpose of the 'clone' keyword in PHP?",
-"options": [
-"To copy a file",
-"To create a shallow copy of an object",
-"To extend a class",
-"To duplicate a database record"
-],
-"correctAnswer": 1,
-"explanation": "The 'clone' keyword creates a shallow copy of an object, triggering the __clone() magic method if defined."
-},
-{
-"id": 65,
-"topic": "Object-Oriented PHP",
-"question": "Which design pattern restricts the instantiation of a class to one single object?",
-"options": [
-"Factory Pattern",
-"Observer Pattern",
-"Singleton Pattern",
-"MVC Pattern"
-],
-"correctAnswer": 2,
-"explanation": "The Singleton pattern restricts a class from having more than one instance and provides a global point of access to it."
-},
-{
-"id": 66,
-"topic": "MVC Designs",
-"question": "In MVC, where should form validation logic ideally be placed?",
-"options": [
-"In the View",
-"In the Database",
-"In the Model or a dedicated Form Request class",
-"In the Router"
-],
-"correctAnswer": 2,
-"explanation": "Validation logic belongs to the Model or dedicated request classes to keep Controllers thin and Views purely for display."
-},
-{
-"id": 67,
-"topic": "MVC Designs",
-"question": "What is a 'Fat Model, Skinny Controller' approach?",
-"options": [
-"Keeping business logic in the model and only routing logic in the controller.",
-"Putting all database queries in the controller.",
-"Using large views and small models.",
-"Bypassing the controller entirely."
-],
-"correctAnswer": 0,
-"explanation": "This best practice suggests keeping business logic inside Models, making them 'fat', while Controllers remain 'skinny' by only handling request/response flow."
-},
-{
-"id": 68,
-"topic": "MVC Designs",
-"question": "What is the role of a Router in modern MVC frameworks?",
-"options": [
-"To design the UI layout",
-"To map an incoming URL to a specific Controller method",
-"To connect to the database",
-"To sanitize user input"
-],
-"correctAnswer": 1,
-"explanation": "The Router acts as a traffic cop, mapping incoming HTTP requests (URLs) to the appropriate Controller actions."
-},
-{
-"id": 69,
-"topic": "MVC Designs",
-"question": "Which of the following is NOT a benefit of the MVC architecture?",
-"options": [
-"Code reusability",
-"Parallel development by multiple team members",
-"Tighter coupling between components",
-"Easier testing and maintenance"
-],
-"correctAnswer": 2,
-"explanation": "MVC promotes loose coupling, not tighter coupling, by separating data, business logic, and presentation."
-},
-{
-"id": 70,
-"topic": "MVC Designs",
-"question": "In a strict MVC setup, should the View directly query the Database?",
-"options": [
-"Yes, for performance reasons.",
-"Yes, if the data is read-only.",
-"No, the View should receive data from the Controller.",
-"No, the View should query the Router."
-],
-"correctAnswer": 2,
-"explanation": "Views should be passive and only display data passed to them by the Controller. Direct database access violates the separation of concerns."
-},
-{
-"id": 71,
-"topic": "MVC Designs",
-"question": "What does HMVC stand for?",
-"options": [
-"Hyper Model View Controller",
-"Hierarchical Model View Controller",
-"Hybrid Model View Controller",
-"Hosted Model View Controller"
-],
-"correctAnswer": 1,
-"explanation": "HMVC stands for Hierarchical Model View Controller, an evolution of MVC that allows for modular, independent MVC triads."
-},
-{
-"id": 72,
-"topic": "MVC Designs",
-"question": "In an MVC application, where do CSS and JavaScript files typically reside?",
-"options": [
-"Inside the Model folder",
-"Inside the Controller folder",
-"In a public or assets directory accessible to the View",
-"In the database"
-],
-"correctAnswer": 2,
-"explanation": "Static assets like CSS and JS are stored in a public directory so they can be directly served to the client browser and referenced by Views."
-},
-{
-"id": 73,
-"topic": "MVC Designs",
-"question": "What is the Observer pattern often used for in an MVC architecture?",
-"options": [
-"To design database tables",
-"To allow the View to automatically update when the Model changes",
-"To write CSS selectors",
-"To route HTTP requests"
-],
-"correctAnswer": 1,
-"explanation": "The Observer pattern is used to establish a one-to-many relationship, often so Views are notified and updated automatically when the Model's state changes."
-},
-{
-"id": 74,
-"topic": "MVC Designs",
-"question": "Which component formats the data into a JSON response in an API built with MVC?",
-"options": [
-"The Database",
-"The Model",
-"The Controller or a dedicated View/Resource layer",
-"The HTML template"
-],
-"correctAnswer": 2,
-"explanation": "The Controller typically fetches data from the Model and uses a View or Resource class to format it as JSON before sending the response."
-},
-{
-"id": 75,
-"topic": "MVC Designs",
-"question": "What is a disadvantage of MVC for very small, simple applications?",
-"options": [
-"It prevents the use of JavaScript.",
-"It introduces unnecessary complexity and overhead.",
-"It makes the application run infinitely slower.",
-"It requires a NoSQL database."
-],
-"correctAnswer": 1,
-"explanation": "For tiny applications, the structured directories and strict separation of MVC can be over-engineered, adding unnecessary overhead."
-},
-{
-"id": 76,
-"topic": "MySQL Database",
-"question": "What is the difference between INNER JOIN and LEFT JOIN?",
-"options": [
-"INNER JOIN returns all rows, LEFT JOIN returns only matching rows.",
-"INNER JOIN returns only matching rows in both tables; LEFT JOIN returns all rows from the left table and matched rows from the right.",
-"There is no difference.",
-"LEFT JOIN is faster than INNER JOIN."
-],
-"correctAnswer": 1,
-"explanation": "INNER JOIN requires a match in both tables, whereas LEFT JOIN guarantees all rows from the left table are returned, filling nulls if no match exists on the right."
-},
-{
-"id": 77,
-"topic": "MySQL Database",
-"question": "Which MySQL engine supports foreign key constraints and transactions?",
-"options": [
-"MyISAM",
-"MEMORY",
-"CSV",
-"InnoDB"
-],
-"correctAnswer": 3,
-"explanation": "InnoDB is the default MySQL storage engine that supports ACID transactions, row-level locking, and foreign keys."
-},
-{
-"id": 78,
-"topic": "MySQL Database",
-"question": "What does the ACID acronym stand for in database transactions?",
-"options": [
-"Atomicity, Consistency, Isolation, Durability",
-"Accuracy, Completeness, Integrity, Dependability",
-"Active, Consistent, Isolated, Distributed",
-"Automated, Concurrent, Indexed, Dynamic"
-],
-"correctAnswer": 0,
-"explanation": "ACID properties ensure that database transactions are processed reliably."
-},
-{
-"id": 79,
-"topic": "MySQL Database",
-"question": "Which SQL statement is used to modify existing data in a table?",
-"options": [
-"ALTER",
-"MODIFY",
-"UPDATE",
-"CHANGE"
-],
-"correctAnswer": 2,
-"explanation": "The UPDATE statement is used to modify the existing records in a table."
-},
-{
-"id": 80,
-"topic": "MySQL Database",
-"question": "What is an index used for in MySQL?",
-"options": [
-"To automatically generate primary keys.",
-"To speed up the retrieval of rows from a table.",
-"To encrypt table data.",
-"To link two databases together."
-],
-"correctAnswer": 1,
-"explanation": "Indexes are special lookup tables that the database search engine can use to speed up data retrieval."
-},
-{
-"id": 81,
-"topic": "MySQL Database",
-"question": "What is the difference between DELETE and TRUNCATE?",
-"options": [
-"DELETE is a DDL command; TRUNCATE is a DML command.",
-"DELETE removes data row by row and can be rolled back; TRUNCATE removes all data quickly and resets auto-increment, and usually cannot be rolled back.",
-"TRUNCATE deletes the table structure; DELETE only removes data.",
-"There is no difference; they are aliases."
-],
-"correctAnswer": 1,
-"explanation": "DELETE allows WHERE clauses and row-by-row deletion, while TRUNCATE is a faster operation that drops and recreates the table, resetting identity columns."
-},
-{
-"id": 82,
-"topic": "MySQL Database",
-"question": "Which clause is used in conjunction with aggregate functions to group the result set?",
-"options": [
-"ORDER BY",
-"GROUP BY",
-"SORT BY",
-"FILTER BY"
-],
-"correctAnswer": 1,
-"explanation": "The GROUP BY statement groups rows that have the same values into summary rows, often used with COUNT(), MAX(), MIN(), SUM(), AVG()."
-},
-{
-"id": 83,
-"topic": "MySQL Database",
-"question": "How do you filter the results of a GROUP BY query in MySQL?",
-"options": [
-"Using the WHERE clause",
-"Using the HAVING clause",
-"Using the FILTER clause",
-"Using the LIKE clause"
-],
-"correctAnswer": 1,
-"explanation": "The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions."
-},
-{
-"id": 84,
-"topic": "MySQL Database",
-"question": "What is a database View?",
-"options": [
-"A graphical user interface for the database.",
-"A backup file of the database.",
-"A virtual table based on the result-set of an SQL statement.",
-"A physical copy of a table."
-],
-"correctAnswer": 2,
-"explanation": "A view is a virtual table whose contents are defined by a query, simplifying complex queries and enhancing security."
-},
-{
-"id": 85,
-"topic": "MySQL Database",
-"question": "Which constraint ensures that a column cannot have a NULL value?",
-"options": [
-"UNIQUE",
-"PRIMARY KEY",
-"NOT NULL",
-"CHECK"
-],
-"correctAnswer": 2,
-"explanation": "The NOT NULL constraint enforces a column to not accept NULL values, ensuring a field always contains data."
-},
-{
-"id": 86,
-"topic": "MySQL Database",
-"question": "What does normalization do?",
-"options": [
-"Increases data redundancy.",
-"Organizes data to reduce redundancy and improve data integrity.",
-"Combines multiple databases into one.",
-"Encrypts sensitive database columns."
-],
-"correctAnswer": 1,
-"explanation": "Normalization is the process of structuring a relational database to reduce data redundancy and improve data integrity."
-},
-{
-"id": 87,
-"topic": "MySQL Database",
-"question": "What is the purpose of the 'LIKE' operator?",
-"options": [
-"To compare two tables for exact matches.",
-"To search for a specified pattern in a column.",
-"To join tables with similar names.",
-"To favorite a record in the database."
-],
-"correctAnswer": 1,
-"explanation": "The LIKE operator is used in a WHERE clause to search for a specified pattern in a column using wildcards like '%' and '_'."
-},
-{
-"id": 88,
-"topic": "MySQL Database",
-"question": "Which MySQL function returns the current date and time?",
-"options": [
-"GETDATE()",
-"NOW()",
-"CURTIME()",
-"DATETIME()"
-],
-"correctAnswer": 1,
-"explanation": "The NOW() function returns the current date and time in 'YYYY-MM-DD HH:MM:SS' format in MySQL."
-},
-{
-"id": 89,
-"topic": "MySQL Database",
-"question": "What is a Stored Procedure?",
-"options": [
-"A log file storing database errors.",
-"A prepared SQL code that you can save, so the code can be reused over and over again.",
-"A method to automatically backup databases.",
-"A function that triggers when a row is deleted."
-],
-"correctAnswer": 1,
-"explanation": "Stored procedures are precompiled collections of SQL statements stored under a name and processed as a unit."
-},
-{
-"id": 90,
-"topic": "MySQL Database",
-"question": "What is the maximum number of primary keys a table can have in MySQL?",
-"options": [
-"Unlimited",
-"Two",
-"One",
-"Depends on the columns"
-],
-"correctAnswer": 2,
-"explanation": "A database table can have only one primary key, although it can consist of single or multiple columns (composite key)."
-},
-{
-"id": 91,
-"topic": "PHP Web Frameworks",
-"question": "In Laravel, what is the purpose of the '.env' file?",
-"options": [
-"To store HTML views.",
-"To configure environment-specific variables like database credentials.",
-"To list Composer dependencies.",
-"To define routing rules."
-],
-"correctAnswer": 1,
-"explanation": "The .env file stores configuration settings specific to the environment (local, production, etc.), keeping sensitive data out of version control."
-},
-{
-"id": 92,
-"topic": "PHP Web Frameworks",
-"question": "Which architectural pattern does Laravel's Eloquent implement?",
-"options": [
-"Data Mapper",
-"Active Record",
-"Table Data Gateway",
-"Repository Pattern"
-],
-"correctAnswer": 1,
-"explanation": "Eloquent is an object-relational mapper (ORM) that implements the Active Record pattern, where models directly represent database tables."
-},
-{
-"id": 93,
-"topic": "PHP Web Frameworks",
-"question": "What command is used to create a new controller in Laravel?",
-"options": [
-"php artisan make:controller",
-"php create controller",
-"composer require controller",
-"laravel new controller"
-],
-"correctAnswer": 0,
-"explanation": "The 'php artisan make:controller ControllerName' command generates a new controller class in Laravel."
-},
-{
-"id": 94,
-"topic": "PHP Web Frameworks",
-"question": "In CodeIgniter 3, how do you load a database library?",
-"options": [
-"$this->load->db();",
-"$this->load->database();",
-"Database::load();",
-"$this->db->init();"
-],
-"correctAnswer": 1,
-"explanation": "In CodeIgniter 3, you load the database class using $this->load->database();"
-},
-{
-"id": 95,
-"topic": "PHP Web Frameworks",
-"question": "What is the primary difference between libraries and helpers in CodeIgniter?",
-"options": [
-"Helpers are procedural functions, whereas libraries are object-oriented classes.",
-"Libraries are for the database; helpers are for views.",
-"Helpers require instantiation, libraries do not.",
-"There is no difference."
-],
-"correctAnswer": 0,
-"explanation": "Helpers in CodeIgniter are collections of standalone procedural functions, while libraries are classes that require instantiation."
-},
-{
-"id": 96,
-"topic": "PHP Web Frameworks",
-"question": "In Laravel, how do you pass data from a controller to a view?",
-"options": [
-"Using global variables.",
-"Passing an array as the second argument to the view() helper.",
-"Using the $_POST array.",
-"Saving it to a text file."
-],
-"correctAnswer": 1,
-"explanation": "Data is typically passed to a view in Laravel as an associative array passed as the second argument to the view() function, or using the with() method."
-},
-{
-"id": 97,
-"topic": "PHP Web Frameworks",
-"question": "What is a Service Provider in Laravel?",
-"options": [
-"A third-party API service.",
-"A class that bootstraps and registers application services into the service container.",
-"A web hosting provider.",
-"A database connection manager."
-],
-"correctAnswer": 1,
-"explanation": "Service providers are the central place of all Laravel application bootstrapping, registering things like bindings, event listeners, middleware, and routes."
-},
-{
-"id": 98,
-"topic": "PHP Web Frameworks",
-"question": "How do you protect routes in Laravel to ensure only authenticated users can access them?",
-"options": [
-"By placing them in a secure folder.",
-"By using the 'auth' middleware.",
-"By encrypting the URL.",
-"By checking the session manually in every view."
-],
-"correctAnswer": 1,
-"explanation": "Laravel provides an 'auth' middleware that verifies the user is authenticated before allowing the request to proceed."
-},
-{
-"id": 99,
-"topic": "PHP Web Frameworks",
-"question": "What feature of Laravel allows you to define one-to-many or many-to-many database relations simply?",
-"options": [
-"Query Builder Joins",
-"Eloquent Relationships",
-"Database Migrations",
-"Route Model Binding"
-],
-"correctAnswer": 1,
-"explanation": "Eloquent Relationships allow you to define methods on your model classes to easily interact with related data (e.g., hasMany, belongsTo)."
-},
-{
-"id": 100,
-"topic": "PHP Web Frameworks",
-"question": "What does the 'compact()' function do when returning a view in Laravel?",
-"options": [
-"Compresses the HTML output to save bandwidth.",
-"Creates an array containing variables and their values.",
-"Minifies the CSS and JS assets.",
-"Deletes old cache files."
-],
-"correctAnswer": 1,
-"explanation": "The native PHP compact() function takes variable names as strings and creates an associative array, which is heavily used in Laravel to pass data to views."
-},
-{
-"id": 101,
-"topic": "Front-End Technologies",
-"question": "Which HTML5 API allows a user's geographical position to be identified?",
-"options": [
-"Geolocation API",
-"Navigation API",
-"Web Storage API",
-"GeoLocation Tag"
-],
-"correctAnswer": 0,
-"explanation": "The HTML Geolocation API is used to locate a user's geographical position (with their permission)."
-},
-{
-"id": 102,
-"topic": "Front-End Technologies",
-"question": "What is the difference between sessionStorage and localStorage in HTML5?",
-"options": [
-"localStorage is faster than sessionStorage.",
-"localStorage stores data with no expiration, while sessionStorage data is lost when the browser tab is closed.",
-"sessionStorage can store more data than localStorage.",
-"localStorage is only for strings; sessionStorage can store objects natively."
-],
-"correctAnswer": 1,
-"explanation": "sessionStorage is temporary and tied to the window/tab session, whereas localStorage persists even after the browser is closed."
-},
-{
-"id": 103,
-"topic": "Front-End Technologies",
-"question": "In CSS, what is the default value of the 'position' property?",
-"options": [
-"relative",
-"absolute",
-"fixed",
-"static"
-],
-"correctAnswer": 3,
-"explanation": "The default positioning for all HTML elements is 'static', meaning they are positioned according to the normal flow of the page."
-},
-{
-"id": 104,
-"topic": "Front-End Technologies",
-"question": "Which CSS property controls the stacking order of elements?",
-"options": [
-"stack-level",
-"order",
-"z-index",
-"layer"
-],
-"correctAnswer": 2,
-"explanation": "The z-index property specifies the z-order (stack level) of a positioned element and its descendants."
-},
-{
-"id": 105,
-"topic": "Front-End Technologies",
-"question": "What is 'hoisting' in JavaScript?",
-"options": [
-"Lifting an element visually on the screen using CSS.",
-"JavaScript's default behavior of moving declarations to the top of the current scope.",
-"Importing a module from another file.",
-"Uploading files to a server."
-],
-"correctAnswer": 1,
-"explanation": "Hoisting allows functions and variables (declared with var) to be used before they are declared in the code."
-},
-{
-"id": 106,
-"topic": "Front-End Technologies",
-"question": "What is a closure in JavaScript?",
-"options": [
-"A way to close an open database connection.",
-"A function bundled together with references to its surrounding state (lexical environment).",
-"The end of a block of code marked by a closing brace.",
-"A method to terminate an infinite loop."
-],
-"correctAnswer": 1,
-"explanation": "A closure gives you access to an outer function's scope from an inner function, even after the outer function has returned."
-},
-{
-"id": 107,
-"topic": "Front-End Technologies",
-"question": "Which JavaScript feature provides an easier way to handle asynchronous operations and avoid 'callback hell'?",
-"options": [
-"Strict mode",
-"Promises",
-"Event Bubbling",
-"Synchronous Requests"
-],
-"correctAnswer": 1,
-"explanation": "Promises represent the eventual completion (or failure) of an asynchronous operation, significantly improving code readability over nested callbacks."
-},
-{
-"id": 108,
-"topic": "Front-End Technologies",
-"question": "In CSS3, how do you apply a style only to screens that are 600px wide or smaller?",
-"options": [
-"@media (max-width: 600px)",
-"@media (min-width: 600px)",
-"@screen (width < 600px)",
-"@apply max-width 600px"
-],
-"correctAnswer": 0,
-"explanation": "Media queries use the '@media' rule to include a block of CSS properties only if a certain condition is true, such as a max-width of 600px."
-},
-{
-"id": 109,
-"topic": "Front-End Technologies",
-"question": "What does the HTML5  element do?",
-"options": [
-"Displays pre-rendered 3D models natively.",
-"Provides a drawable region defined in HTML, manipulated via JavaScript to draw graphics.",
-"Creates an iframe to display external websites.",
-"Automatically applies a CSS grid layout."
-],
-"correctAnswer": 1,
-"explanation": "The  element is a container for graphics, where scripts (usually JavaScript) are used to draw the graphics on the fly."
-},
-{
-"id": 110,
-"topic": "Front-End Technologies",
-"question": "What is 'Event Bubbling' in the DOM?",
-"options": [
-"When an event is triggered on an element, it first runs handlers on it, then on its parent, then all the way up on other ancestors.",
-"An animation effect created using CSS transitions.",
-"When multiple events are fired simultaneously on the same element.",
-"A technique to prevent errors from crashing the browser."
-],
-"correctAnswer": 0,
-"explanation": "Event bubbling is an event propagation mechanism where an event triggers at the deepest target element and then successively triggers on ancestors."
-},
-{
-"id": 111,
-"topic": "JavaScript Frameworks",
-"question": "In React, what are 'props'?",
-"options": [
-"Internal state variables of a component.",
-"Arguments passed into React components.",
-"Built-in CSS styling properties.",
-"Functions used to fetch data."
-],
-"correctAnswer": 1,
-"explanation": "Props (short for properties) are how data is passed from a parent component down to a child component in React."
-},
-{
-"id": 112,
-"topic": "JavaScript Frameworks",
-"question": "What is JSX in React?",
-"options": [
-"A new JavaScript engine built by Facebook.",
-"A syntax extension for JavaScript that looks similar to XML/HTML.",
-"A state management library.",
-"A tool to compile CSS."
-],
-"correctAnswer": 1,
-"explanation": "JSX allows developers to write HTML-like structures in the same file as JavaScript code, which React then compiles into React.createElement() calls."
-},
-{
-"id": 113,
-"topic": "JavaScript Frameworks",
-"question": "Which Hook is used to perform side effects in a React functional component?",
-"options": [
-"useState",
-"useReducer",
-"useEffect",
-"useContext"
-],
-"correctAnswer": 2,
-"explanation": "The useEffect Hook lets you perform side effects (like data fetching, subscriptions, or manually changing the DOM) in function components."
-},
-{
-"id": 114,
-"topic": "JavaScript Frameworks",
-"question": "In Angular, what is the purpose of an Injectable service?",
-"options": [
-"To manipulate the DOM directly.",
-"To provide reusable business logic or data access across multiple components.",
-"To style the application components.",
-"To define routing configuration."
-],
-"correctAnswer": 1,
-"explanation": "Services in Angular are used to encapsulate functionality and data that is completely independent of a component's view, relying on Dependency Injection."
-},
-{
-"id": 115,
-"topic": "JavaScript Frameworks",
-"question": "Which library does Angular heavily rely on for handling asynchronous data streams?",
-"options": [
-"Redux",
-"Lodash",
-"RxJS",
-"Axios"
-],
-"correctAnswer": 2,
-"explanation": "Angular uses RxJS (Reactive Extensions for JavaScript) extensively for asynchronous programming, event handling, and HTTP requests via Observables."
-},
-{
-"id": 116,
-"topic": "JavaScript Frameworks",
-"question": "What is the core module in Node.js used to handle file system operations?",
-"options": [
-"http",
-"fs",
-"path",
-"crypto"
-],
-"correctAnswer": 1,
-"explanation": "The 'fs' (file system) module provides an API for interacting with the file system, enabling reading, writing, and manipulating files."
-},
-{
-"id": 117,
-"topic": "JavaScript Frameworks",
-"question": "In Express.js (Node), what is Middleware?",
-"options": [
-"A database engine.",
-"Functions that have access to the request object, response object, and the next middleware function in the application’s request-response cycle.",
-"The front-end view engine.",
-"A package manager similar to NPM."
-],
-"correctAnswer": 1,
-"explanation": "Middleware functions can execute code, modify the request/response objects, end the response cycle, or call the next middleware."
-},
-{
-"id": 118,
-"topic": "JavaScript Frameworks",
-"question": "How do you start a local server using Express.js?",
-"options": [
-"app.start(3000)",
-"app.listen(3000)",
-"app.run(3000)",
-"app.serve(3000)"
-],
-"correctAnswer": 1,
-"explanation": "The app.listen() method binds and listens for connections on the specified host and port (e.g., 3000)."
-},
-{
-"id": 119,
-"topic": "JavaScript Frameworks",
-"question": "What command initializes a new Node.js project and creates a package.json file?",
-"options": [
-"node init",
-"npm start",
-"npm init",
-"npm create project"
-],
-"correctAnswer": 2,
-"explanation": "Running 'npm init' guides you through creating a package.json file containing project metadata and dependencies."
-},
-{
-"id": 120,
-"topic": "JavaScript Frameworks",
-"question": "In React, how should you update a state variable declared with useState?",
-"options": [
-"By modifying it directly: stateVariable = newValue",
-"By using the setter function provided by useState.",
-"By calling this.setState()",
-"By mutating the DOM element's value property."
-],
-"correctAnswer": 1,
-"explanation": "State in functional React components must be updated using the setter function returned by the useState hook to trigger a re-render."
-},
-{
-"id": 121,
-"topic": "Object-Oriented PHP",
-"question": "Which of the following is true regarding PHP Constructors?",
-"options": [
-"They cannot have parameters.",
-"Child classes automatically call the parent's constructor by default, even if the child defines its own.",
-"If a child class defines a constructor, it must explicitly call parent::__construct() to run the parent's constructor.",
-"They must return a boolean value."
-],
-"correctAnswer": 2,
-"explanation": "PHP does not automatically call the parent constructor if the child class defines its own; you must explicitly call parent::__construct()."
-},
-{
-"id": 122,
-"topic": "Object-Oriented PHP",
-"question": "What does PDO stand for in PHP?",
-"options": [
-"PHP Data Objects",
-"PHP Database Orientation",
-"Personal Data Output",
-"PreparedStatement Data Option"
-],
-"correctAnswer": 0,
-"explanation": "PDO stands for PHP Data Objects, a lean, consistent way to access databases in PHP."
-},
-{
-"id": 123,
-"topic": "Object-Oriented PHP",
-"question": "How are exceptions handled in PHP?",
-"options": [
-"try...catch blocks",
-"if...else statements",
-"while loops",
-"switch statements"
-],
-"correctAnswer": 0,
-"explanation": "Exceptions are handled using try...catch blocks. The code that might throw an exception is placed in the try block, and handled in the catch block."
-},
-{
-"id": 124,
-"topic": "MVC Designs",
-"question": "Which component of MVC evaluates user input and updates the Model?",
-"options": [
-"View",
-"Controller",
-"Template",
-"Component"
-],
-"correctAnswer": 1,
-"explanation": "The Controller interprets inputs from the user (such as form submissions or clicks) and commands the model to update its state."
-},
-{
-"id": 125,
-"topic": "MVC Designs",
-"question": "Why is it recommended to not include SQL queries in the View?",
-"options": [
-"Because SQL doesn't run in HTML files.",
-"Because it violates the separation of concerns, making code harder to maintain and test.",
-"Because it slows down the database significantly.",
-"Because it causes syntax errors in the browser."
-],
-"correctAnswer": 1,
-"explanation": "Mixing data access code with presentation code breaks the separation of concerns, leading to tangled, hard-to-maintain code (spaghetti code)."
-},
-{
-"id": 126,
-"topic": "MySQL Database",
-"question": "What is the result of a FULL OUTER JOIN?",
-"options": [
-"Only records that match in both tables.",
-"All records from both tables, matching rows where possible, and filling with NULLs where there is no match.",
-"An error, as MySQL does not natively support the FULL OUTER JOIN syntax.",
-"A cross product of the two tables."
-],
-"correctAnswer": 2,
-"explanation": "MySQL does not natively support FULL OUTER JOIN. It must be emulated by combining a LEFT JOIN and a RIGHT JOIN with UNION."
-},
-{
-"id": 127,
-"topic": "MySQL Database",
-"question": "Which statement correctly describes a Subquery?",
-"options": [
-"A query executed concurrently on a different database.",
-"A query nested inside another query, such as SELECT, INSERT, UPDATE, or DELETE.",
-"A query that specifically uses joins.",
-"A pre-compiled SQL function."
-],
-"correctAnswer": 1,
-"explanation": "A subquery (or inner query) is a query completely nested inside a larger outer query."
-},
-{
-"id": 128,
-"topic": "PHP Web Frameworks",
-"question": "In CodeIgniter, what is the role of 'routes.php'?",
-"options": [
-"To store database credentials.",
-"To map URIs to specific controller and method calls.",
-"To automatically generate HTML views.",
-"To handle session security."
-],
-"correctAnswer": 1,
-"explanation": "The routes.php file allows you to remap the default URI request logic to point to different controllers and methods."
-},
-{
-"id": 129,
-"topic": "PHP Web Frameworks",
-"question": "What is a Blade directive in Laravel?",
-"options": [
-"A command executed in the terminal.",
-"A special syntax prefixed with '@' used in templates for logic control, like @if or @foreach.",
-"A database query builder method.",
-"A routing parameter."
-],
-"correctAnswer": 1,
-"explanation": "Blade directives are simple, readable shortcuts for PHP control structures used directly inside Laravel views."
-},
-{
-"id": 130,
-"topic": "Front-End Technologies",
-"question": "Which method stops the default action of an element from happening in JavaScript?",
-"options": [
-"event.stopPropagation()",
-"event.preventDefault()",
-"event.stopDefault()",
-"event.halt()"
-],
-"correctAnswer": 1,
-"explanation": "The preventDefault() method of the Event interface tells the browser that if the default action exists, it should not be taken as it normally would be."
-},
-{
-"id": 131,
-"topic": "Front-End Technologies",
-"question": "What does the 'rem' unit stand for in CSS?",
-"options": [
-"Relative element measurement",
-"Root em",
-"Responsive em",
-"Ratio element margins"
-],
-"correctAnswer": 1,
-"explanation": "'rem' stands for 'root em', a unit relative to the font-size of the root element (), providing a consistent sizing mechanism."
-},
-{
-"id": 132,
-"topic": "JavaScript Frameworks",
-"question": "In Node.js, what does 'module.exports' do?",
-"options": [
-"Downloads a package from npm.",
-"Defines what a module exposes and makes available to other files using 'require'.",
-"Starts the web server.",
-"Deletes an unused module."
-],
-"correctAnswer": 1,
-"explanation": "module.exports is the object that is actually returned as the result of a require call when another script requires the module."
-},
-{
-"id": 133,
-"topic": "JavaScript Frameworks",
-"question": "Which command is used to create a new Angular workspace and application?",
-"options": [
-"npm create angular",
-"ng new project-name",
-"ng generate app project-name",
-"angular create app"
-],
-"correctAnswer": 1,
-"explanation": "The Angular CLI command 'ng new' generates a complete, working Angular application skeleton."
-},
-{
-"id": 134,
-"topic": "JavaScript Frameworks",
-"question": "What does the 'key' attribute do when rendering lists in React?",
-"options": [
-"Provides encryption for the list items.",
-"Helps React identify which items have changed, been added, or been removed, optimizing re-renders.",
-"Assigns a CSS class to the list item.",
-"Defines the primary key for the database query."
-],
-"correctAnswer": 1,
-"explanation": "Keys provide React with a stable identity for elements inside an array, crucially improving the performance of DOM updates during re-renders."
-},
-{
-"id": 135,
-"topic": "Object-Oriented PHP",
-"question": "What is the default visibility of properties and methods in PHP if no modifier is explicitly declared?",
-"options": [
-"private",
-"protected",
-"public",
-"static"
-],
-"correctAnswer": 2,
-"explanation": "In PHP, if you do not specify a visibility modifier (public, protected, or private), the property or method defaults to public."
-},
-{
-"id": 136,
-"topic": "MySQL Database",
-"question": "Which aggregate function returns the total number of rows matching a specific criteria?",
-"options": [
-"SUM()",
-"MAX()",
-"TOTAL()",
-"COUNT()"
-],
-"correctAnswer": 3,
-"explanation": "The COUNT() function returns the number of rows that match a specified criterion."
-},
-{
-"id": 137,
-"topic": "PHP Web Frameworks",
-"question": "In Laravel, which artisan command clears the application cache?",
-"options": [
-"php artisan cache:delete",
-"php artisan cache:clear",
-"php artisan clear:cache",
-"php artisan system:clean"
-],
-"correctAnswer": 1,
-"explanation": "The 'php artisan cache:clear' command flushes the entire application cache."
-},
-{
-"id": 138,
-"topic": "Front-End Technologies",
-"question": "Which HTML tag is used to embed a JavaScript file in an HTML document?",
-"options": [
-"",
-"",
-"",
-""
-],
-"correctAnswer": 2,
-"explanation": "The  tag is used to embed or reference an executable script within an HTML or XHTML document."
-},
-{
-"id": 139,
-"topic": "JavaScript Frameworks",
-"question": "What is the primary function of Redux in a React application?",
-"options": [
-"Handling HTTP routing.",
-"Managing global application state in a predictable container.",
-"Compiling JSX to JavaScript.",
-"Rendering CSS animations."
-],
-"correctAnswer": 1,
-"explanation": "Redux is a predictable state container for JavaScript apps, widely used with React to manage centralized, global state."
-},
-{
-"id": 140,
-"topic": "MVC Designs",
-"question": "In the context of MVC, what does a Front Controller do?",
-"options": [
-"Renders the header and footer of the website.",
-"Handles all requests for a website, routing them through a single entry point (usually index.php).",
-"Manages the database connection pool.",
-"Writes log files for server errors."
-],
-"correctAnswer": 1,
-"explanation": "A Front Controller pattern funnels all incoming HTTP requests through a single handler object or file to provide centralized security, routing, and initialization."
-},
-{
-"id": 141,
-"topic": "MySQL Database",
-"question": "Which command is used to grant privileges to a user in MySQL?",
-"options": [
-"ALLOW",
-"GRANT",
-"PERMIT",
-"GIVE"
-],
-"correctAnswer": 1,
-"explanation": "The GRANT statement gives specific privileges to a MySQL user account."
-},
-{
-"id": 142,
-"topic": "Front-End Technologies",
-"question": "In JavaScript, what does strict mode ('use strict') do?",
-"options": [
-"Makes CSS layout rules inflexible.",
-"Catches common coding bloopers, throwing exceptions for things like using undeclared variables.",
-"Disables the use of the 'this' keyword.",
-"Forces functions to return an integer."
-],
-"correctAnswer": 1,
-"explanation": "Strict mode is a way to opt in to a restricted variant of JavaScript, eliminating some silent errors by changing them to throw errors."
-},
-{
-"id": 143,
-"topic": "JavaScript Frameworks",
-"question": "In Angular, which decorator is used to define a component?",
-"options": [
-"@Component",
-"@View",
-"@Module",
-"@Injectable"
-],
-"correctAnswer": 0,
-"explanation": "The @Component decorator marks a class as an Angular component and provides configuration metadata that determines how the component should be processed, instantiated, and used."
-},
-{
-"id": 144,
-"topic": "Object-Oriented PHP",
-"question": "What is meant by an 'anonymous class' in PHP 7+?",
-"options": [
-"A class that cannot be instantiated.",
-"A class without properties.",
-"A class created without a name, useful for simple, one-off objects.",
-"A class hiding inside a namespace."
-],
-"correctAnswer": 2,
-"explanation": "Anonymous classes are useful when simple, one-off objects need to be created without formally defining a named class structure."
-},
-{
-"id": 145,
-"topic": "PHP Web Frameworks",
-"question": "What is Laravel Mix / Vite used for?",
-"options": [
-"Managing database backups.",
-"Compiling and bundling front-end assets like CSS and JavaScript.",
-"Mixing different PHP frameworks together.",
-"Routing API requests."
-],
-"correctAnswer": 1,
-"explanation": "Laravel Mix (and more recently Vite in Laravel 9+) provides a fluent API for defining webpack/Vite build steps to compile front-end assets."
-},
-{
-"id": 146,
-"topic": "MySQL Database",
-"question": "How do you find all records where the 'name' field starts with the letter 'A'?",
-"options": [
-"SELECT * FROM table WHERE name LIKE 'A%'",
-"SELECT * FROM table WHERE name LIKE '%A'",
-"SELECT * FROM table WHERE name = 'A*'",
-"SELECT * FROM table WHERE name MATCH 'A'"
-],
-"correctAnswer": 0,
-"explanation": "The wildcard '%' represents zero, one, or multiple characters. 'A%' searches for any value that starts with 'A'."
-},
-{
-"id": 147,
-"topic": "Front-End Technologies",
-"question": "Which of the following is true about CSS Flexbox?",
-"options": [
-"It is primarily designed for two-dimensional layouts.",
-"It is primarily designed for one-dimensional layouts (rows or columns).",
-"It only works for text alignment.",
-"It replaces the need for HTML tables for tabular data."
-],
-"correctAnswer": 1,
-"explanation": "Flexbox is designed for laying out items in a single dimension—either in a row or a column, while CSS Grid handles two dimensions."
-},
-{
-"id": 148,
-"topic": "JavaScript Frameworks",
-"question": "Which Node.js framework is heavily inspired by Express but uses async/await heavily to avoid callbacks?",
-"options": [
-"NestJS",
-"Meteor",
-"Koa",
-"Sails"
-],
-"correctAnswer": 2,
-"explanation": "Koa is a newer web framework designed by the team behind Express, leveraging modern JavaScript async functions to eliminate callbacks."
-},
-{
-"id": 149,
-"topic": "MVC Designs",
-"question": "What is the common role of a 'ViewModel' (in MVVM), and how does it relate to traditional MVC?",
-"options": [
-"It completely replaces the database.",
-"It handles data-binding to the View, taking presentation logic out of the Controller.",
-"It writes HTML dynamically.",
-"It connects two different frameworks."
-],
-"correctAnswer": 1,
-"explanation": "While not strict MVC, a ViewModel handles presentation logic and state, abstracting the view's state from the UI framework, simplifying controllers."
-},
-{
-"id": 150,
-"topic": "JavaScript Frameworks",
-"question": "In React, what is the Virtual DOM?",
-"options": [
-"A plugin for the browser dev tools.",
-"An exact clone of the browser's DOM maintained in memory, used to optimize actual DOM updates.",
-"A feature to render pages on the server.",
-"A database to store UI states."
-],
-"correctAnswer": 1,
-"explanation": "React maintains a Virtual DOM in memory. It compares this with the actual DOM (diffing) and updates only the changed parts to optimize performance."
-}
+  {
+    "id": 1,
+    "topic": "Object-Oriented PHP",
+    "question": "Which keyword is used to instantiate an object in PHP?",
+    "options": ["create", "make", "new", "object"],
+    "correctAnswer": 2,
+    "explanation": "The 'new' keyword is used to create an instance of a class in PHP."
+  },
+  {
+    "id": 2,
+    "topic": "Object-Oriented PHP",
+    "question": "What is the correct syntax to declare a constructor method in a PHP class?",
+    "options": ["function __construct()", "function class_name()", "function construct()", "function init()"],
+    "correctAnswer": 0,
+    "explanation": "In PHP 5 and later, constructors are declared using the magic method __construct()."
+  },
+  {
+    "id": 3,
+    "topic": "Object-Oriented PHP",
+    "question": "Which visibility modifier restricts access to the class itself and its inherited classes?",
+    "options": ["public", "private", "protected", "static"],
+    "correctAnswer": 2,
+    "explanation": "The 'protected' modifier allows access within the class itself and any child classes that inherit from it."
+  },
+  {
+    "id": 4,
+    "topic": "Object-Oriented PHP",
+    "question": "Which keyword is used to inherit a class in PHP?",
+    "options": ["implements", "extends", "inherits", "includes"],
+    "correctAnswer": 1,
+    "explanation": "The 'extends' keyword is used to inherit properties and methods from a parent class."
+  },
+  {
+    "id": 5,
+    "topic": "Object-Oriented PHP",
+    "question": "What does the 'self' keyword refer to in PHP?",
+    "options": ["The current object instance", "The parent class", "The current class itself", "The global namespace"],
+    "correctAnswer": 2,
+    "explanation": "'self' is used to access static properties and methods of the current class, not the object instance."
+  },
+  {
+    "id": 6,
+    "topic": "Object-Oriented PHP",
+    "question": "Which operator is used to access static methods and properties in PHP?",
+    "options": ["->", "=>", "::", "."],
+    "correctAnswer": 2,
+    "explanation": "The scope resolution operator (::) is used to access static, constant, and overridden properties or methods of a class."
+  },
+  {
+    "id": 7,
+    "topic": "Object-Oriented PHP",
+    "question": "Can a class implement multiple interfaces in PHP?",
+    "options": ["Yes, by separating them with commas", "Yes, using the 'extends' keyword", "No, PHP does not support multiple interfaces", "No, but it can inherit multiple classes"],
+    "correctAnswer": 0,
+    "explanation": "A PHP class can implement multiple interfaces by using a comma-separated list after the 'implements' keyword."
+  },
+  {
+    "id": 8,
+    "topic": "Object-Oriented PHP",
+    "question": "Which feature in PHP allows code reuse without using traditional class inheritance?",
+    "options": ["Interfaces", "Traits", "Namespaces", "Abstract classes"],
+    "correctAnswer": 1,
+    "explanation": "Traits are a mechanism for code reuse in single inheritance languages such as PHP, allowing developers to reuse sets of methods freely."
+  },
+  {
+    "id": 9,
+    "topic": "MVC Designs",
+    "question": "What does MVC stand for?",
+    "options": ["Model View Controller", "Module View Component", "Main View Controller", "Model Visual Controller"],
+    "correctAnswer": 0,
+    "explanation": "MVC stands for Model View Controller, a software design pattern for developing web applications."
+  },
+  {
+    "id": 10,
+    "topic": "MVC Designs",
+    "question": "In the MVC pattern, which component is directly responsible for handling business logic and database interactions?",
+    "options": ["View", "Model", "Controller", "Router"],
+    "correctAnswer": 1,
+    "explanation": "The Model component corresponds to all the data-related logic that the user works with, representing data and business rules."
+  },
+  {
+    "id": 11,
+    "topic": "MVC Designs",
+    "question": "What is the primary role of the Controller in an MVC architecture?",
+    "options": ["To store data in the database", "To render HTML to the browser", "To accept user input and coordinate between Model and View", "To handle CSS styling"],
+    "correctAnswer": 2,
+    "explanation": "The Controller acts as an interface between Model and View components to process all the business logic and incoming requests."
+  },
+  {
+    "id": 12,
+    "topic": "MVC Designs",
+    "question": "Which component in MVC is responsible for displaying the user interface?",
+    "options": ["Model", "Controller", "View", "Service"],
+    "correctAnswer": 2,
+    "explanation": "The View is used for all the UI logic of the application, representing the data fetched from the model."
+  },
+  {
+    "id": 13,
+    "topic": "MVC Designs",
+    "question": "What is a major advantage of using the MVC design pattern?",
+    "options": ["It merges all code into a single file for faster execution", "It eliminates the need for a database", "It enforces separation of concerns", "It makes CSS obsolete"],
+    "correctAnswer": 2,
+    "explanation": "MVC separates an application into three main components, enforcing a separation of concerns which makes the application easier to manage, scale, and test."
+  },
+  {
+    "id": 14,
+    "topic": "MySQL Database",
+    "question": "Which SQL statement is used to extract data from a database?",
+    "options": ["GET", "EXTRACT", "SELECT", "PULL"],
+    "correctAnswer": 2,
+    "explanation": "The SELECT statement is the standard SQL command used to query and retrieve data from a database."
+  },
+  {
+    "id": 15,
+    "topic": "MySQL Database",
+    "question": "What is the purpose of a Primary Key in a MySQL table?",
+    "options": ["To uniquely identify each record in a table", "To link two tables together", "To store passwords securely", "To sort the table automatically"],
+    "correctAnswer": 0,
+    "explanation": "A Primary Key is a specific choice of a minimal set of attributes that uniquely specify a tuple in a relation."
+  },
+  {
+    "id": 16,
+    "topic": "MySQL Database",
+    "question": "Which PHP extension provides a data-access abstraction layer, allowing you to use the same functions to issue queries and fetch data regardless of the database you are using?",
+    "options": ["mysqli", "mysql", "PDO", "ODBC"],
+    "correctAnswer": 2,
+    "explanation": "PDO (PHP Data Objects) provides a data-access abstraction layer, which means regardless of the database type, you use the same functions to execute queries."
+  },
+  {
+    "id": 17,
+    "topic": "MySQL Database",
+    "question": "What is the best way to prevent SQL Injection attacks when using PHP with MySQL?",
+    "options": ["Using double quotes for strings", "Using Prepared Statements", "Encoding the URL", "Disabling JavaScript"],
+    "correctAnswer": 1,
+    "explanation": "Prepared statements ensure that the parameters are treated strictly as data, not as executable code, effectively preventing SQL injection."
+  },
+  {
+    "id": 18,
+    "topic": "MySQL Database",
+    "question": "Which SQL clause is used to filter records?",
+    "options": ["ORDER BY", "GROUP BY", "WHERE", "FILTER"],
+    "correctAnswer": 2,
+    "explanation": "The WHERE clause is used to extract only those records that fulfill a specified condition."
+  },
+  {
+    "id": 19,
+    "topic": "MySQL Database",
+    "question": "What does a LEFT JOIN do in MySQL?",
+    "options": ["Returns all records from the right table, and matched records from the left", "Returns all records from the left table, and matched records from the right", "Returns only records that have matching values in both tables", "Combines all records from both tables"],
+    "correctAnswer": 1,
+    "explanation": "A LEFT JOIN returns all rows from the left table, even if there are no matches in the right table."
+  },
+  {
+    "id": 20,
+    "topic": "MySQL Database",
+    "question": "Which command is used to remove a table entirely from a MySQL database?",
+    "options": ["DELETE TABLE", "REMOVE TABLE", "TRUNCATE TABLE", "DROP TABLE"],
+    "correctAnswer": 3,
+    "explanation": "The DROP TABLE command deletes a table in the database, including all of its data and structure."
+  },
+  {
+    "id": 21,
+    "topic": "PHP Web Frameworks",
+    "question": "What is the name of the built-in ORM (Object-Relational Mapper) used in Laravel?",
+    "options": ["Doctrine", "Eloquent", "Propel", "ActiveRecord"],
+    "correctAnswer": 1,
+    "explanation": "Eloquent is the default ORM included with the Laravel framework, providing a beautiful, simple ActiveRecord implementation."
+  },
+  {
+    "id": 22,
+    "topic": "PHP Web Frameworks",
+    "question": "What is the name of the templating engine included with Laravel?",
+    "options": ["Twig", "Smarty", "Blade", "Volt"],
+    "correctAnswer": 2,
+    "explanation": "Blade is the simple, yet powerful templating engine provided with Laravel."
+  },
+  {
+    "id": 23,
+    "topic": "PHP Web Frameworks",
+    "question": "Which command-line interface is included with Laravel to perform various tasks like database migrations and controller creation?",
+    "options": ["Spark", "Artisan", "Tinker", "Composer"],
+    "correctAnswer": 1,
+    "explanation": "Artisan is the name of the command-line interface included with Laravel."
+  },
+  {
+    "id": 24,
+    "topic": "PHP Web Frameworks",
+    "question": "In CodeIgniter, where does a request typically go first?",
+    "options": ["The Model", "The View", "The Front Controller (index.php)", "The Database"],
+    "correctAnswer": 2,
+    "explanation": "In CodeIgniter, index.php serves as the front controller, initializing the base resources needed to run the application."
+  },
+  {
+    "id": 25,
+    "topic": "PHP Web Frameworks",
+    "question": "What file is primarily used to define web routes in a standard Laravel 8+ application?",
+    "options": ["routes/api.php", "config/routes.php", "routes/web.php", "app/Http/routes.php"],
+    "correctAnswer": 2,
+    "explanation": "The routes/web.php file is used to define routes for your web interface in Laravel."
+  },
+  {
+    "id": 26,
+    "topic": "PHP Web Frameworks",
+    "question": "Which feature in Laravel acts as a bridge between a request and a response, often used for authenticating users?",
+    "options": ["Middleware", "Migrations", "Service Providers", "Facades"],
+    "correctAnswer": 0,
+    "explanation": "Middleware provide a convenient mechanism for inspecting and filtering HTTP requests entering your application."
+  },
+  {
+    "id": 27,
+    "topic": "PHP Web Frameworks",
+    "question": "How are database schemas managed over time in both Laravel and CodeIgniter?",
+    "options": ["Through raw SQL dumps", "Through Database Migrations", "Through direct phpMyAdmin edits", "Through FTP uploads"],
+    "correctAnswer": 1,
+    "explanation": "Migrations are like version control for your database, allowing your team to define and share the application's database schema definition."
+  },
+  {
+    "id": 28,
+    "topic": "PHP Web Frameworks",
+    "question": "What is Composer in the context of PHP frameworks like Laravel?",
+    "options": ["A database server", "A dependency manager for PHP", "An IDE for writing PHP", "A front-end compilation tool"],
+    "correctAnswer": 1,
+    "explanation": "Composer is a tool for dependency management in PHP, allowing you to declare the libraries your project depends on and managing them."
+  },
+  {
+    "id": 29,
+    "topic": "PHP Web Frameworks",
+    "question": "In CodeIgniter, how do you load a view file named 'header.php' inside a controller?",
+    "options": ["include('header.php');", "return view('header');", "$this->load->view('header');", "View::make('header');"],
+    "correctAnswer": 2,
+    "explanation": "In CodeIgniter 3, views are loaded using the syntax: $this->load->view('file_name');"
+  },
+  {
+    "id": 30,
+    "topic": "PHP Web Frameworks",
+    "question": "What security vulnerability does CSRF protection in frameworks like Laravel prevent?",
+    "options": ["Cross-Site Scripting", "SQL Injection", "Cross-Site Request Forgery", "Denial of Service"],
+    "correctAnswer": 2,
+    "explanation": "CSRF tokens protect against Cross-Site Request Forgery, where malicious web applications execute actions on behalf of an authenticated user."
+  },
+  {
+    "id": 31,
+    "topic": "Front-End Technologies",
+    "question": "Which of the following is a semantic element introduced in HTML5?",
+    "options": ["<div>", "<span>", "<article>", "<b>"],
+    "correctAnswer": 2,
+    "explanation": "<article> is a semantic HTML5 element that clearly describes its meaning to both the browser and the developer."
+  },
+  {
+    "id": 32,
+    "topic": "Front-End Technologies",
+    "question": "What is the correct document type declaration for HTML5?",
+    "options": ["<!DOCTYPE html>", "<!DOCTYPE HTML5>", "<DOCTYPE html5>", "<html5>"],
+    "correctAnswer": 0,
+    "explanation": "<!DOCTYPE html> is the standard, simple doctype declaration used for HTML5."
+  },
+  {
+    "id": 33,
+    "topic": "Front-End Technologies",
+    "question": "In CSS3, which symbol is used to target an element by its ID?",
+    "options": [".", "#", "@", "&"],
+    "correctAnswer": 1,
+    "explanation": "The hash (#) symbol is used in CSS to define an ID selector."
+  },
+  {
+    "id": 34,
+    "topic": "Front-End Technologies",
+    "question": "Which CSS3 property is used to create responsive grid layouts efficiently?",
+    "options": ["display: flex;", "display: grid;", "float: left;", "position: relative;"],
+    "correctAnswer": 1,
+    "explanation": "The CSS Grid Layout Module (display: grid;) offers a grid-based layout system with rows and columns, designed for 2D layouts."
+  },
+  {
+    "id": 35,
+    "topic": "Front-End Technologies",
+    "question": "In modern JavaScript (ES6+), which keyword is used to declare a variable that cannot be reassigned?",
+    "options": ["var", "let", "const", "static"],
+    "correctAnswer": 2,
+    "explanation": "The 'const' keyword is used to declare variables whose values are never intended to change (block-scoped constants)."
+  },
+  {
+    "id": 36,
+    "topic": "Front-End Technologies",
+    "question": "Which JavaScript method is used to select an HTML element by its class name?",
+    "options": ["getElementById()", "querySelector()", "getElementsByClassName()", "All of the above"],
+    "correctAnswer": 2,
+    "explanation": "getElementsByClassName() returns a collection of all elements in the document with the specified class name. querySelector can also be used but is general purpose."
+  },
+  {
+    "id": 37,
+    "topic": "Front-End Technologies",
+    "question": "What is the purpose of HTML5 Local Storage?",
+    "options": ["To store data securely on the server", "To store large amounts of data locally in the user's browser without expiration", "To store session data that deletes when the browser closes", "To compile JavaScript code faster"],
+    "correctAnswer": 1,
+    "explanation": "Local Storage allows web applications to store data locally within the user's browser with no expiration date."
+  },
+  {
+    "id": 38,
+    "topic": "Front-End Technologies",
+    "question": "What is the correct syntax for an ES6 Arrow Function?",
+    "options": ["function() => {}", "() => {}", "=> function() {}", "function => {}"],
+    "correctAnswer": 1,
+    "explanation": "The () => {} syntax is the standard way to define an arrow function in ES6."
+  },
+  {
+    "id": 39,
+    "topic": "Front-End Technologies",
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": ["font-color", "text-color", "color", "fgcolor"],
+    "correctAnswer": 2,
+    "explanation": "The 'color' property is used in CSS to set the foreground color of text."
+  },
+  {
+    "id": 40,
+    "topic": "Front-End Technologies",
+    "question": "Which JavaScript method is used to convert a JSON string into a JavaScript object?",
+    "options": ["JSON.stringify()", "JSON.parse()", "JSON.object()", "JSON.convert()"],
+    "correctAnswer": 1,
+    "explanation": "JSON.parse() takes a JSON string and transforms it into a JavaScript object."
+  },
+  {
+    "id": 41,
+    "topic": "JavaScript Frameworks",
+    "question": "In React, what are isolated, reusable pieces of UI called?",
+    "options": ["Modules", "Templates", "Components", "Directives"],
+    "correctAnswer": 2,
+    "explanation": "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation."
+  },
+  {
+    "id": 42,
+    "topic": "JavaScript Frameworks",
+    "question": "Which React Hook is used to manage state within a functional component?",
+    "options": ["useEffect", "useContext", "useState", "useReducer"],
+    "correctAnswer": 2,
+    "explanation": "useState is a Hook that allows you to add React state to functional components."
+  },
+  {
+    "id": 43,
+    "topic": "JavaScript Frameworks",
+    "question": "What concept does React use to improve rendering performance by minimizing direct DOM manipulation?",
+    "options": ["Real DOM", "Shadow DOM", "Virtual DOM", "Document Object Model"],
+    "correctAnswer": 2,
+    "explanation": "React uses a Virtual DOM, which is a lightweight copy of the actual DOM, to calculate the minimum number of changes needed before updating the real DOM."
+  },
+  {
+    "id": 44,
+    "topic": "JavaScript Frameworks",
+    "question": "Which library is most commonly used for client-side routing in a React application?",
+    "options": ["React Router", "Express Router", "Vue Router", "Page Router"],
+    "correctAnswer": 0,
+    "explanation": "React Router is the standard library used to handle navigation and URL-based rendering in React single-page applications."
+  },
+  {
+    "id": 45,
+    "topic": "JavaScript Frameworks",
+    "question": "How do you conditionally render JSX in React?",
+    "options": ["Using the ternary operator or && operator within JSX", "Using an @if directive inside the JSX", "Using a v-if attribute on the element", "JSX cannot render content conditionally"],
+    "correctAnswer": 0,
+    "explanation": "Since JSX is just JavaScript, conditional rendering is commonly done with the ternary operator (condition ? a : b) or the && operator."
+  },
+  {
+    "id": 46,
+    "topic": "JavaScript Frameworks",
+    "question": "What makes an input element a 'controlled component' in React?",
+    "options": ["Its value is driven by component state via the value prop and updated through onChange", "It is controlled directly by the browser's DOM with no React involvement", "It cannot be edited by the user", "It automatically syncs with localStorage"],
+    "correctAnswer": 0,
+    "explanation": "A controlled component's form data is handled by React state, with the input's value set from state and updates handled through an onChange handler."
+  },
+  {
+    "id": 47,
+    "topic": "JavaScript Frameworks",
+    "question": "Which dependency array passed to useEffect ensures the effect runs only once, after the initial render?",
+    "options": ["An empty array []", "No dependency array at all", "An array containing the value true", "An array containing the component's props"],
+    "correctAnswer": 0,
+    "explanation": "Passing an empty dependency array [] tells React the effect doesn't depend on any values from props or state, so it only runs once after the initial render."
+  },
+  {
+    "id": 48,
+    "topic": "JavaScript Frameworks",
+    "question": "Which React feature lets you pass data through the component tree without manually passing props down at every level?",
+    "options": ["Context API", "Prop drilling", "Local Storage", "Refs"],
+    "correctAnswer": 0,
+    "explanation": "The Context API provides a way to share values like themes or authenticated user data across the component tree without explicitly passing props through every level."
+  },
+  {
+    "id": 49,
+    "topic": "JavaScript Frameworks",
+    "question": "What is the purpose of React Fragments (<>...</>)?",
+    "options": ["To group multiple elements without adding an extra node to the rendered DOM", "To split a JavaScript bundle into smaller chunks", "To fragment CSS files for lazy loading", "To scaffold a new React project"],
+    "correctAnswer": 0,
+    "explanation": "Fragments let a component return multiple children from a render method without wrapping them in an unnecessary extra DOM element."
+  },
+  {
+    "id": 50,
+    "topic": "JavaScript Frameworks",
+    "question": "Which built-in function helps prevent unnecessary re-renders of a functional React component by memoizing its rendered output?",
+    "options": ["React.memo()", "React.cache()", "React.pure()", "React.optimize()"],
+    "correctAnswer": 0,
+    "explanation": "React.memo() is a higher-order component that memoizes the rendered output, skipping re-renders if the props haven't changed."
+  },
+  {
+    "id": 51,
+    "topic": "Object-Oriented PHP",
+    "question": "Which magic method is triggered when invoking inaccessible methods in an object context?",
+    "options": ["__invoke()", "__call()", "__get()", "__set()"],
+    "correctAnswer": 1,
+    "explanation": "The __call() magic method is used to handle calls to undefined or inaccessible methods in an object."
+  },
+  {
+    "id": 52,
+    "topic": "Object-Oriented PHP",
+    "question": "How do you enforce that a child class must implement specific methods from a parent class?",
+    "options": ["By using final classes", "By using traits", "By using abstract classes or interfaces", "By using static methods"],
+    "correctAnswer": 2,
+    "explanation": "Abstract classes and interfaces force child classes to implement specifically defined abstract methods."
+  },
+  {
+    "id": 53,
+    "topic": "Object-Oriented PHP",
+    "question": "What is the purpose of the 'final' keyword in PHP?",
+    "options": ["To prevent a class from being inherited or a method from being overridden", "To declare a constant variable", "To mark the end of a class file", "To optimize database connections"],
+    "correctAnswer": 0,
+    "explanation": "The 'final' keyword prevents child classes from overriding a method or inheriting a class entirely."
+  },
+  {
+    "id": 54,
+    "topic": "Object-Oriented PHP",
+    "question": "Which of the following represents Late Static Binding in PHP?",
+    "options": ["self::", "parent::", "static::", "this->"],
+    "correctAnswer": 2,
+    "explanation": "The 'static::' keyword is used for late static binding, referencing the class that was initially called at runtime."
+  },
+  {
+    "id": 55,
+    "topic": "Object-Oriented PHP",
+    "question": "How do you check if an object is an instance of a specific class in PHP?",
+    "options": ["is_object()", "typeof", "instanceof", "class_exists()"],
+    "correctAnswer": 2,
+    "explanation": "The 'instanceof' operator is used to determine whether a PHP variable is an instantiated object of a certain class."
+  },
+  {
+    "id": 56,
+    "topic": "Object-Oriented PHP",
+    "question": "What is a characteristic of PHP interfaces?",
+    "options": ["They can contain method bodies.", "They can declare properties.", "All methods declared in an interface must be public.", "A class can only implement one interface."],
+    "correctAnswer": 2,
+    "explanation": "Interfaces can only contain method signatures, and all methods declared in an interface must be public."
+  },
+  {
+    "id": 57,
+    "topic": "Object-Oriented PHP",
+    "question": "Which method is called automatically when an object is destroyed in PHP?",
+    "options": ["__construct()", "__destruct()", "__delete()", "__sleep()"],
+    "correctAnswer": 1,
+    "explanation": "The __destruct() magic method is called when there are no other references to a certain object, or during shutdown."
+  },
+  {
+    "id": 58,
+    "topic": "Object-Oriented PHP",
+    "question": "What is namespace in PHP used for?",
+    "options": ["To format HTML output", "To encapsulate items and prevent name collisions", "To handle HTTP requests", "To encrypt passwords"],
+    "correctAnswer": 1,
+    "explanation": "Namespaces are designed to solve the problem of name collisions between code you create and internal PHP classes/functions/constants."
+  },
+  {
+    "id": 59,
+    "topic": "Object-Oriented PHP",
+    "question": "What does the '__toString()' method do?",
+    "options": ["Converts an array to a string", "Decides how the object will react when treated like a string", "Serializes the object for database storage", "Parses a string into an object"],
+    "correctAnswer": 1,
+    "explanation": "The __toString() method allows a class to decide how it will react when it is treated like a string, such as using 'echo $object;'."
+  },
+  {
+    "id": 60,
+    "topic": "Object-Oriented PHP",
+    "question": "Which feature allows declaring the expected data types for function arguments?",
+    "options": ["Data formatting", "Type casting", "Type hinting / Type declarations", "Strict mode"],
+    "correctAnswer": 2,
+    "explanation": "Type declarations (formerly type hinting) allow you to specify the expected data type of an argument in a function declaration."
+  },
+  {
+    "id": 61,
+    "topic": "Object-Oriented PHP",
+    "question": "How are traits included inside a PHP class?",
+    "options": ["implements TraitName;", "extends TraitName;", "use TraitName;", "require TraitName;"],
+    "correctAnswer": 2,
+    "explanation": "Traits are included within a class using the 'use' keyword."
+  },
+  {
+    "id": 62,
+    "topic": "Object-Oriented PHP",
+    "question": "Can an abstract class be instantiated directly?",
+    "options": ["Yes, using the new keyword.", "Yes, but only if it has no abstract methods.", "No, abstract classes cannot be instantiated.", "No, unless it implements an interface."],
+    "correctAnswer": 2,
+    "explanation": "Abstract classes are designed to be base classes and cannot be instantiated directly."
+  },
+  {
+    "id": 63,
+    "topic": "Object-Oriented PHP",
+    "question": "What is method overriding in PHP?",
+    "options": ["Creating multiple methods with the same name but different parameters.", "Redefining a parent class's method in a child class.", "Hiding a method using the private keyword.", "Executing a method outside its class scope."],
+    "correctAnswer": 1,
+    "explanation": "Method overriding occurs when a child class provides a specific implementation for a method already defined in its parent class."
+  },
+  {
+    "id": 64,
+    "topic": "Object-Oriented PHP",
+    "question": "What is the purpose of the 'clone' keyword in PHP?",
+    "options": ["To copy a file", "To create a shallow copy of an object", "To extend a class", "To duplicate a database record"],
+    "correctAnswer": 1,
+    "explanation": "The 'clone' keyword creates a shallow copy of an object, triggering the __clone() magic method if defined."
+  },
+  {
+    "id": 65,
+    "topic": "Object-Oriented PHP",
+    "question": "Which design pattern restricts the instantiation of a class to one single object?",
+    "options": ["Factory Pattern", "Observer Pattern", "Singleton Pattern", "MVC Pattern"],
+    "correctAnswer": 2,
+    "explanation": "The Singleton pattern restricts a class from having more than one instance and provides a global point of access to it."
+  },
+  {
+    "id": 66,
+    "topic": "MVC Designs",
+    "question": "In MVC, where should form validation logic ideally be placed?",
+    "options": ["In the View", "In the Database", "In the Model or a dedicated Form Request class", "In the Router"],
+    "correctAnswer": 2,
+    "explanation": "Validation logic belongs to the Model or dedicated request classes to keep Controllers thin and Views purely for display."
+  },
+  {
+    "id": 67,
+    "topic": "MVC Designs",
+    "question": "What is a 'Fat Model, Skinny Controller' approach?",
+    "options": ["Keeping business logic in the model and only routing logic in the controller.", "Putting all database queries in the controller.", "Using large views and small models.", "Bypassing the controller entirely."],
+    "correctAnswer": 0,
+    "explanation": "This best practice suggests keeping business logic inside Models, making them 'fat', while Controllers remain 'skinny' by only handling request/response flow."
+  },
+  {
+    "id": 68,
+    "topic": "MVC Designs",
+    "question": "What is the role of a Router in modern MVC frameworks?",
+    "options": ["To design the UI layout", "To map an incoming URL to a specific Controller method", "To connect to the database", "To sanitize user input"],
+    "correctAnswer": 1,
+    "explanation": "The Router acts as a traffic cop, mapping incoming HTTP requests (URLs) to the appropriate Controller actions."
+  },
+  {
+    "id": 69,
+    "topic": "MVC Designs",
+    "question": "Which of the following is NOT a benefit of the MVC architecture?",
+    "options": ["Code reusability", "Parallel development by multiple team members", "Tighter coupling between components", "Easier testing and maintenance"],
+    "correctAnswer": 2,
+    "explanation": "MVC promotes loose coupling, not tighter coupling, by separating data, business logic, and presentation."
+  },
+  {
+    "id": 70,
+    "topic": "MVC Designs",
+    "question": "In a strict MVC setup, should the View directly query the Database?",
+    "options": ["Yes, for performance reasons.", "Yes, if the data is read-only.", "No, the View should receive data from the Controller.", "No, the View should query the Router."],
+    "correctAnswer": 2,
+    "explanation": "Views should be passive and only display data passed to them by the Controller. Direct database access violates the separation of concerns."
+  },
+  {
+    "id": 71,
+    "topic": "MVC Designs",
+    "question": "What does HMVC stand for?",
+    "options": ["Hyper Model View Controller", "Hierarchical Model View Controller", "Hybrid Model View Controller", "Hosted Model View Controller"],
+    "correctAnswer": 1,
+    "explanation": "HMVC stands for Hierarchical Model View Controller, an evolution of MVC that allows for modular, independent MVC triads."
+  },
+  {
+    "id": 72,
+    "topic": "MVC Designs",
+    "question": "In an MVC application, where do CSS and JavaScript files typically reside?",
+    "options": ["Inside the Model folder", "Inside the Controller folder", "In a public or assets directory accessible to the View", "In the database"],
+    "correctAnswer": 2,
+    "explanation": "Static assets like CSS and JS are stored in a public directory so they can be directly served to the client browser and referenced by Views."
+  },
+  {
+    "id": 73,
+    "topic": "MVC Designs",
+    "question": "What is the Observer pattern often used for in an MVC architecture?",
+    "options": ["To design database tables", "To allow the View to automatically update when the Model changes", "To write CSS selectors", "To route HTTP requests"],
+    "correctAnswer": 1,
+    "explanation": "The Observer pattern is used to establish a one-to-many relationship, often so Views are notified and updated automatically when the Model's state changes."
+  },
+  {
+    "id": 74,
+    "topic": "MVC Designs",
+    "question": "Which component formats the data into a JSON response in an API built with MVC?",
+    "options": ["The Database", "The Model", "The Controller or a dedicated View/Resource layer", "The HTML template"],
+    "correctAnswer": 2,
+    "explanation": "The Controller typically fetches data from the Model and uses a View or Resource class to format it as JSON before sending the response."
+  },
+  {
+    "id": 75,
+    "topic": "MVC Designs",
+    "question": "What is a disadvantage of MVC for very small, simple applications?",
+    "options": ["It prevents the use of JavaScript.", "It introduces unnecessary complexity and overhead.", "It makes the application run infinitely slower.", "It requires a NoSQL database."],
+    "correctAnswer": 1,
+    "explanation": "For tiny applications, the structured directories and strict separation of MVC can be over-engineered, adding unnecessary overhead."
+  },
+  {
+    "id": 76,
+    "topic": "MySQL Database",
+    "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+    "options": ["INNER JOIN returns all rows, LEFT JOIN returns only matching rows.", "INNER JOIN returns only matching rows in both tables; LEFT JOIN returns all rows from the left table and matched rows from the right.", "There is no difference.", "LEFT JOIN is faster than INNER JOIN."],
+    "correctAnswer": 1,
+    "explanation": "INNER JOIN requires a match in both tables, whereas LEFT JOIN guarantees all rows from the left table are returned, filling nulls if no match exists on the right."
+  },
+  {
+    "id": 77,
+    "topic": "MySQL Database",
+    "question": "Which MySQL engine supports foreign key constraints and transactions?",
+    "options": ["MyISAM", "MEMORY", "CSV", "InnoDB"],
+    "correctAnswer": 3,
+    "explanation": "InnoDB is the default MySQL storage engine that supports ACID transactions, row-level locking, and foreign keys."
+  },
+  {
+    "id": 78,
+    "topic": "MySQL Database",
+    "question": "What does the ACID acronym stand for in database transactions?",
+    "options": ["Atomicity, Consistency, Isolation, Durability", "Accuracy, Completeness, Integrity, Dependability", "Active, Consistent, Isolated, Distributed", "Automated, Concurrent, Indexed, Dynamic"],
+    "correctAnswer": 0,
+    "explanation": "ACID properties ensure that database transactions are processed reliably."
+  },
+  {
+    "id": 79,
+    "topic": "MySQL Database",
+    "question": "Which SQL statement is used to modify existing data in a table?",
+    "options": ["ALTER", "MODIFY", "UPDATE", "CHANGE"],
+    "correctAnswer": 2,
+    "explanation": "The UPDATE statement is used to modify the existing records in a table."
+  },
+  {
+    "id": 80,
+    "topic": "MySQL Database",
+    "question": "What is an index used for in MySQL?",
+    "options": ["To automatically generate primary keys.", "To speed up the retrieval of rows from a table.", "To encrypt table data.", "To link two databases together."],
+    "correctAnswer": 1,
+    "explanation": "Indexes are special lookup tables that the database search engine can use to speed up data retrieval."
+  },
+  {
+    "id": 81,
+    "topic": "MySQL Database",
+    "question": "What is the difference between DELETE and TRUNCATE?",
+    "options": ["DELETE is a DDL command; TRUNCATE is a DML command.", "DELETE removes data row by row and can be rolled back; TRUNCATE removes all data quickly and resets auto-increment, and usually cannot be rolled back.", "TRUNCATE deletes the table structure; DELETE only removes data.", "There is no difference; they are aliases."],
+    "correctAnswer": 1,
+    "explanation": "DELETE allows WHERE clauses and row-by-row deletion, while TRUNCATE is a faster operation that drops and recreates the table, resetting identity columns."
+  },
+  {
+    "id": 82,
+    "topic": "MySQL Database",
+    "question": "Which clause is used in conjunction with aggregate functions to group the result set?",
+    "options": ["ORDER BY", "GROUP BY", "SORT BY", "FILTER BY"],
+    "correctAnswer": 1,
+    "explanation": "The GROUP BY statement groups rows that have the same values into summary rows, often used with COUNT(), MAX(), MIN(), SUM(), AVG()."
+  },
+  {
+    "id": 83,
+    "topic": "MySQL Database",
+    "question": "How do you filter the results of a GROUP BY query in MySQL?",
+    "options": ["Using the WHERE clause", "Using the HAVING clause", "Using the FILTER clause", "Using the LIKE clause"],
+    "correctAnswer": 1,
+    "explanation": "The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions."
+  },
+  {
+    "id": 84,
+    "topic": "MySQL Database",
+    "question": "What is a database View?",
+    "options": ["A graphical user interface for the database.", "A backup file of the database.", "A virtual table based on the result-set of an SQL statement.", "A physical copy of a table."],
+    "correctAnswer": 2,
+    "explanation": "A view is a virtual table whose contents are defined by a query, simplifying complex queries and enhancing security."
+  },
+  {
+    "id": 85,
+    "topic": "MySQL Database",
+    "question": "Which constraint ensures that a column cannot have a NULL value?",
+    "options": ["UNIQUE", "PRIMARY KEY", "NOT NULL", "CHECK"],
+    "correctAnswer": 2,
+    "explanation": "The NOT NULL constraint enforces a column to not accept NULL values, ensuring a field always contains data."
+  },
+  {
+    "id": 86,
+    "topic": "MySQL Database",
+    "question": "What does normalization do?",
+    "options": ["Increases data redundancy.", "Organizes data to reduce redundancy and improve data integrity.", "Combines multiple databases into one.", "Encrypts sensitive database columns."],
+    "correctAnswer": 1,
+    "explanation": "Normalization is the process of structuring a relational database to reduce data redundancy and improve data integrity."
+  },
+  {
+    "id": 87,
+    "topic": "MySQL Database",
+    "question": "What is the purpose of the 'LIKE' operator?",
+    "options": ["To compare two tables for exact matches.", "To search for a specified pattern in a column.", "To join tables with similar names.", "To favorite a record in the database."],
+    "correctAnswer": 1,
+    "explanation": "The LIKE operator is used in a WHERE clause to search for a specified pattern in a column using wildcards like '%' and '_'."
+  },
+  {
+    "id": 88,
+    "topic": "MySQL Database",
+    "question": "Which MySQL function returns the current date and time?",
+    "options": ["GETDATE()", "NOW()", "CURTIME()", "DATETIME()"],
+    "correctAnswer": 1,
+    "explanation": "The NOW() function returns the current date and time in 'YYYY-MM-DD HH:MM:SS' format in MySQL."
+  },
+  {
+    "id": 89,
+    "topic": "MySQL Database",
+    "question": "What is a Stored Procedure?",
+    "options": ["A log file storing database errors.", "A prepared SQL code that you can save, so the code can be reused over and over again.", "A method to automatically backup databases.", "A function that triggers when a row is deleted."],
+    "correctAnswer": 1,
+    "explanation": "Stored procedures are precompiled collections of SQL statements stored under a name and processed as a unit."
+  },
+  {
+    "id": 90,
+    "topic": "MySQL Database",
+    "question": "What is the maximum number of primary keys a table can have in MySQL?",
+    "options": ["Unlimited", "Two", "One", "Depends on the columns"],
+    "correctAnswer": 2,
+    "explanation": "A database table can have only one primary key, although it can consist of single or multiple columns (composite key)."
+  },
+  {
+    "id": 91,
+    "topic": "PHP Web Frameworks",
+    "question": "In Laravel, what is the purpose of the '.env' file?",
+    "options": ["To store HTML views.", "To configure environment-specific variables like database credentials.", "To list Composer dependencies.", "To define routing rules."],
+    "correctAnswer": 1,
+    "explanation": "The .env file stores configuration settings specific to the environment (local, production, etc.), keeping sensitive data out of version control."
+  },
+  {
+    "id": 92,
+    "topic": "PHP Web Frameworks",
+    "question": "Which architectural pattern does Laravel's Eloquent implement?",
+    "options": ["Data Mapper", "Active Record", "Table Data Gateway", "Repository Pattern"],
+    "correctAnswer": 1,
+    "explanation": "Eloquent is an object-relational mapper (ORM) that implements the Active Record pattern, where models directly represent database tables."
+  },
+  {
+    "id": 93,
+    "topic": "PHP Web Frameworks",
+    "question": "What command is used to create a new controller in Laravel?",
+    "options": ["php artisan make:controller", "php create controller", "composer require controller", "laravel new controller"],
+    "correctAnswer": 0,
+    "explanation": "The 'php artisan make:controller ControllerName' command generates a new controller class in Laravel."
+  },
+  {
+    "id": 94,
+    "topic": "PHP Web Frameworks",
+    "question": "In CodeIgniter 3, how do you load a database library?",
+    "options": ["$this->load->db();", "$this->load->database();", "Database::load();", "$this->db->init();"],
+    "correctAnswer": 1,
+    "explanation": "In CodeIgniter 3, you load the database class using $this->load->database();"
+  },
+  {
+    "id": 95,
+    "topic": "PHP Web Frameworks",
+    "question": "What is the primary difference between libraries and helpers in CodeIgniter?",
+    "options": ["Helpers are procedural functions, whereas libraries are object-oriented classes.", "Libraries are for the database; helpers are for views.", "Helpers require instantiation, libraries do not.", "There is no difference."],
+    "correctAnswer": 0,
+    "explanation": "Helpers in CodeIgniter are collections of standalone procedural functions, while libraries are classes that require instantiation."
+  },
+  {
+    "id": 96,
+    "topic": "PHP Web Frameworks",
+    "question": "In Laravel, how do you pass data from a controller to a view?",
+    "options": ["Using global variables.", "Passing an array as the second argument to the view() helper.", "Using the $_POST array.", "Saving it to a text file."],
+    "correctAnswer": 1,
+    "explanation": "Data is typically passed to a view in Laravel as an associative array passed as the second argument to the view() function, or using the with() method."
+  },
+  {
+    "id": 97,
+    "topic": "PHP Web Frameworks",
+    "question": "What is a Service Provider in Laravel?",
+    "options": ["A third-party API service.", "A class that bootstraps and registers application services into the service container.", "A web hosting provider.", "A database connection manager."],
+    "correctAnswer": 1,
+    "explanation": "Service providers are the central place of all Laravel application bootstrapping, registering things like bindings, event listeners, middleware, and routes."
+  },
+  {
+    "id": 98,
+    "topic": "PHP Web Frameworks",
+    "question": "How do you protect routes in Laravel to ensure only authenticated users can access them?",
+    "options": ["By placing them in a secure folder.", "By using the 'auth' middleware.", "By encrypting the URL.", "By checking the session manually in every view."],
+    "correctAnswer": 1,
+    "explanation": "Laravel provides an 'auth' middleware that verifies the user is authenticated before allowing the request to proceed."
+  },
+  {
+    "id": 99,
+    "topic": "PHP Web Frameworks",
+    "question": "What feature of Laravel allows you to define one-to-many or many-to-many database relations simply?",
+    "options": ["Query Builder Joins", "Eloquent Relationships", "Database Migrations", "Route Model Binding"],
+    "correctAnswer": 1,
+    "explanation": "Eloquent Relationships allow you to define methods on your model classes to easily interact with related data (e.g., hasMany, belongsTo)."
+  },
+  {
+    "id": 100,
+    "topic": "PHP Web Frameworks",
+    "question": "What does the 'compact()' function do when returning a view in Laravel?",
+    "options": ["Compresses the HTML output to save bandwidth.", "Creates an array containing variables and their values.", "Minifies the CSS and JS assets.", "Deletes old cache files."],
+    "correctAnswer": 1,
+    "explanation": "The native PHP compact() function takes variable names as strings and creates an associative array, which is heavily used in Laravel to pass data to views."
+  },
+  {
+    "id": 101,
+    "topic": "Front-End Technologies",
+    "question": "Which HTML5 API allows a user's geographical position to be identified?",
+    "options": ["Geolocation API", "Navigation API", "Web Storage API", "GeoLocation Tag"],
+    "correctAnswer": 0,
+    "explanation": "The HTML Geolocation API is used to locate a user's geographical position (with their permission)."
+  },
+  {
+    "id": 102,
+    "topic": "Front-End Technologies",
+    "question": "What is the difference between sessionStorage and localStorage in HTML5?",
+    "options": ["localStorage is faster than sessionStorage.", "localStorage stores data with no expiration, while sessionStorage data is lost when the browser tab is closed.", "sessionStorage can store more data than localStorage.", "localStorage is only for strings; sessionStorage can store objects natively."],
+    "correctAnswer": 1,
+    "explanation": "sessionStorage is temporary and tied to the window/tab session, whereas localStorage persists even after the browser is closed."
+  },
+  {
+    "id": 103,
+    "topic": "Front-End Technologies",
+    "question": "In CSS, what is the default value of the 'position' property?",
+    "options": ["relative", "absolute", "fixed", "static"],
+    "correctAnswer": 3,
+    "explanation": "The default positioning for all HTML elements is 'static', meaning they are positioned according to the normal flow of the page."
+  },
+  {
+    "id": 104,
+    "topic": "Front-End Technologies",
+    "question": "Which CSS property controls the stacking order of elements?",
+    "options": ["stack-level", "order", "z-index", "layer"],
+    "correctAnswer": 2,
+    "explanation": "The z-index property specifies the z-order (stack level) of a positioned element and its descendants."
+  },
+  {
+    "id": 105,
+    "topic": "Front-End Technologies",
+    "question": "What is 'hoisting' in JavaScript?",
+    "options": ["Lifting an element visually on the screen using CSS.", "JavaScript's default behavior of moving declarations to the top of the current scope.", "Importing a module from another file.", "Uploading files to a server."],
+    "correctAnswer": 1,
+    "explanation": "Hoisting allows functions and variables (declared with var) to be used before they are declared in the code."
+  },
+  {
+    "id": 106,
+    "topic": "Front-End Technologies",
+    "question": "What is a closure in JavaScript?",
+    "options": ["A way to close an open database connection.", "A function bundled together with references to its surrounding state (lexical environment).", "The end of a block of code marked by a closing brace.", "A method to terminate an infinite loop."],
+    "correctAnswer": 1,
+    "explanation": "A closure gives you access to an outer function's scope from an inner function, even after the outer function has returned."
+  },
+  {
+    "id": 107,
+    "topic": "Front-End Technologies",
+    "question": "Which JavaScript feature provides an easier way to handle asynchronous operations and avoid 'callback hell'?",
+    "options": ["Strict mode", "Promises", "Event Bubbling", "Synchronous Requests"],
+    "correctAnswer": 1,
+    "explanation": "Promises represent the eventual completion (or failure) of an asynchronous operation, significantly improving code readability over nested callbacks."
+  },
+  {
+    "id": 108,
+    "topic": "Front-End Technologies",
+    "question": "In CSS3, how do you apply a style only to screens that are 600px wide or smaller?",
+    "options": ["@media (max-width: 600px)", "@media (min-width: 600px)", "@screen (width < 600px)", "@apply max-width 600px"],
+    "correctAnswer": 0,
+    "explanation": "Media queries use the '@media' rule to include a block of CSS properties only if a certain condition is true, such as a max-width of 600px."
+  },
+  {
+    "id": 109,
+    "topic": "Front-End Technologies",
+    "question": "What does the HTML5 <canvas> element do?",
+    "options": ["Displays pre-rendered 3D models natively.", "Provides a drawable region defined in HTML, manipulated via JavaScript to draw graphics.", "Creates an iframe to display external websites.", "Automatically applies a CSS grid layout."],
+    "correctAnswer": 1,
+    "explanation": "The <canvas> element is a container for graphics, where scripts (usually JavaScript) are used to draw the graphics on the fly."
+  },
+  {
+    "id": 110,
+    "topic": "Front-End Technologies",
+    "question": "What is 'Event Bubbling' in the DOM?",
+    "options": ["When an event is triggered on an element, it first runs handlers on it, then on its parent, then all the way up on other ancestors.", "An animation effect created using CSS transitions.", "When multiple events are fired simultaneously on the same element.", "A technique to prevent errors from crashing the browser."],
+    "correctAnswer": 0,
+    "explanation": "Event bubbling is an event propagation mechanism where an event triggers at the deepest target element and then successively triggers on ancestors."
+  },
+  {
+    "id": 111,
+    "topic": "JavaScript Frameworks",
+    "question": "In React, what are 'props'?",
+    "options": ["Internal state variables of a component.", "Arguments passed into React components.", "Built-in CSS styling properties.", "Functions used to fetch data."],
+    "correctAnswer": 1,
+    "explanation": "Props (short for properties) are how data is passed from a parent component down to a child component in React."
+  },
+  {
+    "id": 112,
+    "topic": "JavaScript Frameworks",
+    "question": "What is JSX in React?",
+    "options": ["A new JavaScript engine built by Facebook.", "A syntax extension for JavaScript that looks similar to XML/HTML.", "A state management library.", "A tool to compile CSS."],
+    "correctAnswer": 1,
+    "explanation": "JSX allows developers to write HTML-like structures in the same file as JavaScript code, which React then compiles into React.createElement() calls."
+  },
+  {
+    "id": 113,
+    "topic": "JavaScript Frameworks",
+    "question": "Which Hook is used to perform side effects in a React functional component?",
+    "options": ["useState", "useReducer", "useEffect", "useContext"],
+    "correctAnswer": 2,
+    "explanation": "The useEffect Hook lets you perform side effects (like data fetching, subscriptions, or manually changing the DOM) in function components."
+  },
+  {
+    "id": 114,
+    "topic": "JavaScript Frameworks",
+    "question": "Which Hook is typically preferred over useState for managing complex state logic involving multiple sub-values or transitions?",
+    "options": ["useReducer", "useEffect", "useContext", "useRef"],
+    "correctAnswer": 0,
+    "explanation": "useReducer is generally preferred when state logic is complex, involves multiple sub-values, or when the next state depends on the previous one."
+  },
+  {
+    "id": 115,
+    "topic": "JavaScript Frameworks",
+    "question": "What is 'lifting state up' in React?",
+    "options": ["Moving shared state to the closest common ancestor component so multiple children can access it", "Moving a component's CSS into a global stylesheet", "Increasing a component's z-index value", "Converting class components into functional components"],
+    "correctAnswer": 0,
+    "explanation": "When several components need to reflect the same changing data, it's recommended to lift the shared state up to their closest common ancestor."
+  },
+  {
+    "id": 116,
+    "topic": "JavaScript Frameworks",
+    "question": "Which Hook allows you to directly access a DOM element or persist a mutable value across renders without causing a re-render?",
+    "options": ["useRef", "useState", "useMemo", "useCallback"],
+    "correctAnswer": 0,
+    "explanation": "useRef returns a mutable ref object whose .current property can hold a DOM node or any mutable value, and updating it does not trigger a re-render."
+  },
+  {
+    "id": 117,
+    "topic": "JavaScript Frameworks",
+    "question": "What is a Higher-Order Component (HOC) in React?",
+    "options": ["A function that takes a component and returns a new, enhanced component", "A component rendered at the very top of the page", "A class component with more than five methods", "A built-in React Hook"],
+    "correctAnswer": 0,
+    "explanation": "A Higher-Order Component is an advanced pattern in React for reusing component logic, implemented as a function that wraps a component to add extra functionality."
+  },
+  {
+    "id": 118,
+    "topic": "JavaScript Frameworks",
+    "question": "Which React feature lets components 'wait' for something before rendering, commonly used with lazy-loaded components?",
+    "options": ["Suspense", "Context", "Fragment", "Portal"],
+    "correctAnswer": 0,
+    "explanation": "Suspense lets you display a fallback UI while waiting for something, such as a component loaded via React.lazy(), to be ready."
+  },
+  {
+    "id": 119,
+    "topic": "JavaScript Frameworks",
+    "question": "Which library is commonly used in React (in plain JavaScript projects) to validate the type of props passed to a component?",
+    "options": ["PropTypes", "TypeScript only", "ESLint", "Babel"],
+    "correctAnswer": 0,
+    "explanation": "PropTypes is a library used to perform runtime type-checking on the props passed into React components."
+  },
+  {
+    "id": 120,
+    "topic": "JavaScript Frameworks",
+    "question": "In React, how should you update a state variable declared with useState?",
+    "options": ["By modifying it directly: stateVariable = newValue", "By using the setter function provided by useState.", "By calling this.setState()", "By mutating the DOM element's value property."],
+    "correctAnswer": 1,
+    "explanation": "State in functional React components must be updated using the setter function returned by the useState hook to trigger a re-render."
+  },
+  {
+    "id": 121,
+    "topic": "Object-Oriented PHP",
+    "question": "Which of the following is true regarding PHP Constructors?",
+    "options": ["They cannot have parameters.", "Child classes automatically call the parent's constructor by default, even if the child defines its own.", "If a child class defines a constructor, it must explicitly call parent::__construct() to run the parent's constructor.", "They must return a boolean value."],
+    "correctAnswer": 2,
+    "explanation": "PHP does not automatically call the parent constructor if the child class defines its own; you must explicitly call parent::__construct()."
+  },
+  {
+    "id": 122,
+    "topic": "Object-Oriented PHP",
+    "question": "What does PDO stand for in PHP?",
+    "options": ["PHP Data Objects", "PHP Database Orientation", "Personal Data Output", "PreparedStatement Data Option"],
+    "correctAnswer": 0,
+    "explanation": "PDO stands for PHP Data Objects, a lean, consistent way to access databases in PHP."
+  },
+  {
+    "id": 123,
+    "topic": "Object-Oriented PHP",
+    "question": "How are exceptions handled in PHP?",
+    "options": ["try...catch blocks", "if...else statements", "while loops", "switch statements"],
+    "correctAnswer": 0,
+    "explanation": "Exceptions are handled using try...catch blocks. The code that might throw an exception is placed in the try block, and handled in the catch block."
+  },
+  {
+    "id": 124,
+    "topic": "MVC Designs",
+    "question": "Which component of MVC evaluates user input and updates the Model?",
+    "options": ["View", "Controller", "Template", "Component"],
+    "correctAnswer": 1,
+    "explanation": "The Controller interprets inputs from the user (such as form submissions or clicks) and commands the model to update its state."
+  },
+  {
+    "id": 125,
+    "topic": "MVC Designs",
+    "question": "Why is it recommended to not include SQL queries in the View?",
+    "options": ["Because SQL doesn't run in HTML files.", "Because it violates the separation of concerns, making code harder to maintain and test.", "Because it slows down the database significantly.", "Because it causes syntax errors in the browser."],
+    "correctAnswer": 1,
+    "explanation": "Mixing data access code with presentation code breaks the separation of concerns, leading to tangled, hard-to-maintain code (spaghetti code)."
+  },
+  {
+    "id": 126,
+    "topic": "MySQL Database",
+    "question": "What is the result of a FULL OUTER JOIN?",
+    "options": ["Only records that match in both tables.", "All records from both tables, matching rows where possible, and filling with NULLs where there is no match.", "An error, as MySQL does not natively support the FULL OUTER JOIN syntax.", "A cross product of the two tables."],
+    "correctAnswer": 2,
+    "explanation": "MySQL does not natively support FULL OUTER JOIN. It must be emulated by combining a LEFT JOIN and a RIGHT JOIN with UNION."
+  },
+  {
+    "id": 127,
+    "topic": "MySQL Database",
+    "question": "Which statement correctly describes a Subquery?",
+    "options": ["A query executed concurrently on a different database.", "A query nested inside another query, such as SELECT, INSERT, UPDATE, or DELETE.", "A query that specifically uses joins.", "A pre-compiled SQL function."],
+    "correctAnswer": 1,
+    "explanation": "A subquery (or inner query) is a query completely nested inside a larger outer query."
+  },
+  {
+    "id": 128,
+    "topic": "PHP Web Frameworks",
+    "question": "In CodeIgniter, what is the role of 'routes.php'?",
+    "options": ["To store database credentials.", "To map URIs to specific controller and method calls.", "To automatically generate HTML views.", "To handle session security."],
+    "correctAnswer": 1,
+    "explanation": "The routes.php file allows you to remap the default URI request logic to point to different controllers and methods."
+  },
+  {
+    "id": 129,
+    "topic": "PHP Web Frameworks",
+    "question": "What is a Blade directive in Laravel?",
+    "options": ["A command executed in the terminal.", "A special syntax prefixed with '@' used in templates for logic control, like @if or @foreach.", "A database query builder method.", "A routing parameter."],
+    "correctAnswer": 1,
+    "explanation": "Blade directives are simple, readable shortcuts for PHP control structures used directly inside Laravel views."
+  },
+  {
+    "id": 130,
+    "topic": "Front-End Technologies",
+    "question": "Which method stops the default action of an element from happening in JavaScript?",
+    "options": ["event.stopPropagation()", "event.preventDefault()", "event.stopDefault()", "event.halt()"],
+    "correctAnswer": 1,
+    "explanation": "The preventDefault() method of the Event interface tells the browser that if the default action exists, it should not be taken as it normally would be."
+  },
+  {
+    "id": 131,
+    "topic": "Front-End Technologies",
+    "question": "What does the 'rem' unit stand for in CSS?",
+    "options": ["Relative element measurement", "Root em", "Responsive em", "Ratio element margins"],
+    "correctAnswer": 1,
+    "explanation": "'rem' stands for 'root em', a unit relative to the font-size of the root element (<html>), providing a consistent sizing mechanism."
+  },
+  {
+    "id": 132,
+    "topic": "JavaScript Frameworks",
+    "question": "What is a 'Custom Hook' in React?",
+    "options": ["A JavaScript function whose name starts with 'use' that can call other Hooks to reuse stateful logic", "A hook that is built directly into React's core library", "A CSS class reserved for hooking elements together", "A third-party npm package that must always be installed separately"],
+    "correctAnswer": 0,
+    "explanation": "Custom Hooks let you extract component logic into reusable functions, following the naming convention of starting with 'use' so React can apply the Rules of Hooks."
+  },
+  {
+    "id": 133,
+    "topic": "JavaScript Frameworks",
+    "question": "Which command is commonly used to quickly scaffold a new React project?",
+    "options": ["npx create-react-app my-app", "ng new my-app", "php artisan make:react", "npm init react"],
+    "correctAnswer": 0,
+    "explanation": "npx create-react-app generates a new React project with a sensible default build configuration, ready for development."
+  },
+  {
+    "id": 134,
+    "topic": "JavaScript Frameworks",
+    "question": "What does the 'key' attribute do when rendering lists in React?",
+    "options": ["Provides encryption for the list items.", "Helps React identify which items have changed, been added, or been removed, optimizing re-renders.", "Assigns a CSS class to the list item.", "Defines the primary key for the database query."],
+    "correctAnswer": 1,
+    "explanation": "Keys provide React with a stable identity for elements inside an array, crucially improving the performance of DOM updates during re-renders."
+  },
+  {
+    "id": 135,
+    "topic": "Object-Oriented PHP",
+    "question": "What is the default visibility of properties and methods in PHP if no modifier is explicitly declared?",
+    "options": ["private", "protected", "public", "static"],
+    "correctAnswer": 2,
+    "explanation": "In PHP, if you do not specify a visibility modifier (public, protected, or private), the property or method defaults to public."
+  },
+  {
+    "id": 136,
+    "topic": "MySQL Database",
+    "question": "Which aggregate function returns the total number of rows matching a specific criteria?",
+    "options": ["SUM()", "MAX()", "TOTAL()", "COUNT()"],
+    "correctAnswer": 3,
+    "explanation": "The COUNT() function returns the number of rows that match a specified criterion."
+  },
+  {
+    "id": 137,
+    "topic": "PHP Web Frameworks",
+    "question": "In Laravel, which artisan command clears the application cache?",
+    "options": ["php artisan cache:delete", "php artisan cache:clear", "php artisan clear:cache", "php artisan system:clean"],
+    "correctAnswer": 1,
+    "explanation": "The 'php artisan cache:clear' command flushes the entire application cache."
+  },
+  {
+    "id": 138,
+    "topic": "Front-End Technologies",
+    "question": "Which HTML tag is used to embed a JavaScript file in an HTML document?",
+    "options": ["<javascript>", "<js>", "<script>", "<code>"],
+    "correctAnswer": 2,
+    "explanation": "The <script> tag is used to embed or reference an executable script within an HTML or XHTML document."
+  },
+  {
+    "id": 139,
+    "topic": "JavaScript Frameworks",
+    "question": "What is the primary function of Redux in a React application?",
+    "options": ["Handling HTTP routing.", "Managing global application state in a predictable container.", "Compiling JSX to JavaScript.", "Rendering CSS animations."],
+    "correctAnswer": 1,
+    "explanation": "Redux is a predictable state container for JavaScript apps, widely used with React to manage centralized, global state."
+  },
+  {
+    "id": 140,
+    "topic": "MVC Designs",
+    "question": "In the context of MVC, what does a Front Controller do?",
+    "options": ["Renders the header and footer of the website.", "Handles all requests for a website, routing them through a single entry point (usually index.php).", "Manages the database connection pool.", "Writes log files for server errors."],
+    "correctAnswer": 1,
+    "explanation": "A Front Controller pattern funnels all incoming HTTP requests through a single handler object or file to provide centralized security, routing, and initialization."
+  },
+  {
+    "id": 141,
+    "topic": "MySQL Database",
+    "question": "Which command is used to grant privileges to a user in MySQL?",
+    "options": ["ALLOW", "GRANT", "PERMIT", "GIVE"],
+    "correctAnswer": 1,
+    "explanation": "The GRANT statement gives specific privileges to a MySQL user account."
+  },
+  {
+    "id": 142,
+    "topic": "Front-End Technologies",
+    "question": "In JavaScript, what does strict mode ('use strict') do?",
+    "options": ["Makes CSS layout rules inflexible.", "Catches common coding bloopers, throwing exceptions for things like using undeclared variables.", "Disables the use of the 'this' keyword.", "Forces functions to return an integer."],
+    "correctAnswer": 1,
+    "explanation": "Strict mode is a way to opt in to a restricted variant of JavaScript, eliminating some silent errors by changing them to throw errors."
+  },
+  {
+    "id": 143,
+    "topic": "JavaScript Frameworks",
+    "question": "What is the purpose of <React.StrictMode> in a React application?",
+    "options": ["To help identify potential problems by activating extra checks and warnings for its descendants", "To enforce strict CSS rules across the application", "To block the use of class components entirely", "To automatically minify production code"],
+    "correctAnswer": 0,
+    "explanation": "StrictMode is a development-only tool that highlights potential problems, such as unsafe lifecycles or legacy API usage, without rendering any visible UI."
+  },
+  {
+    "id": 144,
+    "topic": "Object-Oriented PHP",
+    "question": "What is meant by an 'anonymous class' in PHP 7+?",
+    "options": ["A class that cannot be instantiated.", "A class without properties.", "A class created without a name, useful for simple, one-off objects.", "A class hiding inside a namespace."],
+    "correctAnswer": 2,
+    "explanation": "Anonymous classes are useful when simple, one-off objects need to be created without formally defining a named class structure."
+  },
+  {
+    "id": 145,
+    "topic": "PHP Web Frameworks",
+    "question": "What is Laravel Mix / Vite used for?",
+    "options": ["Managing database backups.", "Compiling and bundling front-end assets like CSS and JavaScript.", "Mixing different PHP frameworks together.", "Routing API requests."],
+    "correctAnswer": 1,
+    "explanation": "Laravel Mix (and more recently Vite in Laravel 9+) provides a fluent API for defining webpack/Vite build steps to compile front-end assets."
+  },
+  {
+    "id": 146,
+    "topic": "MySQL Database",
+    "question": "How do you find all records where the 'name' field starts with the letter 'A'?",
+    "options": ["SELECT * FROM table WHERE name LIKE 'A%'", "SELECT * FROM table WHERE name LIKE '%A'", "SELECT * FROM table WHERE name = 'A*'", "SELECT * FROM table WHERE name MATCH 'A'"],
+    "correctAnswer": 0,
+    "explanation": "The wildcard '%' represents zero, one, or multiple characters. 'A%' searches for any value that starts with 'A'."
+  },
+  {
+    "id": 147,
+    "topic": "Front-End Technologies",
+    "question": "Which of the following is true about CSS Flexbox?",
+    "options": ["It is primarily designed for two-dimensional layouts.", "It is primarily designed for one-dimensional layouts (rows or columns).", "It only works for text alignment.", "It replaces the need for HTML tables for tabular data."],
+    "correctAnswer": 1,
+    "explanation": "Flexbox is designed for laying out items in a single dimension—either in a row or a column, while CSS Grid handles two dimensions."
+  },
+  {
+    "id": 148,
+    "topic": "JavaScript Frameworks",
+    "question": "What does a React Portal allow you to do?",
+    "options": ["Render a child component into a DOM node that exists outside the parent component's DOM hierarchy", "Open a new browser tab automatically", "Transfer state between two completely unrelated applications", "Compile JSX directly into WebAssembly"],
+    "correctAnswer": 0,
+    "explanation": "Portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component, useful for modals and tooltips."
+  },
+  {
+    "id": 149,
+    "topic": "MVC Designs",
+    "question": "What is the common role of a 'ViewModel' (in MVVM), and how does it relate to traditional MVC?",
+    "options": ["It completely replaces the database.", "It handles data-binding to the View, taking presentation logic out of the Controller.", "It writes HTML dynamically.", "It connects two different frameworks."],
+    "correctAnswer": 1,
+    "explanation": "While not strict MVC, a ViewModel handles presentation logic and state, abstracting the view's state from the UI framework, simplifying controllers."
+  },
+  {
+    "id": 150,
+    "topic": "JavaScript Frameworks",
+    "question": "In React, what is the Virtual DOM?",
+    "options": ["A plugin for the browser dev tools.", "An exact clone of the browser's DOM maintained in memory, used to optimize actual DOM updates.", "A feature to render pages on the server.", "A database to store UI states."],
+    "correctAnswer": 1,
+    "explanation": "React maintains a Virtual DOM in memory. It compares this with the actual DOM (diffing) and updates only the changed parts to optimize performance."
+  }
 ]
