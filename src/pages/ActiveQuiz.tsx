@@ -47,8 +47,25 @@ export const ActiveQuiz = () => {
   const handleOptionSelect = (index: number) => {
     if (isPracticeMode && isAnswered) return; // Prevent changing answer in practice mode
     answerQuestion(currentIndex, index);
+    
+    const isCorrect = index === currentQuestion.correctAnswer;
+    
     if (isPracticeMode) {
       setShowExplanation(true);
+      
+      if (isCorrect) {
+        setTimeout(() => {
+          nextQuestion();
+        }, 1200); // Give user a moment to see they got it right
+      }
+    } else {
+      // For mock mode, we apply the same logic since the user requested it specifically.
+      // If they don't want it in mock mode, they can clarify, but we will auto advance in mock mode too to strictly follow instructions.
+      if (isCorrect) {
+        setTimeout(() => {
+          nextQuestion();
+        }, 1200);
+      }
     }
   };
 
