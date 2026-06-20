@@ -99,8 +99,6 @@
 {"id":98,"topic":"Software Design levels","question":"The design level concerned with translating data flow diagrams into structure charts is primarily?","options":["Architectural Design","Procedural Design","Testing","Maintenance"],"correctAnswer":0},
 {"id":99,"topic":"Software Design levels","question":"Which design level is closest to and most directly translates into the actual source code?","options":["Detailed (Procedural) Design","Architectural Design","Conceptual Design","Requirement Design"],"correctAnswer":0},
 {"id":100,"topic":"Software Design levels","question":"The main overall goal of the software design phase is to?","options":["Transform requirements into a blueprint for construction","Write the final test cases only","Deploy the software to production","Gather customer requirements"],"correctAnswer":0},
-[
-
 {"id":101,"topic":"Software Engineering Models","question":"A prototype that is built only to clarify requirements and then discarded is called?","options":["Throwaway Prototype","Evolutionary Prototype","Final Product","Spiral Prototype"],"correctAnswer":0},
 
 {"id":102,"topic":"Software Engineering Models","question":"In Extreme Programming (XP), two developers writing code together at one workstation is called?","options":["Pair Programming","Solo Coding","Code Review","Sprint Planning"],"correctAnswer":0},
