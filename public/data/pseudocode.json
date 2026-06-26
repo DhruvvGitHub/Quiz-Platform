@@ -908,5 +908,805 @@
     ],
     "correctAnswer": 1,
     "explanation": "The even numbers between 1 and 5 are 2 and 4."
+  },
+  {
+    "id": 1,
+    "topic": "Java Output Tracing",
+    "question": "What is the output of the following Java code?\n\nint x = 5;\nSystem.out.println(x++);\nSystem.out.println(x);",
+    "options": ["5, 5", "5, 6", "6, 6", "6, 5"],
+    "correctAnswer": 1,
+    "explanation": "x++ is post-increment: prints 5 first, then increments x to 6. Second println prints 6."
+  },
+  {
+    "id": 2,
+    "topic": "Java Output Tracing",
+    "question": "What is the output of the following Java code?\n\nint x = 5;\nSystem.out.println(++x);\nSystem.out.println(x);",
+    "options": ["5, 5", "5, 6", "6, 6", "6, 5"],
+    "correctAnswer": 2,
+    "explanation": "++x is pre-increment: x becomes 6 before printing. Both println calls print 6."
+  },
+  {
+    "id": 3,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nString s = \"Hello\";\nSystem.out.println(s.length());",
+    "options": ["4", "5", "6", "Error"],
+    "correctAnswer": 1,
+    "explanation": "\"Hello\" has 5 characters, so s.length() returns 5."
+  },
+  {
+    "id": 4,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nSystem.out.println(10 / 3);",
+    "options": ["3.33", "3.0", "3", "Error"],
+    "correctAnswer": 2,
+    "explanation": "Both operands are int, so integer division is performed. 10/3 = 3 (remainder discarded)."
+  },
+  {
+    "id": 5,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nSystem.out.println(10 % 3);",
+    "options": ["3", "1", "0", "3.33"],
+    "correctAnswer": 1,
+    "explanation": "The % operator returns the remainder. 10 divided by 3 is 3 with remainder 1."
+  },
+  {
+    "id": 6,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nint a = 10, b = 20;\nSystem.out.println(a > b ? \"A\" : \"B\");",
+    "options": ["A", "B", "AB", "Error"],
+    "correctAnswer": 1,
+    "explanation": "a > b is false (10 > 20), so the ternary operator returns \"B\"."
+  },
+  {
+    "id": 7,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nfor(int i = 0; i < 3; i++) {\n  System.out.print(i + \" \");\n}",
+    "options": ["0 1 2 3", "0 1 2", "1 2 3", "1 2 3 4"],
+    "correctAnswer": 1,
+    "explanation": "Loop runs while i < 3. i starts at 0 and increments: prints 0, 1, 2 then stops."
+  },
+  {
+    "id": 8,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nint i = 0;\nwhile(i < 3) {\n  System.out.print(i + \" \");\n  i += 2;\n}",
+    "options": ["0 1 2", "0 2", "0 2 4", "0 1 2 3"],
+    "correctAnswer": 1,
+    "explanation": "i starts at 0 (prints 0), becomes 2 (prints 2), becomes 4 which is not < 3, loop ends."
+  },
+  {
+    "id": 9,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nString s = \"JavaProgramming\";\nSystem.out.println(s.substring(0, 4));",
+    "options": ["Java", "JavaP", "Prog", "ava"],
+    "correctAnswer": 0,
+    "explanation": "substring(0, 4) returns characters from index 0 to 3 (end index is exclusive): \"Java\"."
+  },
+  {
+    "id": 10,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nSystem.out.println(\"5\" + 3);",
+    "options": ["8", "53", "Error", "\"53\""],
+    "correctAnswer": 1,
+    "explanation": "When a String is added to an int, Java concatenates. \"5\" + 3 = \"53\"."
+  },
+  {
+    "id": 11,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nSystem.out.println(3 + 4 + \"5\");",
+    "options": ["345", "75", "12", "Error"],
+    "correctAnswer": 1,
+    "explanation": "3 + 4 is evaluated first (both int) = 7, then 7 + \"5\" = \"75\" (string concat)."
+  },
+  {
+    "id": 12,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nint[] arr = {10, 20, 30};\nSystem.out.println(arr[1]);",
+    "options": ["10", "20", "30", "Error"],
+    "correctAnswer": 1,
+    "explanation": "Arrays are 0-indexed. arr[1] is the second element: 20."
+  },
+  {
+    "id": 13,
+    "topic": "Java Output Tracing",
+    "question": "What is the output?\n\nint[] arr = {1, 2, 3, 4, 5};\nSystem.out.println(arr.length);",
+    "options": ["4", "5", "6", "Error"],
+    "correctAnswer": 1,
+    "explanation": "arr.length returns the number of elements. The array has 5 elements."
+  },
+  {
+    "id": 14,
+    "topic": "Java OOP",
+    "question": "What is the output?\n\nclass A {\n  int x = 10;\n}\nclass B extends A {\n  int x = 20;\n}\npublic class Test {\n  public static void main(String[] args) {\n    A obj = new B();\n    System.out.println(obj.x);\n  }\n}",
+    "options": ["10", "20", "Error", "0"],
+    "correctAnswer": 0,
+    "explanation": "Fields are not polymorphic in Java. obj is declared as type A, so obj.x refers to A's x = 10."
+  },
+  {
+    "id": 15,
+    "topic": "Java OOP",
+    "question": "What is the output?\n\nclass Animal {\n  void sound() { System.out.println(\"Generic\"); }\n}\nclass Dog extends Animal {\n  void sound() { System.out.println(\"Woof\"); }\n}\npublic class Test {\n  public static void main(String[] args) {\n    Animal a = new Dog();\n    a.sound();\n  }\n}",
+    "options": ["Generic", "Woof", "Error", "Generic Woof"],
+    "correctAnswer": 1,
+    "explanation": "Methods ARE polymorphic. The actual object is Dog, so Dog's overridden sound() runs: \"Woof\"."
+  },
+  {
+    "id": 16,
+    "topic": "Java OOP",
+    "question": "What is the output?\n\nclass Test {\n  static int count = 0;\n  Test() { count++; }\n  public static void main(String[] args) {\n    new Test();\n    new Test();\n    new Test();\n    System.out.println(count);\n  }\n}",
+    "options": ["0", "1", "2", "3"],
+    "correctAnswer": 3,
+    "explanation": "count is static (shared). Each constructor call increments it. 3 objects created = count is 3."
+  },
+  {
+    "id": 17,
+    "topic": "Java Exception Handling",
+    "question": "What is the output?\n\ntry {\n  int x = 10 / 0;\n  System.out.println(\"Try\");\n} catch(ArithmeticException e) {\n  System.out.println(\"Catch\");\n} finally {\n  System.out.println(\"Finally\");\n}",
+    "options": ["Try Finally", "Catch Finally", "Catch", "Finally"],
+    "correctAnswer": 1,
+    "explanation": "10/0 throws ArithmeticException, catch block runs printing \"Catch\", finally always runs printing \"Finally\"."
+  },
+  {
+    "id": 18,
+    "topic": "Java Exception Handling",
+    "question": "What is the output?\n\ntry {\n  System.out.println(\"Try\");\n} finally {\n  System.out.println(\"Finally\");\n}",
+    "options": ["Try", "Finally", "Try Finally", "Error"],
+    "correctAnswer": 2,
+    "explanation": "No exception occurs. \"Try\" prints, then finally block always executes printing \"Finally\"."
+  },
+  {
+    "id": 19,
+    "topic": "Java Strings",
+    "question": "What is the output?\n\nString s = \"hello\";\nSystem.out.println(s.toUpperCase());",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "correctAnswer": 1,
+    "explanation": "toUpperCase() converts all characters to uppercase: \"HELLO\"."
+  },
+  {
+    "id": 20,
+    "topic": "Java Strings",
+    "question": "What is the output?\n\nString s = \"  hello  \";\nSystem.out.println(s.trim());",
+    "options": ["  hello  ", "hello", "\"hello\"", "Error"],
+    "correctAnswer": 1,
+    "explanation": "trim() removes leading and trailing whitespace from the string."
+  },
+  {
+    "id": 21,
+    "topic": "Java Strings",
+    "question": "What is the output?\n\nString s = \"Hello World\";\nSystem.out.println(s.indexOf(\"World\"));",
+    "options": ["0", "5", "6", "-1"],
+    "correctAnswer": 2,
+    "explanation": "\"World\" starts at index 6 in \"Hello World\" (H=0,e=1,l=2,l=3,o=4, =5,W=6)."
+  },
+  {
+    "id": 22,
+    "topic": "Java Strings",
+    "question": "What is the output?\n\nString a = \"Java\";\nString b = \"Java\";\nSystem.out.println(a == b);",
+    "options": ["true", "false", "Error", "null"],
+    "correctAnswer": 0,
+    "explanation": "String literals are interned in Java. Both a and b point to the same object in the string pool, so == returns true."
+  },
+  {
+    "id": 23,
+    "topic": "Java Strings",
+    "question": "What is the output?\n\nString a = new String(\"Java\");\nString b = new String(\"Java\");\nSystem.out.println(a == b);",
+    "options": ["true", "false", "Error", "null"],
+    "correctAnswer": 1,
+    "explanation": "new String() creates a new object on the heap each time. a and b are different objects, so == (reference comparison) returns false."
+  },
+  {
+    "id": 24,
+    "topic": "Java Strings",
+    "question": "What is the output?\n\nString s = \"abcdef\";\nSystem.out.println(s.charAt(2));",
+    "options": ["a", "b", "c", "d"],
+    "correctAnswer": 2,
+    "explanation": "charAt(2) returns the character at index 2 (0-based). Index 2 of \"abcdef\" is 'c'."
+  },
+  {
+    "id": 25,
+    "topic": "Java Type Casting",
+    "question": "What is the output?\n\ndouble d = 9.99;\nint i = (int) d;\nSystem.out.println(i);",
+    "options": ["10", "9", "9.99", "Error"],
+    "correctAnswer": 1,
+    "explanation": "Casting double to int truncates (does not round) the decimal part. 9.99 becomes 9."
+  },
+  {
+    "id": 26,
+    "topic": "Java Type Casting",
+    "question": "What is the output?\n\nint x = 65;\nchar c = (char) x;\nSystem.out.println(c);",
+    "options": ["65", "A", "a", "Error"],
+    "correctAnswer": 1,
+    "explanation": "ASCII value 65 corresponds to the character 'A'. Casting int 65 to char gives 'A'."
+  },
+  {
+    "id": 27,
+    "topic": "Java Loops",
+    "question": "What is the output?\n\nfor(int i = 1; i <= 5; i++) {\n  if(i == 3) continue;\n  System.out.print(i + \" \");\n}",
+    "options": ["1 2 3 4 5", "1 2 4 5", "3", "1 2"],
+    "correctAnswer": 1,
+    "explanation": "continue skips the current iteration when i==3. So 3 is not printed, rest are: 1 2 4 5."
+  },
+  {
+    "id": 28,
+    "topic": "Java Loops",
+    "question": "What is the output?\n\nfor(int i = 1; i <= 5; i++) {\n  if(i == 3) break;\n  System.out.print(i + \" \");\n}",
+    "options": ["1 2 3 4 5", "1 2 4 5", "1 2", "3 4 5"],
+    "correctAnswer": 2,
+    "explanation": "break exits the loop when i==3. So only 1 and 2 are printed before the loop terminates."
+  },
+  {
+    "id": 29,
+    "topic": "Java Loops",
+    "question": "What is the output?\n\nint sum = 0;\nfor(int i = 1; i <= 4; i++) {\n  sum += i;\n}\nSystem.out.println(sum);",
+    "options": ["4", "10", "6", "16"],
+    "correctAnswer": 1,
+    "explanation": "sum = 1+2+3+4 = 10."
+  },
+  {
+    "id": 30,
+    "topic": "Java Static",
+    "question": "What is the output?\n\nclass Test {\n  static int x = 5;\n  public static void main(String[] args) {\n    Test t1 = new Test();\n    Test t2 = new Test();\n    t1.x = 10;\n    System.out.println(t2.x);\n  }\n}",
+    "options": ["5", "10", "0", "Error"],
+    "correctAnswer": 1,
+    "explanation": "x is static, shared among all instances. Changing it via t1 also changes it for t2. t2.x = 10."
+  },
+  {
+    "id": 31,
+    "topic": "PHP Output Tracing",
+    "question": "What is the output?\n\n<?php\n$x = 5;\necho $x++;\necho \" \";\necho $x;\n?>",
+    "options": ["5 5", "5 6", "6 6", "6 5"],
+    "correctAnswer": 1,
+    "explanation": "echo $x++ prints 5 (post-increment: prints then increments). After that $x is 6, so second echo prints 6."
+  },
+  {
+    "id": 32,
+    "topic": "PHP Output Tracing",
+    "question": "What is the output?\n\n<?php\n$a = \"5\";\n$b = 3;\necho $a + $b;\n?>",
+    "options": ["53", "8", "Error", "\"53\""],
+    "correctAnswer": 1,
+    "explanation": "PHP auto-converts \"5\" to integer 5 for the + operator. 5 + 3 = 8."
+  },
+  {
+    "id": 33,
+    "topic": "PHP Output Tracing",
+    "question": "What is the output?\n\n<?php\n$a = \"5\";\n$b = \"3\";\necho $a . $b;\n?>",
+    "options": ["8", "53", "5 3", "Error"],
+    "correctAnswer": 1,
+    "explanation": "The . operator in PHP is string concatenation. \"5\" . \"3\" = \"53\"."
+  },
+  {
+    "id": 34,
+    "topic": "PHP Type Juggling",
+    "question": "What is the output?\n\n<?php\nvar_dump(0 == \"a\");\n?>",
+    "options": ["bool(true)", "bool(false)", "Error", "NULL"],
+    "correctAnswer": 1,
+    "explanation": "In PHP 8+, comparing int 0 with non-numeric string \"a\" returns false. (In PHP 7 it was true — PHP 8 changed this behavior.)"
+  },
+  {
+    "id": 35,
+    "topic": "PHP Type Juggling",
+    "question": "What is the output?\n\n<?php\nvar_dump(\"1\" == 1);\n?>",
+    "options": ["bool(true)", "bool(false)", "Error", "int(1)"],
+    "correctAnswer": 0,
+    "explanation": "Loose comparison (==) converts \"1\" to int 1. 1 == 1 is true."
+  },
+  {
+    "id": 36,
+    "topic": "PHP Type Juggling",
+    "question": "What is the output?\n\n<?php\nvar_dump(\"1\" === 1);\n?>",
+    "options": ["bool(true)", "bool(false)", "Error", "int(1)"],
+    "correctAnswer": 1,
+    "explanation": "Strict comparison (===) checks type AND value. \"1\" is string, 1 is int — different types, so false."
+  },
+  {
+    "id": 37,
+    "topic": "PHP Strings",
+    "question": "What is the output?\n\n<?php\n$s = \"Hello World\";\necho strlen($s);\n?>",
+    "options": ["10", "11", "12", "5"],
+    "correctAnswer": 1,
+    "explanation": "strlen counts all characters including the space. \"Hello World\" has 11 characters."
+  },
+  {
+    "id": 38,
+    "topic": "PHP Strings",
+    "question": "What is the output?\n\n<?php\n$s = \"Hello World\";\necho strtoupper($s);\n?>",
+    "options": ["hello world", "HELLO WORLD", "Hello World", "Error"],
+    "correctAnswer": 1,
+    "explanation": "strtoupper() converts all characters to uppercase: \"HELLO WORLD\"."
+  },
+  {
+    "id": 39,
+    "topic": "PHP Strings",
+    "question": "What is the output?\n\n<?php\n$s = \"Hello World\";\necho str_replace(\"World\", \"PHP\", $s);\n?>",
+    "options": ["Hello World", "Hello PHP", "PHP World", "Error"],
+    "correctAnswer": 1,
+    "explanation": "str_replace replaces \"World\" with \"PHP\" in the string, producing \"Hello PHP\"."
+  },
+  {
+    "id": 40,
+    "topic": "PHP Strings",
+    "question": "What is the output?\n\n<?php\n$s = \"Hello\";\necho substr($s, 1, 3);\n?>",
+    "options": ["Hel", "ell", "ello", "Hell"],
+    "correctAnswer": 1,
+    "explanation": "substr($s, 1, 3) starts at index 1 and returns 3 characters: 'e', 'l', 'l' = \"ell\"."
+  },
+  {
+    "id": 41,
+    "topic": "PHP Arrays",
+    "question": "What is the output?\n\n<?php\n$arr = [1, 2, 3, 4, 5];\necho count($arr);\n?>",
+    "options": ["4", "5", "6", "Error"],
+    "correctAnswer": 1,
+    "explanation": "count() returns the number of elements. The array has 5 elements."
+  },
+  {
+    "id": 42,
+    "topic": "PHP Arrays",
+    "question": "What is the output?\n\n<?php\n$arr = [3, 1, 4, 1, 5];\nsort($arr);\necho $arr[0];\n?>",
+    "options": ["3", "1", "4", "5"],
+    "correctAnswer": 1,
+    "explanation": "sort() sorts the array ascending in-place. After sorting: [1, 1, 3, 4, 5]. $arr[0] = 1."
+  },
+  {
+    "id": 43,
+    "topic": "PHP Arrays",
+    "question": "What is the output?\n\n<?php\n$arr = [1, 2, 3];\narray_push($arr, 4);\necho end($arr);\n?>",
+    "options": ["1", "3", "4", "Error"],
+    "correctAnswer": 2,
+    "explanation": "array_push adds 4 to the end of the array. end() returns the last element = 4."
+  },
+  {
+    "id": 44,
+    "topic": "PHP Arrays",
+    "question": "What is the output?\n\n<?php\n$arr = [\"a\" => 1, \"b\" => 2, \"c\" => 3];\necho $arr[\"b\"];\n?>",
+    "options": ["1", "2", "3", "Error"],
+    "correctAnswer": 1,
+    "explanation": "This is an associative array. Key \"b\" maps to value 2."
+  },
+  {
+    "id": 45,
+    "topic": "PHP Loops",
+    "question": "What is the output?\n\n<?php\nfor($i = 0; $i < 3; $i++) {\n  echo $i . \" \";\n}\n?>",
+    "options": ["0 1 2 3", "0 1 2", "1 2 3", "1 2 3 4"],
+    "correctAnswer": 1,
+    "explanation": "Loop runs while $i < 3. Prints 0, 1, 2 then exits."
+  },
+  {
+    "id": 46,
+    "topic": "PHP Functions",
+    "question": "What is the output?\n\n<?php\nfunction add($a, $b) {\n  return $a + $b;\n}\necho add(3, 4);\n?>",
+    "options": ["3", "4", "7", "34"],
+    "correctAnswer": 2,
+    "explanation": "Function add returns 3 + 4 = 7. echo prints 7."
+  },
+  {
+    "id": 47,
+    "topic": "PHP Functions",
+    "question": "What is the output?\n\n<?php\n$x = 10;\nfunction test() {\n  echo $x;\n}\ntest();\n?>",
+    "options": ["10", "null", "Error", "Nothing (no output)"],
+    "correctAnswer": 3,
+    "explanation": "In PHP, functions don't have access to global variables without the 'global' keyword. $x inside test() is undefined, so nothing is echoed (a notice may be thrown but no output)."
+  },
+  {
+    "id": 48,
+    "topic": "PHP Functions",
+    "question": "What is the output?\n\n<?php\n$x = 10;\nfunction test() {\n  global $x;\n  echo $x;\n}\ntest();\n?>",
+    "options": ["10", "null", "Error", "0"],
+    "correctAnswer": 0,
+    "explanation": "Using 'global $x' inside the function gives access to the global variable. It prints 10."
+  },
+  {
+    "id": 49,
+    "topic": "PHP OOP",
+    "question": "What is the output?\n\n<?php\nclass Car {\n  public $brand = \"Toyota\";\n}\n$c = new Car();\necho $c->brand;\n?>",
+    "options": ["Car", "Toyota", "brand", "Error"],
+    "correctAnswer": 1,
+    "explanation": "Accessing public property using arrow operator (->). $c->brand = \"Toyota\"."
+  },
+  {
+    "id": 50,
+    "topic": "PHP OOP",
+    "question": "What is the output?\n\n<?php\nclass Counter {\n  public static $count = 0;\n  public static function increment() {\n    self::$count++;\n  }\n}\nCounter::increment();\nCounter::increment();\necho Counter::$count;\n?>",
+    "options": ["0", "1", "2", "Error"],
+    "correctAnswer": 2,
+    "explanation": "Static method increment() is called twice. Each call increments static $count. Result: 2."
+  },
+  {
+    "id": 51,
+    "topic": "SQL Output Tracing",
+    "question": "Given table STUDENTS(id, name, marks). What does this query return?\n\nSELECT COUNT(*) FROM STUDENTS;",
+    "options": ["Sum of all marks", "Number of rows in the table", "Number of columns", "Names of all students"],
+    "correctAnswer": 1,
+    "explanation": "COUNT(*) counts the total number of rows in the table."
+  },
+  {
+    "id": 52,
+    "topic": "SQL Output Tracing",
+    "question": "Table EMPLOYEES has columns: id, name, salary, dept_id. What does this query return?\n\nSELECT MAX(salary) FROM EMPLOYEES;",
+    "options": ["Average salary", "Highest salary value", "Lowest salary value", "All salaries"],
+    "correctAnswer": 1,
+    "explanation": "MAX() aggregate function returns the maximum (highest) value in the salary column."
+  },
+  {
+    "id": 53,
+    "topic": "SQL Output Tracing",
+    "question": "Table PRODUCTS(id, name, price, category). What does this query do?\n\nSELECT * FROM PRODUCTS WHERE price > 100 ORDER BY price DESC;",
+    "options": ["All products sorted ascending by price", "Products with price > 100 sorted highest to lowest", "Products with price = 100", "Products sorted by name"],
+    "correctAnswer": 1,
+    "explanation": "WHERE filters rows where price > 100. ORDER BY price DESC sorts them highest to lowest."
+  },
+  {
+    "id": 54,
+    "topic": "SQL Output Tracing",
+    "question": "What is the result of this query on table ORDERS(id, customer, amount)?\n\nSELECT SUM(amount) FROM ORDERS;",
+    "options": ["Number of orders", "Maximum amount", "Total sum of all amounts", "Average amount"],
+    "correctAnswer": 2,
+    "explanation": "SUM() returns the total of all values in the specified column — here, the total of all order amounts."
+  },
+  {
+    "id": 55,
+    "topic": "SQL GROUP BY",
+    "question": "Table SALES(id, region, amount). What does this query return?\n\nSELECT region, COUNT(*) FROM SALES GROUP BY region;",
+    "options": ["All sales records", "Total amount per region", "Number of sales per region", "All regions with max amount"],
+    "correctAnswer": 2,
+    "explanation": "GROUP BY groups rows by region, and COUNT(*) counts the number of rows in each group = number of sales per region."
+  },
+  {
+    "id": 56,
+    "topic": "SQL GROUP BY",
+    "question": "Table EMPLOYEES(id, dept, salary). What does this query return?\n\nSELECT dept, AVG(salary) FROM EMPLOYEES GROUP BY dept HAVING AVG(salary) > 50000;",
+    "options": ["Departments where any employee earns > 50000", "Departments where average salary > 50000", "All departments with their average salary", "Employees earning > 50000"],
+    "correctAnswer": 1,
+    "explanation": "GROUP BY groups by dept, AVG(salary) calculates average. HAVING filters groups where average salary > 50000."
+  },
+  {
+    "id": 57,
+    "topic": "SQL Joins",
+    "question": "Tables: STUDENTS(id, name) and MARKS(student_id, score). What does INNER JOIN return?\n\nSELECT s.name, m.score FROM STUDENTS s INNER JOIN MARKS m ON s.id = m.student_id;",
+    "options": ["All students even without marks", "Only students who have matching marks records", "All marks even without students", "All students and all marks"],
+    "correctAnswer": 1,
+    "explanation": "INNER JOIN returns only rows where there is a match in both tables — students who have corresponding records in MARKS."
+  },
+  {
+    "id": 58,
+    "topic": "SQL Joins",
+    "question": "What does a LEFT JOIN return?\n\nSELECT s.name, m.score FROM STUDENTS s LEFT JOIN MARKS m ON s.id = m.student_id;",
+    "options": ["Only students with marks", "All students, with NULL score if no mark exists", "Only students without marks", "All marks records"],
+    "correctAnswer": 1,
+    "explanation": "LEFT JOIN returns all rows from the left table (STUDENTS) and matching rows from the right. If no match, NULLs fill the right side."
+  },
+  {
+    "id": 59,
+    "topic": "SQL WHERE vs HAVING",
+    "question": "What is the difference between WHERE and HAVING in SQL?",
+    "options": ["No difference", "WHERE filters rows before grouping; HAVING filters after grouping", "HAVING filters rows before grouping; WHERE filters after grouping", "WHERE works only with aggregate functions"],
+    "correctAnswer": 1,
+    "explanation": "WHERE filters individual rows before GROUP BY is applied. HAVING filters grouped results after GROUP BY."
+  },
+  {
+    "id": 60,
+    "topic": "SQL DDL",
+    "question": "Which SQL command is used to add a new column to an existing table?",
+    "options": ["ADD COLUMN tablename", "INSERT COLUMN INTO tablename", "ALTER TABLE tablename ADD column_name datatype", "UPDATE TABLE tablename ADD column_name"],
+    "correctAnswer": 2,
+    "explanation": "ALTER TABLE is used to modify an existing table structure. ADD adds a new column with the specified data type."
+  },
+  {
+    "id": 61,
+    "topic": "SQL DDL",
+    "question": "What does TRUNCATE TABLE do compared to DELETE FROM table?",
+    "options": ["They are identical", "TRUNCATE removes the table structure; DELETE only removes data", "TRUNCATE removes all rows faster without logging each row; DELETE removes rows one by one and can have WHERE clause", "DELETE is faster than TRUNCATE"],
+    "correctAnswer": 2,
+    "explanation": "TRUNCATE is a DDL command that removes all rows quickly without row-by-row logging and cannot use WHERE. DELETE is DML and can filter with WHERE."
+  },
+  {
+    "id": 62,
+    "topic": "SQL Subquery",
+    "question": "Table EMPLOYEES(id, name, salary). What does this query return?\n\nSELECT name FROM EMPLOYEES WHERE salary = (SELECT MAX(salary) FROM EMPLOYEES);",
+    "options": ["All employee names", "Employee(s) with highest salary", "Employee with lowest salary", "Count of employees"],
+    "correctAnswer": 1,
+    "explanation": "The subquery finds the maximum salary. The outer query then returns the name(s) of employees earning that max salary."
+  },
+  {
+    "id": 63,
+    "topic": "SQL Keys",
+    "question": "What is the purpose of a FOREIGN KEY in SQL?",
+    "options": ["To uniquely identify rows in its own table", "To enforce a link between data in two tables by referencing the primary key of another table", "To allow NULL values", "To create an index for faster search"],
+    "correctAnswer": 1,
+    "explanation": "A FOREIGN KEY creates a referential integrity link between two tables by pointing to the PRIMARY KEY of another table."
+  },
+  {
+    "id": 64,
+    "topic": "SQL DML",
+    "question": "What does this query do?\n\nUPDATE STUDENTS SET marks = marks + 5 WHERE id = 3;",
+    "options": ["Deletes student with id 3", "Adds 5 to marks of all students", "Adds 5 to marks of the student with id = 3", "Inserts a new student"],
+    "correctAnswer": 2,
+    "explanation": "UPDATE modifies existing rows. The WHERE clause restricts it to the student with id = 3. marks = marks + 5 adds 5 to their current marks."
+  },
+  {
+    "id": 65,
+    "topic": "SQL LIKE",
+    "question": "Table CUSTOMERS(id, name, email). What does this query return?\n\nSELECT * FROM CUSTOMERS WHERE name LIKE 'A%';",
+    "options": ["Customers whose name contains 'A' anywhere", "Customers whose name starts with 'A'", "Customers whose name ends with 'A'", "Customers whose name is exactly 'A'"],
+    "correctAnswer": 1,
+    "explanation": "In SQL LIKE, '%' is a wildcard for any number of characters. 'A%' means name starts with 'A' followed by anything."
+  },
+  {
+    "id": 66,
+    "topic": "Java Recursion",
+    "question": "What is the output?\n\nstatic int fact(int n) {\n  if(n == 1) return 1;\n  return n * fact(n - 1);\n}\nSystem.out.println(fact(4));",
+    "options": ["12", "24", "16", "Error"],
+    "correctAnswer": 1,
+    "explanation": "factorial(4) = 4 * 3 * 2 * 1 = 24."
+  },
+  {
+    "id": 67,
+    "topic": "Java Recursion",
+    "question": "What is the output?\n\nstatic int fib(int n) {\n  if(n <= 1) return n;\n  return fib(n-1) + fib(n-2);\n}\nSystem.out.println(fib(5));",
+    "options": ["3", "5", "8", "13"],
+    "correctAnswer": 1,
+    "explanation": "Fibonacci: fib(5) = fib(4) + fib(3) = 3 + 2 = 5."
+  },
+  {
+    "id": 68,
+    "topic": "Java Collections",
+    "question": "What is the output?\n\nimport java.util.*;\nArrayList<Integer> list = new ArrayList<>();\nlist.add(10);\nlist.add(20);\nlist.add(30);\nSystem.out.println(list.get(1));",
+    "options": ["10", "20", "30", "Error"],
+    "correctAnswer": 1,
+    "explanation": "ArrayList is 0-indexed. get(1) returns the element at index 1 = 20."
+  },
+  {
+    "id": 69,
+    "topic": "Java Collections",
+    "question": "What is the output?\n\nimport java.util.*;\nArrayList<Integer> list = new ArrayList<>(Arrays.asList(3,1,2));\nCollections.sort(list);\nSystem.out.println(list);",
+    "options": ["[3, 1, 2]", "[1, 2, 3]", "[2, 1, 3]", "[3, 2, 1]"],
+    "correctAnswer": 1,
+    "explanation": "Collections.sort() sorts the list in natural ascending order: [1, 2, 3]."
+  },
+  {
+    "id": 70,
+    "topic": "Java Interface",
+    "question": "What is true about interfaces in Java?",
+    "options": ["A class can implement only one interface", "Interfaces can have constructors", "A class can implement multiple interfaces", "Interface methods must have a body"],
+    "correctAnswer": 2,
+    "explanation": "Java supports multiple interface implementation. A class can implement as many interfaces as needed using 'implements Interface1, Interface2'."
+  },
+  {
+    "id": 71,
+    "topic": "PHP Math Functions",
+    "question": "What is the output?\n\n<?php\necho round(4.5);\n?>",
+    "options": ["4", "5", "4.5", "Error"],
+    "correctAnswer": 1,
+    "explanation": "round() rounds to the nearest integer. 4.5 rounds up to 5."
+  },
+  {
+    "id": 72,
+    "topic": "PHP Math Functions",
+    "question": "What is the output?\n\n<?php\necho ceil(4.1);\n?>",
+    "options": ["4", "5", "4.1", "Error"],
+    "correctAnswer": 1,
+    "explanation": "ceil() always rounds UP to the nearest integer. 4.1 becomes 5."
+  },
+  {
+    "id": 73,
+    "topic": "PHP Math Functions",
+    "question": "What is the output?\n\n<?php\necho floor(4.9);\n?>",
+    "options": ["4", "5", "4.9", "Error"],
+    "correctAnswer": 0,
+    "explanation": "floor() always rounds DOWN to the nearest integer. 4.9 becomes 4."
+  },
+  {
+    "id": 74,
+    "topic": "PHP Conditional",
+    "question": "What is the output?\n\n<?php\n$x = 10;\nif($x > 5) {\n  echo \"Greater\";\n} elseif($x == 5) {\n  echo \"Equal\";\n} else {\n  echo \"Less\";\n}\n?>",
+    "options": ["Greater", "Equal", "Less", "Error"],
+    "correctAnswer": 0,
+    "explanation": "$x = 10 > 5, so the first condition is true and \"Greater\" is printed."
+  },
+  {
+    "id": 75,
+    "topic": "PHP String Functions",
+    "question": "What is the output?\n\n<?php\n$arr = [\"Hello\", \"World\", \"PHP\"];\necho implode(\", \", $arr);\n?>",
+    "options": ["Hello World PHP", "Hello, World, PHP", "[\"Hello\", \"World\", \"PHP\"]", "Error"],
+    "correctAnswer": 1,
+    "explanation": "implode() joins array elements with the given separator. Result: \"Hello, World, PHP\"."
+  },
+  {
+    "id": 76,
+    "topic": "PHP String Functions",
+    "question": "What is the output?\n\n<?php\n$s = \"Hello,World,PHP\";\n$arr = explode(\",\", $s);\necho $arr[1];\n?>",
+    "options": ["Hello", "World", "PHP", "Error"],
+    "correctAnswer": 1,
+    "explanation": "explode() splits the string by comma into [\"Hello\", \"World\", \"PHP\"]. $arr[1] = \"World\"."
+  },
+  {
+    "id": 77,
+    "topic": "PHP Null Coalescing",
+    "question": "What is the output?\n\n<?php\n$name = null;\necho $name ?? \"Guest\";\n?>",
+    "options": ["null", "Guest", "Error", "\"\""],
+    "correctAnswer": 1,
+    "explanation": "The ?? (null coalescing) operator returns the left side if it's not null, otherwise the right side. $name is null, so \"Guest\" is returned."
+  },
+  {
+    "id": 78,
+    "topic": "PHP Array Functions",
+    "question": "What is the output?\n\n<?php\n$arr = [1, 2, 3, 4, 5];\n$filtered = array_filter($arr, fn($x) => $x > 3);\necho implode(\",\", $filtered);\n?>",
+    "options": ["1,2,3", "4,5", "1,2,3,4,5", "Error"],
+    "correctAnswer": 1,
+    "explanation": "array_filter keeps elements where the callback returns true. Only 4 and 5 are > 3. Result: \"4,5\"."
+  },
+  {
+    "id": 79,
+    "topic": "PHP Array Functions",
+    "question": "What is the output?\n\n<?php\n$arr = [1, 2, 3];\n$result = array_map(fn($x) => $x * 2, $arr);\necho implode(\",\", $result);\n?>",
+    "options": ["1,2,3", "2,4,6", "1,4,9", "Error"],
+    "correctAnswer": 1,
+    "explanation": "array_map applies the callback to each element. Each is multiplied by 2: [2, 4, 6]. implode gives \"2,4,6\"."
+  },
+  {
+    "id": 80,
+    "topic": "PHP isset/empty",
+    "question": "What is the output?\n\n<?php\n$a = 0;\nif(empty($a)) {\n  echo \"Empty\";\n} else {\n  echo \"Not Empty\";\n}\n?>",
+    "options": ["Empty", "Not Empty", "0", "Error"],
+    "correctAnswer": 0,
+    "explanation": "empty() returns true for values considered empty: 0, \"\", null, [], false. Since $a = 0, empty($a) is true and \"Empty\" is printed."
+  },
+  {
+    "id": 81,
+    "topic": "SQL NULL Handling",
+    "question": "Table EMPLOYEES has some NULL values in the salary column. What does this return?\n\nSELECT COUNT(salary) FROM EMPLOYEES;",
+    "options": ["Counts all rows including NULLs", "Counts only non-NULL salary values", "Returns NULL", "Error"],
+    "correctAnswer": 1,
+    "explanation": "COUNT(column_name) counts only non-NULL values. COUNT(*) would count all rows including NULLs."
+  },
+  {
+    "id": 82,
+    "topic": "SQL NULL Handling",
+    "question": "What does this query return?\n\nSELECT * FROM EMPLOYEES WHERE salary IS NULL;",
+    "options": ["Employees with salary = 0", "Employees with NULL salary", "All employees", "Error"],
+    "correctAnswer": 1,
+    "explanation": "To check for NULL in SQL you must use IS NULL (not = NULL). This returns employees whose salary column has no value."
+  },
+  {
+    "id": 83,
+    "topic": "SQL String Functions",
+    "question": "What does this query return?\n\nSELECT UPPER('hello world');",
+    "options": ["hello world", "HELLO WORLD", "Hello World", "Error"],
+    "correctAnswer": 1,
+    "explanation": "SQL UPPER() function converts all characters to uppercase."
+  },
+  {
+    "id": 84,
+    "topic": "SQL String Functions",
+    "question": "What does this return?\n\nSELECT LENGTH('Hello');",
+    "options": ["4", "5", "6", "Error"],
+    "correctAnswer": 1,
+    "explanation": "LENGTH() returns the number of characters in the string. 'Hello' has 5 characters."
+  },
+  {
+    "id": 85,
+    "topic": "SQL DISTINCT",
+    "question": "Table ORDERS has rows with repeated city values. What does this return?\n\nSELECT DISTINCT city FROM ORDERS;",
+    "options": ["All city values including duplicates", "Only unique city values", "Count of cities", "Error"],
+    "correctAnswer": 1,
+    "explanation": "DISTINCT eliminates duplicate values from the result set, returning each city only once."
+  },
+  {
+    "id": 86,
+    "topic": "Java Bitwise",
+    "question": "What is the output?\n\nSystem.out.println(5 & 3);",
+    "options": ["8", "1", "2", "15"],
+    "correctAnswer": 1,
+    "explanation": "5 = 101, 3 = 011 in binary. AND: 101 & 011 = 001 = 1."
+  },
+  {
+    "id": 87,
+    "topic": "Java Bitwise",
+    "question": "What is the output?\n\nSystem.out.println(5 | 3);",
+    "options": ["8", "7", "2", "15"],
+    "correctAnswer": 1,
+    "explanation": "5 = 101, 3 = 011 in binary. OR: 101 | 011 = 111 = 7."
+  },
+  {
+    "id": 88,
+    "topic": "Java Bitwise",
+    "question": "What is the output?\n\nSystem.out.println(5 ^ 3);",
+    "options": ["6", "7", "2", "8"],
+    "correctAnswer": 0,
+    "explanation": "5 = 101, 3 = 011 in binary. XOR: 101 ^ 011 = 110 = 6."
+  },
+  {
+    "id": 89,
+    "topic": "Java Switch",
+    "question": "What is the output?\n\nint x = 2;\nswitch(x) {\n  case 1: System.out.println(\"One\"); break;\n  case 2: System.out.println(\"Two\"); break;\n  case 3: System.out.println(\"Three\"); break;\n  default: System.out.println(\"Other\");\n}",
+    "options": ["One", "Two", "Three", "Other"],
+    "correctAnswer": 1,
+    "explanation": "x = 2 matches case 2. \"Two\" is printed and break exits the switch."
+  },
+  {
+    "id": 90,
+    "topic": "Java Switch",
+    "question": "What is the output?\n\nint x = 2;\nswitch(x) {\n  case 1: System.out.println(\"One\");\n  case 2: System.out.println(\"Two\");\n  case 3: System.out.println(\"Three\");\n}",
+    "options": ["Two", "Two Three", "One Two Three", "Error"],
+    "correctAnswer": 1,
+    "explanation": "No break statements! After matching case 2, fall-through occurs. \"Two\" and then \"Three\" are both printed."
+  },
+  {
+    "id": 91,
+    "topic": "PHP OOP Inheritance",
+    "question": "What is the output?\n\n<?php\nclass Animal {\n  public function speak() { echo \"Generic sound\"; }\n}\nclass Dog extends Animal {\n  public function speak() { echo \"Woof\"; }\n}\n$d = new Dog();\n$d->speak();\n?>",
+    "options": ["Generic sound", "Woof", "Error", "Generic sound Woof"],
+    "correctAnswer": 1,
+    "explanation": "Dog overrides speak(). Since $d is a Dog object, Dog's speak() runs and prints \"Woof\"."
+  },
+  {
+    "id": 92,
+    "topic": "PHP OOP",
+    "question": "What keyword calls the parent class constructor in PHP?",
+    "options": ["super()", "parent::__construct()", "base()", "this->parent()"],
+    "correctAnswer": 1,
+    "explanation": "In PHP, parent::__construct() is used to explicitly call the parent class constructor from a child class."
+  },
+  {
+    "id": 93,
+    "topic": "SQL Transactions",
+    "question": "In SQL, what does ROLLBACK do?",
+    "options": ["Saves all changes permanently", "Undoes all changes made in the current transaction", "Deletes the last inserted row", "Closes the database connection"],
+    "correctAnswer": 1,
+    "explanation": "ROLLBACK undoes all changes made during the current transaction, restoring the database to its state before the transaction began."
+  },
+  {
+    "id": 94,
+    "topic": "SQL Transactions",
+    "question": "In SQL, what does COMMIT do?",
+    "options": ["Undoes all changes", "Saves all changes in the transaction permanently", "Starts a new transaction", "Locks the table"],
+    "correctAnswer": 1,
+    "explanation": "COMMIT permanently saves all changes made in the current transaction to the database."
+  },
+  {
+    "id": 95,
+    "topic": "Java do-while",
+    "question": "What is the output?\n\nint i = 5;\ndo {\n  System.out.print(i + \" \");\n  i++;\n} while(i < 5);",
+    "options": ["5", "Nothing", "5 6 7", "Error"],
+    "correctAnswer": 0,
+    "explanation": "do-while executes the body at least once before checking the condition. i=5 is printed, then i becomes 6. 6 < 5 is false, so loop ends. Output: \"5\"."
+  },
+  {
+    "id": 96,
+    "topic": "PHP do-while",
+    "question": "What is the output?\n\n<?php\n$i = 10;\ndo {\n  echo $i . \" \";\n  $i++;\n} while($i < 5);\n?>",
+    "options": ["Nothing", "10", "10 11 12", "Error"],
+    "correctAnswer": 1,
+    "explanation": "do-while always runs at least once. Prints 10, then increments to 11. 11 < 5 is false, loop exits. Output: \"10\"."
+  },
+  {
+    "id": 97,
+    "topic": "SQL IN Operator",
+    "question": "Table STUDENTS(id, name, city). What does this query return?\n\nSELECT name FROM STUDENTS WHERE city IN ('Delhi', 'Mumbai', 'Indore');",
+    "options": ["Students NOT from those cities", "Students from Delhi, Mumbai, or Indore", "Students from all cities", "Error"],
+    "correctAnswer": 1,
+    "explanation": "IN operator checks if a value matches any value in a list. Returns students whose city is Delhi, Mumbai, or Indore."
+  },
+  {
+    "id": 98,
+    "topic": "Java final keyword",
+    "question": "What happens when you try to change the value of a final variable in Java?",
+    "options": ["Value changes successfully", "Compile-time error", "Runtime exception", "Value becomes null"],
+    "correctAnswer": 1,
+    "explanation": "final variables in Java are constants — they can only be assigned once. Attempting to reassign causes a compile-time error."
+  },
+  {
+    "id": 99,
+    "topic": "PHP foreach",
+    "question": "What is the output?\n\n<?php\n$arr = [\"a\" => 1, \"b\" => 2, \"c\" => 3];\nforeach($arr as $key => $value) {\n  echo $key . \":\" . $value . \" \";\n}\n?>",
+    "options": ["1 2 3", "a b c", "a:1 b:2 c:3", "Error"],
+    "correctAnswer": 2,
+    "explanation": "foreach iterates associative array. $key gets the key and $value gets the value. Prints \"a:1 b:2 c:3\"."
+  },
+  {
+    "id": 100,
+    "topic": "SQL BETWEEN",
+    "question": "Table PRODUCTS(id, name, price). What does this query return?\n\nSELECT name FROM PRODUCTS WHERE price BETWEEN 100 AND 500;",
+    "options": ["Products with price < 100 or > 500", "Products with price from 101 to 499 (exclusive)", "Products with price from 100 to 500 (inclusive)", "Error"],
+    "correctAnswer": 2,
+    "explanation": "BETWEEN in SQL is inclusive of both endpoints. Returns products where price >= 100 AND price <= 500."
   }
 ]
