@@ -1,0 +1,693 @@
+[
+  {
+    "id": 1,
+    "topic": "Java Operators",
+    "question": "What will be the output of the following code?",
+    "code": "int a = 10;\nint b = 3;\nSystem.out.println(a % b);",
+    "options": ["3", "1", "0", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "10 % 3 gives the remainder 1."
+  },
+  {
+    "id": 2,
+    "topic": "Java Increment",
+    "question": "What will be the output?",
+    "code": "int x = 5;\nSystem.out.println(x++);\nSystem.out.println(x);",
+    "options": ["5 6", "6 6", "5 5", "Compilation Error"],
+    "correctAnswer": 0,
+    "explanation": "Post-increment prints the current value before incrementing."
+  },
+  {
+    "id": 3,
+    "topic": "Java Loops",
+    "question": "What will be printed?",
+    "code": "for(int i=1;i<=3;i++){\n System.out.print(i+\" \");\n}",
+    "options": ["1 2 3", "0 1 2", "1 2", "2 3 4"],
+    "correctAnswer": 0,
+    "explanation": "The loop runs from 1 through 3."
+  },
+  {
+    "id": 4,
+    "topic": "Java Condition",
+    "question": "What will be the output?",
+    "code": "int a=8;\nif(a>5)\n System.out.print(\"A\");\nelse\n System.out.print(\"B\");",
+    "options": ["A", "B", "AB", "Compilation Error"],
+    "correctAnswer": 0,
+    "explanation": "Since 8 is greater than 5, 'A' is printed."
+  },
+  {
+    "id": 5,
+    "topic": "Java While Loop",
+    "question": "What is the output?",
+    "code": "int i=1;\nwhile(i<=3){\n System.out.print(i);\n i++;\n}",
+    "options": ["123", "0123", "321", "Infinite Loop"],
+    "correctAnswer": 0,
+    "explanation": "The loop prints 1, 2 and 3."
+  },
+  {
+    "id": 6,
+    "topic": "Java Arrays",
+    "question": "What will be printed?",
+    "code": "int arr[]={2,4,6};\nSystem.out.println(arr[1]);",
+    "options": ["2", "4", "6", "ArrayIndexOutOfBoundsException"],
+    "correctAnswer": 1,
+    "explanation": "Array indexing starts from 0."
+  },
+  {
+    "id": 7,
+    "topic": "Java Strings",
+    "question": "What is the output?",
+    "code": "String s=\"Java\";\nSystem.out.println(s.length());",
+    "options": ["3", "4", "5", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "The string 'Java' has four characters."
+  },
+  {
+    "id": 8,
+    "topic": "Java Math",
+    "question": "What will be printed?",
+    "code": "System.out.println(Math.max(10,25));",
+    "options": ["10", "25", "35", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "Math.max() returns the larger value."
+  },
+  {
+    "id": 9,
+    "topic": "Java Switch",
+    "question": "What is the output?",
+    "code": "int n=2;\nswitch(n){\ncase 1:System.out.print(\"A\");break;\ncase 2:System.out.print(\"B\");break;\ndefault:System.out.print(\"C\");}",
+    "options": ["A", "B", "C", "AB"],
+    "correctAnswer": 1,
+    "explanation": "Case 2 matches."
+  },
+  {
+    "id": 10,
+    "topic": "Java Boolean",
+    "question": "What is the output?",
+    "code": "System.out.println(10>5 && 5>3);",
+    "options": ["true", "false", "1", "Compilation Error"],
+    "correctAnswer": 0,
+    "explanation": "Both conditions are true."
+  },
+  {
+    "id": 11,
+    "topic": "SQL SELECT",
+    "question": "Which SQL query returns all records from the Employee table?",
+    "options": [
+      "SELECT * FROM Employee;",
+      "GET * FROM Employee;",
+      "SELECT Employee;",
+      "DISPLAY Employee;"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SELECT * retrieves all rows and columns."
+  },
+  {
+    "id": 12,
+    "topic": "SQL WHERE",
+    "question": "Which query returns employees whose salary is greater than 50000?",
+    "options": [
+      "SELECT * FROM Employee WHERE Salary > 50000;",
+      "SELECT Salary > 50000 FROM Employee;",
+      "GET Employee WHERE Salary > 50000;",
+      "SELECT Employee FROM Salary;"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WHERE filters rows."
+  },
+  {
+    "id": 13,
+    "topic": "SQL Aggregate",
+    "question": "Which function returns the total number of rows?",
+    "options": [
+      "SUM()",
+      "COUNT()",
+      "TOTAL()",
+      "ROWS()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "COUNT() counts rows."
+  },
+  {
+    "id": 14,
+    "topic": "SQL Order By",
+    "question": "Which clause sorts the result in ascending order?",
+    "options": [
+      "ORDER BY column ASC",
+      "SORT BY column",
+      "GROUP BY column",
+      "ASCENDING column"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ORDER BY ... ASC sorts ascending."
+  },
+  {
+    "id": 15,
+    "topic": "PHP Variables",
+    "question": "What will be printed?",
+    "code": "$a=10;\n$b=20;\necho $a+$b;",
+    "options": [
+      "30",
+      "1020",
+      "Error",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The + operator adds numeric values."
+  },
+  {
+    "id": 16,
+    "topic": "PHP Condition",
+    "question": "What is the output?",
+    "code": "$x=5;\nif($x>3)\necho \"Yes\";\nelse\necho \"No\";",
+    "options": [
+      "Yes",
+      "No",
+      "Error",
+      "Nothing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "5 is greater than 3."
+  },
+  {
+    "id": 17,
+    "topic": "Algorithm",
+    "question": "What is the output?",
+    "code": "sum = 0\nfor i = 1 to 5\n sum = sum + i\nprint(sum)",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "1+2+3+4+5 = 15."
+  },
+  {
+    "id": 18,
+    "topic": "Algorithm",
+    "question": "How many times will the loop execute?",
+    "code": "for(i=0;i<10;i=i+2)",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Values: 0,2,4,6,8."
+  },
+  {
+    "id": 19,
+    "topic": "Java OOP",
+    "question": "Which keyword is used to create an object in Java?",
+    "options": [
+      "create",
+      "new",
+      "object",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Objects are instantiated using the new keyword."
+  },
+  {
+    "id": 20,
+    "topic": "Java Collections",
+    "question": "Which collection stores elements in insertion order and allows duplicates?",
+    "options": [
+      "HashSet",
+      "ArrayList",
+      "TreeSet",
+      "HashMap"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ArrayList preserves insertion order and allows duplicate elements."
+  },
+  {
+    "id": 21,
+    "topic": "Java Strings",
+    "question": "What will be the output of the following code?",
+    "code": "String s = \"Hello\";\nSystem.out.println(s.charAt(1));",
+    "options": ["H", "e", "l", "o"],
+    "correctAnswer": 1,
+    "explanation": "String indexing starts from 0, so charAt(1) returns 'e'."
+  },
+  {
+    "id": 22,
+    "topic": "Java Arrays",
+    "question": "What will be the output?",
+    "code": "int[] arr = {5,10,15,20};\nSystem.out.println(arr.length);",
+    "options": ["3", "4", "5", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "The array contains four elements."
+  },
+  {
+    "id": 23,
+    "topic": "Java Nested Loop",
+    "question": "How many times will 'Hi' be printed?",
+    "code": "for(int i=1;i<=2;i++){\n for(int j=1;j<=3;j++){\n  System.out.println(\"Hi\");\n }\n}",
+    "options": ["3", "5", "6", "9"],
+    "correctAnswer": 2,
+    "explanation": "Outer loop executes 2 times and inner loop executes 3 times. Total = 2 × 3 = 6."
+  },
+  {
+    "id": 24,
+    "topic": "Java Methods",
+    "question": "What will be the output?",
+    "code": "public static int add(int a,int b){\n return a+b;\n}\nSystem.out.println(add(4,6));",
+    "options": ["10", "46", "Compilation Error", "0"],
+    "correctAnswer": 0,
+    "explanation": "The method returns the sum of the two integers."
+  },
+  {
+    "id": 25,
+    "topic": "Java Increment",
+    "question": "What will be the output?",
+    "code": "int a=5;\nSystem.out.println(++a);\nSystem.out.println(a);",
+    "options": ["5 6", "6 6", "5 5", "6 5"],
+    "correctAnswer": 1,
+    "explanation": "Pre-increment increments first and then prints."
+  },
+  {
+    "id": 26,
+    "topic": "Java Break",
+    "question": "What will be the output?",
+    "code": "for(int i=1;i<=5;i++){\n if(i==3)\n  break;\n System.out.print(i+\" \");\n}",
+    "options": ["1 2", "1 2 3", "1 2 3 4 5", "3 4 5"],
+    "correctAnswer": 0,
+    "explanation": "The loop terminates when i becomes 3."
+  },
+  {
+    "id": 27,
+    "topic": "Java Continue",
+    "question": "What will be the output?",
+    "code": "for(int i=1;i<=5;i++){\n if(i==3)\n  continue;\n System.out.print(i+\" \");\n}",
+    "options": ["1 2 3 4 5", "1 2 4 5", "3 4 5", "1 2"],
+    "correctAnswer": 1,
+    "explanation": "continue skips only the current iteration."
+  },
+  {
+    "id": 28,
+    "topic": "Java Ternary Operator",
+    "question": "What will be the output?",
+    "code": "int a=10,b=20;\nSystem.out.println(a>b ? a : b);",
+    "options": ["10", "20", "true", "false"],
+    "correctAnswer": 1,
+    "explanation": "Since a is not greater than b, the expression evaluates to b."
+  },
+  {
+    "id": 29,
+    "topic": "Java String Methods",
+    "question": "What will be the output?",
+    "code": "String s=\"Programming\";\nSystem.out.println(s.substring(3,7));",
+    "options": ["gram", "gramm", "ogra", "Prog"],
+    "correctAnswer": 0,
+    "explanation": "substring(3,7) includes index 3 and excludes index 7."
+  },
+  {
+    "id": 30,
+    "topic": "Java OOP",
+    "question": "What will be the output?",
+    "code": "class Test{\n void show(){\n  System.out.print(\"Hello\");\n }\n}\nTest t=new Test();\nt.show();",
+    "options": ["Hello", "Test", "Compilation Error", "Nothing"],
+    "correctAnswer": 0,
+    "explanation": "The object calls the show() method, which prints 'Hello'."
+  },
+  {
+    "id": 31,
+    "topic": "Java Increment",
+    "question": "What will be the output?",
+    "code": "int a = 5;\nSystem.out.println(a++ + ++a);",
+    "options": ["11", "12", "13", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "a++ returns 5 then becomes 6. ++a makes it 7. 5 + 7 = 12."
+  },
+  {
+    "id": 32,
+    "topic": "Java Operators",
+    "question": "What will be the output?",
+    "code": "int a = 8;\nint b = 4;\nSystem.out.println(a/b*a);",
+    "options": ["8", "16", "2", "32"],
+    "correctAnswer": 0,
+    "explanation": "Division and multiplication have equal precedence and execute left to right: (8/4)*8 = 16? Actually (8/4)=2, 2*8=16."
+  },
+  {
+    "id": 33,
+    "topic": "Java Loops",
+    "question": "What will be printed?",
+    "code": "for(int i=3;i>=1;i--)\n System.out.print(i+\" \");",
+    "options": ["1 2 3", "3 2 1", "3 2", "Infinite Loop"],
+    "correctAnswer": 1,
+    "explanation": "The loop decrements from 3 to 1."
+  },
+  {
+    "id": 34,
+    "topic": "Java Arrays",
+    "question": "What will be the output?",
+    "code": "int[] arr={1,2,3};\narr[1]=5;\nSystem.out.println(arr[1]);",
+    "options": ["1", "2", "3", "5"],
+    "correctAnswer": 3,
+    "explanation": "The value at index 1 is updated to 5."
+  },
+  {
+    "id": 35,
+    "topic": "Java Strings",
+    "question": "What will be the output?",
+    "code": "String s=\"Java\";\nSystem.out.println(s.toUpperCase());",
+    "options": ["Java", "JAVA", "java", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "toUpperCase() converts all characters to uppercase."
+  },
+  {
+    "id": 36,
+    "topic": "Java Nested Loop",
+    "question": "How many '*' characters are printed?",
+    "code": "for(int i=1;i<=3;i++){\n for(int j=1;j<=i;j++)\n  System.out.print(\"*\");\n}",
+    "options": ["3", "5", "6", "9"],
+    "correctAnswer": 2,
+    "explanation": "1 + 2 + 3 = 6 stars."
+  },
+  {
+    "id": 37,
+    "topic": "Java Continue",
+    "question": "What will be the output?",
+    "code": "for(int i=1;i<=4;i++){\n if(i%2==0)\n  continue;\n System.out.print(i+\" \");\n}",
+    "options": ["1 2 3 4", "2 4", "1 3", "1 2"],
+    "correctAnswer": 2,
+    "explanation": "Even numbers are skipped."
+  },
+  {
+    "id": 38,
+    "topic": "Java Break",
+    "question": "What will be the output?",
+    "code": "int i;\nfor(i=1;i<=5;i++){\n if(i==4)\n  break;\n}\nSystem.out.println(i);",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": 1,
+    "explanation": "The loop breaks when i becomes 4."
+  },
+  {
+    "id": 39,
+    "topic": "Java Math",
+    "question": "What will be the output?",
+    "code": "System.out.println(Math.min(7,3));",
+    "options": ["7", "3", "10", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "Math.min() returns the smaller value."
+  },
+  {
+    "id": 40,
+    "topic": "Java Boolean",
+    "question": "What will be the output?",
+    "code": "System.out.println(!(5>2));",
+    "options": ["true", "false", "1", "0"],
+    "correctAnswer": 1,
+    "explanation": "5>2 is true, negating it gives false."
+  },
+  {
+    "id": 41,
+    "topic": "SQL SELECT",
+    "question": "Which SQL statement selects only the Name column from Employee?",
+    "options": [
+      "SELECT Name FROM Employee;",
+      "SELECT * Name Employee;",
+      "GET Name Employee;",
+      "SELECT Employee.Name();"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Specify the required column after SELECT."
+  },
+  {
+    "id": 42,
+    "topic": "SQL Aggregate",
+    "question": "Which SQL function returns the highest salary?",
+    "options": [
+      "HIGH()",
+      "TOP()",
+      "MAX()",
+      "LARGEST()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "MAX() returns the maximum value."
+  },
+  {
+    "id": 43,
+    "topic": "SQL GROUP BY",
+    "question": "Which clause groups rows with the same values?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "HAVING",
+      "WHERE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GROUP BY groups similar rows."
+  },
+  {
+    "id": 44,
+    "topic": "SQL HAVING",
+    "question": "HAVING is mainly used with which clause?",
+    "options": [
+      "ORDER BY",
+      "GROUP BY",
+      "LIMIT",
+      "INSERT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HAVING filters grouped records."
+  },
+  {
+    "id": 45,
+    "topic": "SQL JOIN",
+    "question": "Which JOIN returns only matching rows from both tables?",
+    "options": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL JOIN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "INNER JOIN returns matching rows only."
+  },
+  {
+    "id": 46,
+    "topic": "PHP Variables",
+    "question": "What will be printed?",
+    "code": "$x = 8;\n$y = 2;\necho $x/$y;",
+    "options": ["4", "16", "6", "Error"],
+    "correctAnswer": 0,
+    "explanation": "8 divided by 2 equals 4."
+  },
+  {
+    "id": 47,
+    "topic": "PHP Loops",
+    "question": "What will be printed?",
+    "code": "for($i=1;$i<=3;$i++){\n echo $i;\n}",
+    "options": ["123", "0123", "321", "Error"],
+    "correctAnswer": 0,
+    "explanation": "The loop prints 1, 2 and 3."
+  },
+  {
+    "id": 48,
+    "topic": "PHP Arrays",
+    "question": "Which function returns the number of elements in an array?",
+    "options": [
+      "length()",
+      "count()",
+      "size()",
+      "len()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "count() returns the number of array elements."
+  },
+  {
+    "id": 49,
+    "topic": "Algorithm",
+    "question": "What is the output?",
+    "code": "x=1\nwhile(x<=8)\n x=x*2\nprint(x)",
+    "options": ["8", "16", "32", "64"],
+    "correctAnswer": 1,
+    "explanation": "Values become 1→2→4→8→16. The loop stops after reaching 16."
+  },
+  {
+    "id": 50,
+    "topic": "Algorithm",
+    "question": "Which searching algorithm requires the data to be sorted?",
+    "options": [
+      "Linear Search",
+      "Binary Search",
+      "Sequential Search",
+      "Depth First Search"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Binary Search works correctly only on sorted data."
+  },
+  {
+    "id": 51,
+    "topic": "Java Strings",
+    "question": "What will be the output?",
+    "code": "String s = \"Java\";\nSystem.out.println(s.toLowerCase());",
+    "options": ["JAVA", "java", "Java", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "toLowerCase() converts all characters to lowercase."
+  },
+  {
+    "id": 52,
+    "topic": "Java Arrays",
+    "question": "What will be the output?",
+    "code": "int[] arr = {10,20,30};\nSystem.out.println(arr[2]);",
+    "options": ["10", "20", "30", "ArrayIndexOutOfBoundsException"],
+    "correctAnswer": 2,
+    "explanation": "Array indexing starts from 0. Index 2 contains 30."
+  },
+  {
+    "id": 53,
+    "topic": "Java Loops",
+    "question": "What will be the output?",
+    "code": "int sum=0;\nfor(int i=1;i<=4;i++){\n sum+=i;\n}\nSystem.out.println(sum);",
+    "options": ["10", "8", "6", "4"],
+    "correctAnswer": 0,
+    "explanation": "1+2+3+4 = 10."
+  },
+  {
+    "id": 54,
+    "topic": "Java OOP",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "extends", "inherits", "super"],
+    "correctAnswer": 1,
+    "explanation": "The extends keyword is used for inheritance."
+  },
+  {
+    "id": 55,
+    "topic": "Java Collections",
+    "question": "Which collection does NOT allow duplicate elements?",
+    "options": ["ArrayList", "LinkedList", "HashSet", "Vector"],
+    "correctAnswer": 2,
+    "explanation": "HashSet stores only unique elements."
+  },
+  {
+    "id": 56,
+    "topic": "Java Methods",
+    "question": "What will be the output?",
+    "code": "public static void show(){\n System.out.print(\"Hello\");\n}\nshow();",
+    "options": ["Hello", "show", "Compilation Error", "Nothing"],
+    "correctAnswer": 0,
+    "explanation": "The show() method prints 'Hello'."
+  },
+  {
+    "id": 57,
+    "topic": "Java Strings",
+    "question": "Which method compares the contents of two strings?",
+    "options": ["==", "equals()", "compare()", "match()"],
+    "correctAnswer": 1,
+    "explanation": "equals() compares the values of two strings."
+  },
+  {
+    "id": 58,
+    "topic": "Java Arrays",
+    "question": "What will be the output?",
+    "code": "int[] a={1,2,3};\nSystem.out.println(a.length);",
+    "options": ["2", "3", "4", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "The array contains three elements."
+  },
+  {
+    "id": 59,
+    "topic": "Java If-Else",
+    "question": "What will be the output?",
+    "code": "int n=7;\nif(n%2==0)\n System.out.print(\"Even\");\nelse\n System.out.print(\"Odd\");",
+    "options": ["Even", "Odd", "7", "Compilation Error"],
+    "correctAnswer": 1,
+    "explanation": "7 is an odd number."
+  },
+  {
+    "id": 60,
+    "topic": "Java While Loop",
+    "question": "How many times will the loop execute?",
+    "code": "int i=0;\nwhile(i<5){\n i++;\n}",
+    "options": ["4", "5", "6", "Infinite"],
+    "correctAnswer": 1,
+    "explanation": "The loop executes for i = 0,1,2,3,4."
+  },
+  {
+    "id": 61,
+    "topic": "SQL WHERE",
+    "question": "Which operator is used to match a pattern?",
+    "options": ["LIKE", "MATCH", "PATTERN", "SIMILAR"],
+    "correctAnswer": 0,
+    "explanation": "LIKE is used with wildcard characters."
+  },
+  {
+    "id": 62,
+    "topic": "SQL Aggregate",
+    "question": "Which function calculates the average value?",
+    "options": ["AVG()", "MEAN()", "AVERAGE()", "MID()"],
+    "correctAnswer": 0,
+    "explanation": "AVG() returns the average."
+  },
+  {
+    "id": 63,
+    "topic": "SQL",
+    "question": "Which SQL statement removes all rows but keeps the table structure?",
+    "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+    "correctAnswer": 2,
+    "explanation": "TRUNCATE removes all rows while keeping the table."
+  },
+  {
+    "id": 64,
+    "topic": "SQL",
+    "question": "Which command permanently saves the current transaction?",
+    "options": ["SAVE", "COMMIT", "ROLLBACK", "CHECKPOINT"],
+    "correctAnswer": 1,
+    "explanation": "COMMIT permanently saves changes."
+  },
+  {
+    "id": 65,
+    "topic": "SQL",
+    "question": "Which clause is used to remove duplicate rows from the result?",
+    "options": ["UNIQUE", "DISTINCT", "GROUP BY", "REMOVE"],
+    "correctAnswer": 1,
+    "explanation": "DISTINCT removes duplicate rows."
+  },
+  {
+    "id": 66,
+    "topic": "PHP Basics",
+    "question": "Which symbol is used before every PHP variable?",
+    "options": ["#", "$", "@", "%"],
+    "correctAnswer": 1,
+    "explanation": "PHP variables always begin with '$'."
+  },
+  {
+    "id": 67,
+    "topic": "PHP Strings",
+    "question": "What will be printed?",
+    "code": "$str = \"Hello\";\necho strlen($str);",
+    "options": ["4", "5", "6", "Error"],
+    "correctAnswer": 1,
+    "explanation": "The string 'Hello' contains 5 characters."
+  },
+  {
+    "id": 68,
+    "topic": "PHP Arrays",
+    "question": "Which function sorts an array in ascending order?",
+    "options": ["sort()", "order()", "arrange()", "asort()"],
+    "correctAnswer": 0,
+    "explanation": "sort() sorts indexed arrays in ascending order."
+  },
+  {
+    "id": 69,
+    "topic": "Algorithm",
+    "question": "Which algorithm repeatedly compares adjacent elements and swaps them if required?",
+    "options": ["Selection Sort", "Insertion Sort", "Bubble Sort", "Merge Sort"],
+    "correctAnswer": 2,
+    "explanation": "Bubble Sort repeatedly swaps adjacent elements."
+  },
+  {
+    "id": 70,
+    "topic": "Algorithm",
+    "question": "What will be the output?",
+    "code": "count=0\nfor i=1 to 5\n if(i%2==0)\n  count=count+1\nprint(count)",
+    "options": ["1", "2", "3", "5"],
+    "correctAnswer": 1,
+    "explanation": "The even numbers between 1 and 5 are 2 and 4."
+  }
+]

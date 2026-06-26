@@ -1428,16 +1428,16 @@
 "correctAnswer": 1
 },
 {
-"id": 121,
-"topic": "Html5",
-"question": "Which HTML5 element is used to draw graphics via JavaScript on the fly?",
-"options": [
-"",
-"",
-"",
-""
-],
-"correctAnswer": 2
+  "id": 121,
+  "topic": "Html5",
+  "question": "Which HTML5 element is used to draw graphics via JavaScript on the fly?",
+  "options": [
+    "<svg>",
+    "<graphics>",
+    "<canvas>",
+    "<img>"
+  ],
+  "correctAnswer": 2
 },
 {
 "id": 122,

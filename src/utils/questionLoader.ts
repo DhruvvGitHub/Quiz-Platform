@@ -16,5 +16,5 @@ export const fetchQuestions = async (subject: string): Promise<Question[]> => {
 
 export const getAvailableSubjects = (): string[] => {
   // In a real scenario, this could also be dynamic, but for offline ease we can hardcode the supported ones or fetch a config.json.
-  return ['PHP', '.NET', 'Software Engineering', 'QA', 'Emerging Technologies', 'Java'];
+  return ['PHP', '.NET', 'Software Engineering', 'QA', 'Emerging Technologies', 'Java', 'Pseudocode'];
 };
